@@ -1,0 +1,18 @@
+{
+	"conversions": [
+		{
+			"target-classname": "org.epos.converter.plugin.invokertest.InvokerTestCallablePlugin",
+			"mappings": [
+				{
+					"request": {
+						"type": "OTHER_TRANSFORMATION_TYPE-1",				
+						"content-type": "application/json"
+					},
+					"response": {
+						"content-type": "application/json"
+					}
+				}
+			]
+		}
+	]
+}

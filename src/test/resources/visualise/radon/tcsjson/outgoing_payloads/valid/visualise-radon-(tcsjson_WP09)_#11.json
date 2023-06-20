@@ -1,0 +1,14 @@
+{
+	"type": "FeatureCollection",
+	"@epos_style": {
+		"radon": {
+			"label": "radon",
+			"marker": {
+				"pin": false,
+				"clustering": false,
+				"fontawesome_class": "fa fa-flask"
+			}
+		}
+	},
+	"features": []
+}

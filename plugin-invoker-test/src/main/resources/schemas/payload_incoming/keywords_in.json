@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://epos_ip.keyword/payload.incoming.json",
+  "title": "Incoming Keywords Payload",
+  "description": "An incoming payload for the keywords mapping",
+  "type": "object",
+  "properties": {    
+    "data": {
+      "type": "object",
+      "patternProperties": {
+        "ResultSet_keywords_.+": {
+          "type": "array",
+          "items": {
+		    "type": "object",
+			"required": [ "keyword" ],
+			"properties": {
+				"keyword": {
+				"type": "string"
+          	}
+			}
+          }      
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

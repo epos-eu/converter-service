@@ -1,0 +1,1 @@
+One full record but includes a 'description' attribute on the <event> element (which seems to violate the quake.xsd schema but on the face it was supported by the TCSMapper!)

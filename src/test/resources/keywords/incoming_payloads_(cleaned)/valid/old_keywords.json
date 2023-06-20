@@ -1,0 +1,196 @@
+{
+	"ResultSet_keywords": [{
+			"keyword": "Earthquake, Event, rocks, seismic waves propagation, seismology"
+		}, {
+			"keyword": "Remote Sensing, Interferometry, DInSAR, interferogram, phase, unwrapped, SAR, InSAR, LOS, deformation, displacement, map, ascending, descending, range change"
+		}, {
+			"keyword": "Remote Sensing, Interferometry, DInSAR, phase, displacement, timeseries, multitmporal, SAR, InSAR, LOS, deformation, ascending, descending, range change, SBAS, PS"
+		}, {
+			"keyword": "Remote Sensing, Interferometry, DInSAR, interferogram, phase, fringes, SAR, InSAR, wrapped, LOS, deformation, displacement, map, ascending, descending, range change"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, NIEP, Dataselect, Infrasound, FDSN-WS, Seismic Waveform, EIDA"
+		}, {
+			"keyword": "Earthquake, Event, rocks, seismic waves propagation, seismology"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, stations, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, NIEP"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, instrumentation,SED,ETHZ,metadata"
+		}, {
+			"keyword": "EIDA,ODC,dataquality,availability,metrics,waveform,metadata"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveformDataselect,FDSN-WS,Seismic Waveform,SED,ETHZ,EIDA"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, instrumentation,SED,ETHZ,metadata"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, NOA, Dataselect, FDSN-WS, Seismic Waveform, EIDA"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, CRL, Corinth Rift Laboratory, Dataselect, FDSN-WS, Seismic Waveform, EIDA"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, NOA, Dataselect,FDSN-WS,Seismic Waveform,EIDA"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, stations, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, CRL, Corinth Rift Laboratory"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, KOERI, Dataselect, FDSN-WS, Seismic Waveform, EIDA"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, stations, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, KOERI"
+		}, {
+			"keyword": "Seismic Hazard, INGV,ESM,Event,ShakeMap,ShakeMapXML,Strong Motion"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, bibliography, earthquakes, parameters, historical, macroseismic, intensity"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, bibliography, earthquakes, parameters, historical, macroseismic, intensity"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, bibliography, earthquakes, parameters, historical, macroseismic, intensity"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, bibliography, earthquakes, parameters, historical, macroseismic, intensity"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, bibliography, earthquakes, parameters, historical, macroseismic, intensity"
+		}, {
+			"keyword": "EIDA, GFZ, data quality, availability, metrics, waveform, metadata"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, GFZ,Dataselect,FDSN-WS,Seismic Waveform,EIDA"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling"
+		}, {
+			"keyword": "Geodesy, GNSS"
+		}, {
+			"keyword": "WebGIS, Real Time, Satellite, InfraRed, Volcanology, Lava, Ash, SO2"
+		}, {
+			"keyword": "InSAR, Etna, Interferograms"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, NOA, Routing, EIDA"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, NOA, WFCatalog, dataquality, availability, metrics, metadata, EIDA"
+		}, {
+			"keyword": "GeologicUnit, Geology, INSPIRE geology, GeoSciML"
+		}, {
+			"keyword": "Geology, EPOS, WP15, BoreholeView, scientific drilling, GeologicUnitView, MappedFeature"
+		}, {
+			"keyword": "Borehole, Borehole Index, Geology, INSPIRE:GE, GeoSciML"
+		}, {
+			"keyword": "3D/4D Model, Model Index, Geology, INSPIRE geology, GeoSciML"
+		}, {
+			"keyword": "Borehole, Borehole Index, Geology, INSPIRE geology, GeoSciML"
+		}, {
+			"keyword": "3D/4D Model, Model Index, Geology, INSPIRE geology, GeoSciML"
+		}, {
+			"keyword": "auroral electrojet, geomagnetism, magnetic field, magnetism, space weather, substorm, variometer"
+		}, {
+			"keyword": "auroral electrojet, geomagnetism, magnetic field, magnetism, space weather, substorm, variometer"
+		}, {
+			"keyword": "auroral electrojet, geomagnetism, magnetic field, magnetism, space weather, substorm, variometer"
+		}, {
+			"keyword": "auroral electrojet, geomagnetism, magnetic field, magnetism, space weather, substorm, variometer"
+		}, {
+			"keyword": "magnetism, core, world model"
+		}, {
+			"keyword": "magnetism, core, world model"
+		}, {
+			"keyword": "Aurora, Auroral electrojet, Compass, Compass direction, Crustal, Crustal magnetism, \n\t\t\tDaily variation, Declination, Earth core, core, Earth electrical conductivity, Electrical conductivity, \n\t\t\tElectromagnetic data, Equatorial electrojet, Field aligned current, Geo-effectivity, Geomagnetic activity, \n\t\t\tGeomagnetic index, Geomagnetic observatory, Geomagnetic storm, Geomagnetism, Global model, \n\t\t\tHistorical geomagnetic data, Inclination, Interplanetary magnetic field, IMF, Ionosphere, Impedance, Impedance tensor\n\t\t        , Lithosphere, Lithospheric magnetism, Magnetic field, Magnetic model, Magnetic pulsation, Magnetic survey, Magnetism, \n\t\t\tMagnetosphere, Magnetotelluric, Magnetotelluric data, Main field, Model, Navigation, Northern lights, Polar cusp, \n\t\t\tRapid magnetic variations, Remarkable event, Ring current, Secular variation, Solar cycle, Solar flare, Solar flare effects,\n\t\t\tSolar quiet, Solar storm, Solar wind, Space weather, Spherical harmonic, Sferic, Storm, Storm commencement, Substorm, \n\t\t\tSudden commencements, Time series, Tipper vector, Transfer function, Variometer, Whistler, World model"
+		}, {
+			"keyword": "Aurora, Auroral electrojet, Compass, Compass direction, Crustal, Crustal magnetism, \n\t\t\tDaily variation, Declination, Earth core, core, Earth electrical conductivity, Electrical conductivity, \n\t\t\tElectromagnetic data, Equatorial electrojet, Field aligned current, Geo-effectivity, Geomagnetic activity, \n\t\t\tGeomagnetic index, Geomagnetic observatory, Geomagnetic storm, Geomagnetism, Global model, \n\t\t\tHistorical geomagnetic data, Inclination, Interplanetary magnetic field, IMF, Ionosphere, Impedance, Impedance tensor\n\t\t        , Lithosphere, Lithospheric magnetism, Magnetic field, Magnetic model, Magnetic pulsation, Magnetic survey, Magnetism, \n\t\t\tMagnetosphere, Magnetotelluric, Magnetotelluric data, Main field, Model, Navigation, Northern lights, Polar cusp, \n\t\t\tRapid magnetic variations, Remarkable event, Ring current, Secular variation, Solar cycle, Solar flare, Solar flare effects,\n\t\t\tSolar quiet, Solar storm, Solar wind, Space weather, Spherical harmonic, Sferic, Storm, Storm commencement, Substorm, \n\t\t\tSudden commencements, Time series, Tipper vector, Transfer function, Variometer, Whistler, World model"
+		}, {
+			"keyword": "Source parameters,Source location,Statistical analysis,Statistical properties of seismicity,\n        Parameter probabilistic distribution,Probabilistic seismic hazard analysis,Time-dependent hazard,\n        Production-dependent hazard,Production - seismicity interaction,Earthquake spectra,Data selection,\n        Data extraction,Data filtering,Data export,Waveform viewing,Stationary hazard,Geo-resource production impact,\n        Format conversion,Data download,Data conversion,Source mechanism,Moment tensor,Picking on waveform,\n        Episode-oriented graphics,Production data visualization,Data merging,Data reshaping,Stress modelling,\n        Stress inversion,Episode visualization,GIS data visualization,resource management applications,\n        visualization applications,data handling applications,data processing applications,anthropogenic seismicity"
+		}, {
+			"keyword": "NFO, earthquake, event, rocks, seismic source, seismic waves propagation, seismology"
+		}, {
+			"keyword": "Geochemistry, Laboratories, rocks"
+		}, {
+			"keyword": "Geochemistry, Laboratories, Rocks, Gas, Chemical Data set, Volcanology"
+		}, {
+			"keyword": "EIDA,ODC,dataquality,availability,metrics,waveform,metadata"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, ODC, Dataselect, FDSN-WS, Seismic Waveform, EIDA"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling"
+		}, {
+			"keyword": "Seismic Hazard, ODC, RRSM, Event, ShakeMap, ShakeMapXML, Strong Motion"
+		}, {
+			"keyword": "Radon"
+		}, {
+			"keyword": "Petrology, Volcanology, Etna, Magma composition, Bulk Rock Analysis"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, Earthquake, Event, rocks, seismic waves propagation"
+		}, {
+			"keyword": "NFO, Earthquake, Event, rocks, seismic waves propagation, VpVs ratio, seismology"
+		}, {
+			"keyword": "active fault, seismogenic fault, seismogenic source, seismogenic zone, earthquake, subduction, slab, hazard, earthquakes, magnitude, slip rate, crustal fault sources, subduction fault sources, hazard model, faults, seismology, geology, geohazard, seismic hazard"
+		}, {
+			"keyword": "active fault, seismogenic fault, seismogenic source, seismogenic zone, earthquake, subduction, slab, hazard, earthquakes, magnitude, slip rate, crustal fault sources, subduction fault sources, hazard model, faults, seismology, geology, geohazard, seismic hazard"
+		}, {
+			"keyword": "active fault, seismogenic fault, seismogenic source, seismogenic zone, earthquake, subduction, slab, hazard, earthquakes, magnitude, slip rate, crustal fault sources, subduction fault sources, hazard model, faults, seismology, geology, geohazard, seismic hazard"
+		}, {
+			"keyword": "active fault, seismogenic fault, seismogenic source, seismogenic zone, earthquake, subduction, slab, hazard, earthquakes, magnitude, slip rate, crustal fault sources, subduction fault sources, hazard model, faults, seismology, geology, geohazard, seismic hazard"
+		}, {
+			"keyword": "active fault, seismogenic fault, seismogenic source, seismogenic zone, earthquake, subduction, slab, hazard, earthquakes, magnitude, slip rate, crustal fault sources, subduction fault sources, hazard model, faults, seismology, geology, geohazard, seismic hazard"
+		}, {
+			"keyword": "TCS AH, episode, episode element, download, seismology"
+		}, {
+			"keyword": "TCS AH, episode, episode element, download, seismology"
+		}, {
+			"keyword": "TCS AH, episode, episode element, download, seismology"
+		}, {
+			"keyword": "TCS AH, episode, episode element, download, seismology"
+		}, {
+			"keyword": "TCS AH, episode, episode element, download, seismology"
+		}, {
+			"keyword": "TCS AH, episode, episode element, download, seismology"
+		}, {
+			"keyword": "TCS AH, episode, episode element, download, seismology"
+		}, {
+			"keyword": "TCS AH, episode, episode element, download, seismology"
+		}, {
+			"keyword": "TCS AH, episode, episode element, download, seismology"
+		}, {
+			"keyword": "TCS AH, episode, episode element, download, seismology"
+		}, {
+			"keyword": "TCS AH, episode, episode element, download, seismology"
+		}, {
+			"keyword": "TCS AH, episode, episode element, download, seismology"
+		}, {
+			"keyword": "TCS AH, episode, episode element, download, seismology"
+		}, {
+			"keyword": "hard rock mining,coal mining,open pit mining,reservoir impoundment,conventional hydrocarbon extraction,\n        unconventional hydrocarbon extraction,geothermal energy production,underground gas storage,underground fluid deposition,\n        salt mining,salt solution mining,underground mining,mining induced seismicity,injection induced seismicity,\n        reservoir triggered seismicity,reservoir induced seismicity,hard rock mining,coal mining,open pit mining,\n        hydropower plants,conventional hydrocarbon exploitation,conventional oil extraction,conventional gas extraction,\n        unconventional hydrocarbon exploitation,hydrofracturing,shale gas exploitation,anthropogenic seismicity"
+		}, {
+			"keyword": "Earthquake, Event, rocks, seismic waves propagation, seismology"
+		}, {
+			"keyword": "Geochemical, Radon concentration, geochemistry"
+		}, {
+			"keyword": "Earthquake, Event, rocks, seismic waves propagation, VpVs ratio, seismology"
+		}, {
+			"keyword": "Geochemistry, Structural Geology, Paleomagnetism, Laboratories, analytical data, experimental data, rock properties, analogue models, tectonic processes, paleomagnetic data, magnetic data"
+		}, {
+			"keyword": "Earthquake, Event, rocks, seismic waves propagation, VpVs ratio, seismology"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, GFZ,Dataselect,FDSN-WS,Seismic Waveform,EIDA"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, IRPINIA, Dataselect, FDSN-WS, Seismic Waveform, EIDA"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, TABOO, Dataselect, FDSN-WS, Seismic Waveform, EIDA"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, Earthquake, Event, rocks, seismic waves propagation"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, stations, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, IRPINIA"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, stations, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, TABOO"
+		}, {
+			"keyword": "Geochemical, CO2 concentration, geochemistry"
+		}, {
+			"keyword": "Geochemical, geochemistry, meteo, water level, air temperature, water temperature, water conductivity, rain, humidity, atmospheric pressure"
+		}, {
+			"keyword": "Geochemical, Radon concentration, Radon counts, geochemistry, geohazards, long term continuos timeseries, local temperature"
+		}, {
+			"keyword": "Earthquake, Event, rocks, seismic waves propagation, VpVs ratio, seismology"
+		}, {
+			"keyword": "Seismology, IPGP,RESIF-SI,dataselect,FDSN-WS,seismic waveforms"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, CRL, Corinth Rift Laboratory, Dataselect, FDSN-WS, Seismic Waveform, EIDA"
+		}, {
+			"keyword": "seismology, seismicity, earthquakes, stations, waveform, seismic hazard, earth structure, earthquake intensity, macroseismic, macroseismic information, waveform modeling, CRL, Corinth Rift Laboratory"
+		}, {
+			"keyword": "Seismology, IPGP,RESIF,dataselect,FDSN-WS,seismic stations, stationXML"
+		}
+	]
+}

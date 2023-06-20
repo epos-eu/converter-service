@@ -1,0 +1,24 @@
+{
+	"result": [{
+			"radon_value": 140.324,
+			"value_time": "2019-01-31T17:00:01",
+			"station_latitude": 1234.5679,
+			"station_longitude": 8765.4322,
+			"station_location": "STATION LOCATION #1",
+			"station_elevation": 899.0,
+			"network_code": "NETWORK CODE #1",
+			"station_code": "STATION CODE #1",
+			"installation_type": "INSTALLATION TYPE #1"
+		}, {
+			"radon_value": "RADON VALUE 999",
+			"value_time": "2019-01-31T17:00:01",
+			"station_latitude": 1234.5679,
+			"station_longitude": 8765.4322,
+			"station_location": "STATION LOCATION #2",
+			"station_elevation": "STATION ELEVATION #2",
+			"network_code": "NETWORK CODE #2",
+			"station_code": "STATION CODE #2",
+			"installation_type": "INSTALLATION TYPE #2"
+		}
+	]
+}

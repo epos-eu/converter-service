@@ -1,0 +1,24 @@
+{
+	"type": "FeatureCollection",
+	"@epos_style": {
+		"eruption": {
+			"label": "eruption"
+		}
+	},
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "eruption",
+				"@epos_label_key": "eruption",
+				"@epos_map_keys": ["eruption_site", "type"],
+				"@epos_data_keys": ["eruption_site", "type"],
+				"eruption_site": "SOME ERUPTION SITE",
+				"type": "SOME TYPE"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [111.111111, 888.888888]
+			}
+		}
+	]
+}

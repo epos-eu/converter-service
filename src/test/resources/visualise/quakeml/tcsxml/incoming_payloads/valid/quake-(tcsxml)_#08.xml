@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<quakeml xmlns='http://quakeml.org/xmlns/bed/1.2' xmlns:q='http://quakeml.org/xmlns/quakeml/1.2'>
+	<eventParameters publicID='smi:org.gfz-potsdam.de/geofon/EventParameters'>
+		<event publicID='quakeml:local/event/2016.01.01-04.03.22'>
+			<origin publicID='quakeml:local/origin/2016.01.01-04.03.22_a'>
+				<time>
+					<value>2016-01-01T04:03:35.48Z</value>
+				</time>
+				<depth>
+					<value>56.57</value>
+				</depth>
+				<longitude>
+					<value>21.8498</value>
+				</longitude>
+				<latitude>
+					<value>38.4088</value>
+				</latitude>
+			</origin>
+			<type>earthquake</type>
+		</event>
+	</eventParameters>
+</quakeml>

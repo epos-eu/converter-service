@@ -1,0 +1,2 @@
+Simple and valid TCS result containing 1 record but missing both 'radon_value' and 'value_time'.
+'radon_value' and 'value_time' are now both mandatory 'properties' fields.

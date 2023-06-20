@@ -1,0 +1,4 @@
+Payload declaring only 1 network entry but with 2 identical measurements from a particular station.
+
+This content would have failed conversion on the Mapper (due to missing <Sender> element) but I believe this 
+was incorrect behaviour - if we are basing what is valid content on the 'fsdn-station-1.0.xsd' schema.

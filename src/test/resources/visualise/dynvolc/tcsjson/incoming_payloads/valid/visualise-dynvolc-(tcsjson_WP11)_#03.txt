@@ -1,0 +1,1 @@
+Simple 2 full record payload; records identical to each other

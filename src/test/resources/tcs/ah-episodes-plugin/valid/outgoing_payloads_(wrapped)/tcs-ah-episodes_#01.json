@@ -1,0 +1,757 @@
+{
+	"content": {
+		"type": "FeatureCollection",
+		"@epos_style": {
+			"episode": {
+				"label": "episode",
+				"marker": {
+					"pin": false,
+					"clustering": false,
+					"href": "https://tcs.ah-epos.eu/images/ah-episode-icon.ico"
+				}
+			}
+		},
+		"features": [{
+				"type": "Feature",
+				"properties": {
+					"owner": "Keele University, United Kingdom (KeU)",
+					"country": "United Kingdom",
+					"code": "NORTHWICH",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "NORTHWICH: underground salt extraction cavities",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "NORTHWICH",
+					"region": "Cheshire",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["underground mining"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-2.50935, 53.26354]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Institute of Geophysics Polish Academy of Sciences (IG PAS), Poland",
+					"country": "Poland",
+					"code": "LUBOCINO",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "LUBOCINO: shale gas",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "LUBOCINO",
+					"region": "Pomerania",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["unconventional hydrocarbon extraction"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [18.148733, 54.72094]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Keele University, United Kingdom (KeU)",
+					"country": "United Kingdom",
+					"code": "ASFORDBY",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "ASFORDBY: underground coal mining",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "ASFORDBY",
+					"region": "Leicestershire",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["underground mining"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-0.9279, 52.77511]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Institute of Geophysics Polish Academy of Sciences (IG PAS), Poland and Lubelski Węgiel \"Bogdanka\" SA, Poland",
+					"country": "Poland",
+					"code": "BOGDANKA",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "BOGDANKA: underground coal mining",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "BOGDANKA",
+					"region": "Lublin Coal Basin",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["underground mining"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [23.01795, 51.33645]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "GeoForschungsZentrum Potsdam (GFZ), Germany",
+					"country": "Germany",
+					"code": "GROSS_SCHOENEBECK",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "GROSS SCHOENEBECK: geothermal energy production experiment",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "GROSS SCHOENEBECK",
+					"region": "Gross Schoenebeck",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["geothermal energy production"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [13.65313, 52.91508]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Iceland Geosurvey (ISOR) and Reykjavik Energy (RE), Iceland",
+					"country": "Iceland",
+					"code": "CARBFIX",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "CARBFIX: geothermal energy production and CCS",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "CARBFIX",
+					"region": "Southern Region",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["geothermal energy production", "CO2 sequestration"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-21.31484, 64.05818]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Gas Technology Institute (GTI), United States of America; NORSAR, Norway",
+					"country": "United States of America",
+					"code": "COTTON_VALLEY",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "COTTON VALLEY: hydraulic fracturing",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "COTTON VALLEY",
+					"region": "Panola County, Texas",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["unconventional hydrocarbon extraction"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-94.42, 32.17]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Institute of Geophysics Polish Academy of Sciences (IG PAS), Poland and ZEW Niedzica S.A. Hydropower Plant, Poland",
+					"country": "Poland",
+					"code": "CZORSZTYN",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "CZORSZTYN: shallow water reservoir",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "CZORSZTYN",
+					"region": "Niedzica",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["reservoir impoundment"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [20.32332, 49.41962]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Institut des Sciences de la Terre (ISTerre), France",
+					"country": "Uzbekistan",
+					"code": "GAZLI",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "GAZLI: hydrocarbon field",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "GAZLI",
+					"region": "Bukhara",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["conventional hydrocarbon extraction"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [63.4, 40.2]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Institut des Sciences de la Terre (ISTerre), France",
+					"country": "France",
+					"code": "LACQ_GAS_FIELD",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "LACQ GAS FIELD: conventional hydrocarbon extraction",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "LACQ GAS FIELD",
+					"region": "Aquitaine",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["conventional hydrocarbon extraction"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-0.0, 43.5]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Institut des Sciences de la Terre (ISTerre), France",
+					"country": "France",
+					"code": "MONTEYNARD",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "MONTEYNARD: water reservoir",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "MONTEYNARD",
+					"region": "Auvergne-Rhone-Alpes",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["reservoir impoundment"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [5.67766, 44.90027]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Keele University, United Kingdom (KeU)",
+					"country": "United States of America",
+					"code": "OKLAHOMA",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "OKLAHOMA: conventional and unconventional hydrocarbon extraction and wastewater injection",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "OKLAHOMA",
+					"region": "Oklahoma",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["conventional hydrocarbon extraction", "unconventional hydrocarbon extraction", "wastewater injection"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-97.34, 36.03]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Keele University, United Kingdom (KeU)",
+					"country": "United Kingdom",
+					"code": "PREESALL_MINE",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "PREESALL MINE: underground salt extraction cavities",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "PREESALL MINE",
+					"region": "Lancashire",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["underground mining"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-2.97555, 53.9028]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Keele University, United Kingdom (KeU)",
+					"country": "United Kingdom",
+					"code": "PREESE_HALL",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "PREESE HALL: shale gas",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "PREESE HALL",
+					"region": "Lancashire",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["unconventional hydrocarbon extraction"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-2.9442208, 53.821903]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "University of Oulu, Finland (UoO)",
+					"country": "Finland",
+					"code": "PYHASALMI_MINE",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "PYHASALMI MINE: in situ underground laboratory",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "PYHASALMI MINE",
+					"region": "Pyhajarvi",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["underground mining"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [26.0425, 63.65888]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Institute of Geophysics Vietnam Academy of Science and Technology, Vietnam and Institute of Geophysics Polish Academy of Sciences (IG PAS), Poland",
+					"country": "Vietnam",
+					"code": "SONG_TRANH",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "SONG TRANH: deep water reservoir",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "SONG TRANH",
+					"region": "Quang Nam Province",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["reservoir impoundment"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [108.148, 15.331]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "geomecon GmbH, Germany; City of St.Gallen / St.Galler Stadtwerke (SGSW), Swiss Seismological Service (SED), Switzerland",
+					"country": "Switzerland",
+					"code": "ST_GALLEN",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "ST. GALLEN: geothermal project",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "ST. GALLEN",
+					"region": "Sankt Gallen",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["geothermal energy production"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [9.32, 47.42]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "GeoForschungsZentrum Potsdam (GFZ), Germany",
+					"country": "United States of America",
+					"code": "THE_GEYSERS_Prati_9_and_Prati_29_cluster",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "THE GEYSERS Prati 9 and Prati 29 cluster: Treated wastewater injection for geothermal power production",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "THE GEYSERS Prati 9 and Prati 29 cluster",
+					"region": "The Geysers",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["geothermal energy production"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-122.8278, 38.8404]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Istituto Nazionale di Geofisica e Vulcanologia (INGV), Italy",
+					"country": "Italy",
+					"code": "VAL_DAGRI_OIL_FIELD",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "VAL D\u0027AGRI FIELD: conventional hydrocarbon extraction",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "VAL D\u0027AGRI FIELD",
+					"region": "southern Apennines",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["conventional hydrocarbon extraction", "wastewater injection"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [15.989, 40.324]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Istituto Nazionale di Geofisica e Vulcanologia (INGV), Italy",
+					"country": "Italy",
+					"code": "VAL_DAGRI_RESERVOIR",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "VAL D\u0027AGRI: water reservoir",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "VAL D\u0027AGRI",
+					"region": "southern Apennines",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["reservoir impoundment"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [15.918, 40.227]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Institut des Sciences de la Terre (ISTerre), France",
+					"country": "France",
+					"code": "VOUGLANS",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "VOUGLANS: water reservoir",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "VOUGLANS",
+					"region": "Franche-Comte",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["reservoir impoundment"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [5.6654, 46.3976]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "GeoForschungsZentrum Potsdam (GFZ), Germany; \t\n\tInstitute of Geophysics Polish Academy of Sciences (IG PAS), Poland;\n\tPolish Oil and Gas Company (PGNiG SA), Poland; \t\n\tRSKW, Stirling University Innovation Park, United Kingdom; \t\n\tSchool of Engineering, University of Glasgow, United Kingdom\n\t",
+					"country": "Poland",
+					"code": "WYSIN",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "WYSIN: Shale Gas",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "WYSIN",
+					"region": "Pomerania",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["unconventional hydrocarbon extraction"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [18.303904, 54.09417]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Institut National de l’Environnement Industriel et des Risques (INERIS), France",
+					"country": "France",
+					"code": "GISOS-CERVILLE",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "GISOS-CERVILLE: underground solution mining",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "GISOS-CERVILLE",
+					"region": "Lorraine",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["underground mining"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [6.32118, 48.67604]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Institut National de l’Environnement Industriel et des Risques (INERIS), France",
+					"country": "France",
+					"code": "STARFISH",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "STARFISH: underground gas storage",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "STARFISH",
+					"region": "Grand Est",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["underground gas storage"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [6.30884, 48.63829]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Analysis and Monitoring of Environmental Risks (AMRA), Italy",
+					"country": "United States of America",
+					"code": "THE_GEYSERS",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "THE GEYSERS: geothermal energy production",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "THE GEYSERS",
+					"region": "Geysers",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["geothermal energy production"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-122.83269, 38.7984]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Keele University, United Kingdom (KeU)",
+					"country": "United Kingdom",
+					"code": "THORESBY_COLLIERY",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "THORESBY COLLIERY: underground coal mining",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "THORESBY COLLIERY",
+					"region": "Nottinghamshire",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["underground mining"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-1.0511, 52.20244]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Central Mining Institute (GIG) and Coal Company (KWSA) Poland",
+					"country": "Poland",
+					"code": "BOBREK",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "BOBREK MINE: local seismicity linked to longwall mining",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "BOBREK MINE",
+					"region": "Upper Silesia",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["underground mining"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [18.86701, 50.35148]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "The Royal Netherlands Meteorological Institute, Netherlands (KNMI)",
+					"country": "Netherlands",
+					"code": "GRONINGEN_FIELD",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "GRONINGEN FIELD: conventional hydrocarbon production",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "GRONINGEN FIELD",
+					"region": "Groningen",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["conventional hydrocarbon extraction"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [6.7071733, 53.284546]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "ReNu Energy Limited, Australia and Q-con GmbH, Germany",
+					"country": "Australia",
+					"code": "COOPER_BASIN",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "COOPER BASIN: geothermal energy production",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "COOPER BASIN",
+					"region": "Queensland",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["geothermal energy production"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [140.7544, -27.8157]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "EOST and GEIE Exploitation Minière de la Chaleur, France",
+					"country": "France",
+					"code": "SSFS2005",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "2005 Soultz-sous-Forêts Stimulation",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "SOULTZ-SOUS-FORETS 2005 STIMULATION",
+					"region": "Alsace",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["geothermal energy production"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [7.86, 48.93]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "EOST and GEIE Exploitation Minière de la Chaleur, France",
+					"country": "France",
+					"code": "SSFS2004",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "2004 Soultz-sous-Forêts Stimulation",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "SOULTZ-SOUS-FORETS 2004 STIMULATION",
+					"region": "Alsace",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["geothermal energy production"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [7.86, 48.93]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "EOST and GEIE Exploitation Minière de la Chaleur, France",
+					"country": "France",
+					"code": "SSFS2003",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "2003 Soultz-sous-Forêts Stimulation",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "SOULTZ-SOUS-FORETS 2003 STIMULATION",
+					"region": "Alsace",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["geothermal energy production"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [7.86, 48.93]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "EOST and GEIE Exploitation Minière de la Chaleur, France",
+					"country": "France",
+					"code": "SSFS2000",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "2000 Soultz-sous-Forêts Stimulation",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "SOULTZ-SOUS-FORETS 2000 STIMULATION",
+					"region": "Alsace",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["geothermal energy production"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [7.86, 48.93]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "EOST and GEIE Exploitation Minière de la Chaleur, France",
+					"country": "France",
+					"code": "SSFS1993",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "1993 Soultz-sous-Forêts Stimulation",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "SOULTZ-SOUS-FORETS 1993 STIMULATION",
+					"region": "Alsace",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["geothermal energy production"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [7.86, 48.93]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Institute of Geophysics Polish Academy of Sciences (IG PAS), Poland",
+					"country": "Poland",
+					"code": "LGCD",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "LGCD: regional seismicity and ground motion associating underground hard rock mining",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "LGCD",
+					"region": "Legnica-Glogow Copper District",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["underground mining"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [16.10655, 51.50102]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Institute of Geophysics Vietnam Academy of Science and Technology, Vietnam and Institute of Geophysics Polish Academy of Sciences (IG PAS), Poland",
+					"country": "Vietnam",
+					"code": "LAI_CHAU",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "LAI CHAU: water reservoir",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "LAI CHAU",
+					"region": "Lai Chau Province",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["reservoir impoundment"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [102.9875, 22.139444]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"owner": "Central Mining Institute (GIG) Poland",
+					"country": "Poland",
+					"code": "USCB",
+					"@epos_map_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"name": "USCB: regional seismicity and ground motion associating underground coal mining",
+					"@epos_label_key": "name",
+					"@epos_type": "episode",
+					"type": "episode",
+					"shortName": "USCB",
+					"region": "Upper Silesia",
+					"@epos_data_keys": ["@epos_links", "code", "name", "shortName", "country", "region", "owner"],
+					"impactingFactors": ["underground mining"]
+				},
+				"geometry": {
+					"type": "Point",
+					"coordinates": [19.08008, 50.24443]
+				}
+			}
+		]
+	}
+}

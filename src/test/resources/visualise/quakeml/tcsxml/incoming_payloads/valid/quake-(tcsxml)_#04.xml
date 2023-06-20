@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<quakeml xmlns='http://quakeml.org/xmlns/bed/1.2' xmlns:q='http://quakeml.org/xmlns/quakeml/1.2'>
+	<eventParameters publicID='smi:org.gfz-potsdam.de/geofon/EventParameters'>
+		<event publicID='quakeml:local/event/2016.01.01-01.52.16'>
+			<creationInfo>
+				<agencyID>CRLNET</agencyID>
+				<author>CRLNET</author>
+				<creationTime>2018-01-26T00:00:00.0000Z</creationTime>
+			</creationInfo>
+			<magnitude publicID='quakeml:local/magnitude/2016.01.01-01.52.16_a/Mw'>
+				<creationInfo>
+					<agencyID>CRLNET</agencyID>
+					<author>CRLNET</author>
+					<creationTime>2018-01-26T00:00:00.0000Z</creationTime>
+				</creationInfo>
+				<mag>
+					<value>1.97</value>
+				</mag>
+				<type>mwk</type>
+				<originID>quakeml:local/origin/2016.01.01-01.52.16_a</originID>
+			</magnitude>
+			<origin publicID='quakeml:local/origin/2016.01.01-01.52.16_a'>
+				<time>
+					<value>2016-01-01T01:52:29.47Z</value>
+				</time>
+				<longitude>
+					<value>22.007</value>
+				</longitude>
+				<latitude>
+					<value>38.1483</value>
+				</latitude>
+				<depthType>from location</depthType>
+				<quality>
+					<associatedPhaseCount>37</associatedPhaseCount>
+					<usedPhaseCount>33</usedPhaseCount>
+					<associatedStationCount>20</associatedStationCount>
+					<usedStationCount>19</usedStationCount>
+					<standardError>0.15</standardError>
+					<azimuthalGap>276</azimuthalGap>
+					<maximumDistance>0.44966</maximumDistance>
+					<minimumDistance>0.06115</minimumDistance>
+					<medianDistance>0.26665</medianDistance>
+				</quality>
+				<evaluationMode>automatic</evaluationMode>
+				<creationInfo>
+					<agencyID>CRLNET</agencyID>
+					<author>CRLNET</author>
+					<creationTime>2018-01-26T00:00:00.0000Z</creationTime>
+				</creationInfo>
+				<depth>
+					<value>11930</value>
+					<uncertainty>600</uncertainty>
+				</depth>
+				<originUncertainty>
+					<minHorizontalUncertainty>500</minHorizontalUncertainty>
+					<maxHorizontalUncertainty>500</maxHorizontalUncertainty>
+					<azimuthMaxHorizontalUncertainty>0</azimuthMaxHorizontalUncertainty>
+					<preferredDescription>uncertainty ellipse</preferredDescription>
+				</originUncertainty>
+				<methodID>quakeml:local/Method/hypo71</methodID>
+				<earthModelID>quakeml:local/EarthModel/Rigo_etal_1996-ratio_1.80</earthModelID>
+				<evaluationStatus>preliminary</evaluationStatus>
+			</origin>
+			<preferredOriginID>quakeml:local/origin/2016.01.01-01.52.16_a</preferredOriginID>
+			<preferredMagnitudeID>quakeml:local/magnitude/2016.01.01-01.52.16_a/Mw</preferredMagnitudeID>
+			<type>earthquake</type>
+		</event>
+	</eventParameters>
+</quakeml>

@@ -1,0 +1,4 @@
+Payload with single result set declared, but the result set is empty.
+
+N.b. With 'Mapper' the returned payload did not include the "keywords" array field, but I think including it as an empty array better describes the 
+transformation of the incoming payload.

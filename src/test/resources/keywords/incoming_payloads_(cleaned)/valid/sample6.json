@@ -1,0 +1,12 @@
+{
+	"ResultSet_keywords_1": [{
+			"keyword": "some_val_1, some_val_2"
+		}, {
+			"keyword": "some_val_3, some_val_4"
+		}
+	],
+	"ResultSet_keywords_2": [{
+			"keyword": "some_val_1, some_val_Z,some_val_3"
+		}
+	]
+}

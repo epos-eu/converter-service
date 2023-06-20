@@ -1,0 +1,78 @@
+{
+	"type": "FeatureCollection",
+	"@epos_style": {
+		"eruption": {
+			"label": "eruption"
+		}
+	},
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "eruption",
+				"@epos_label_key": "eruption",
+				"@epos_map_keys": ["ID", "acqusition", "authorization", "bd_prehistoric", "date_b", "date_e", "description", "duration", "ed_prehistoric", "elevation", "epsg", "error_date", "eruption_site", "format", "id_site", "level", "localization", "name", "time_b", "time_e", "type", "uri"],
+				"@epos_data_keys": ["ID", "acqusition", "authorization", "bd_prehistoric", "date_b", "date_e", "description", "duration", "ed_prehistoric", "elevation", "epsg", "error_date", "eruption_site", "format", "id_site", "level", "localization", "name", "time_b", "time_e", "type", "uri"],
+				"date_b": "SOME DATE BEGINNING #1",
+				"localization": "SOME LOCALIZATION #1",
+				"elevation": "SOME ELEVATION #1",
+				"eruption_site": "SOME ERUPTION SITE #1",
+				"bd_prehistoric": "SOME BD PREHISTORIC #1",
+				"date_e": "SOME DATE ENDING #1",
+				"level": "SOME LEVEL #1",
+				"format": "SOME FORMAT #1",
+				"id_site": "SOME ID SITE #1",
+				"description": "SOME DESCRIPTION #1",
+				"type": "SOME TYPE #1",
+				"uri": "SOME URI #1",
+				"authorization": "SOME AUTHORISATION #1",
+				"epsg": "SOME EPSG #1",
+				"duration": "SOME DURATION #1",
+				"acqusition": "SOME ACQUSITION #1",
+				"name": "SOME NAME #1",
+				"ed_prehistoric": "SOME ED PREHISTORIC #1",
+				"ID": "ID #1",
+				"error_date": "SOME ERROR DATE #1",
+				"time_b": "SOME TIME BEGINNING #1",
+				"time_e": "SOME TIME ENDING #1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [111.12345678, 999.87654321]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "eruption",
+				"@epos_label_key": "eruption",
+				"@epos_map_keys": ["ID", "acqusition", "authorization", "bd_prehistoric", "date_b", "date_e", "description", "duration", "ed_prehistoric", "elevation", "epsg", "error_date", "eruption_site", "format", "id_site", "level", "localization", "name", "time_b", "time_e", "type", "uri"],
+				"@epos_data_keys": ["ID", "acqusition", "authorization", "bd_prehistoric", "date_b", "date_e", "description", "duration", "ed_prehistoric", "elevation", "epsg", "error_date", "eruption_site", "format", "id_site", "level", "localization", "name", "time_b", "time_e", "type", "uri"],
+				"date_b": "SOME DATE BEGINNING #2",
+				"localization": "SOME LOCALIZATION #2",
+				"elevation": "SOME ELEVATION #2",
+				"eruption_site": "SOME ERUPTION SITE #2",
+				"bd_prehistoric": "SOME BD PREHISTORIC #2",
+				"date_e": "SOME DATE ENDING #2",
+				"level": "SOME LEVEL #2",
+				"format": "SOME FORMAT #2",
+				"id_site": "SOME ID SITE #2",
+				"description": "SOME DESCRIPTION #2",
+				"type": "SOME TYPE #2",
+				"uri": "SOME URI #2",
+				"authorization": "SOME AUTHORISATION #2",
+				"epsg": "SOME EPSG #2",
+				"duration": "SOME DURATION #2",
+				"acqusition": "SOME ACQUSITION #2",
+				"name": "SOME NAME #2",
+				"ed_prehistoric": "SOME ED PREHISTORIC #2",
+				"ID": "ID #2",
+				"error_date": "SOME ERROR DATE #2",
+				"time_b": "SOME TIME BEGINNING #2",
+				"time_e": "SOME TIME ENDING #2"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [112.22345678, 999.87654329]
+			}
+		}
+	]
+}

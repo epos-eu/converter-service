@@ -1,0 +1,7 @@
+plugins-cache:
+  plugin-store-syncing:
+    sync-timings:
+      initial-sync-deplay-sec: 1
+      initial-sync-retry-sec: 10
+      ongoing-sync-frequency-min: 5
+      ongoing-sync-frequency-retry-min: 1

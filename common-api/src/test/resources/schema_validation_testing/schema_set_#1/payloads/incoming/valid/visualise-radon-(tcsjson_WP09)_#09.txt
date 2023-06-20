@@ -1,0 +1,3 @@
+specify mismatches for some of the other station properties:
+Should generate errors in the logs but this is not what is being tested here - 
+here we just want to check the discrpencies are being ignored and only the first values are taken

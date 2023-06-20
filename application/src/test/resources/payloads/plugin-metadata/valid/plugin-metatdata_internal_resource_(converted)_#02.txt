@@ -1,0 +1,2 @@
+Describes a single plugin declaration. The plugin declaration is representative of a typical plugin in that it 
+describes multiple conversions but they map to the same default mapping operation (requestType) of the plugin.

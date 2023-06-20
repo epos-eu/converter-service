@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence/orm http://xmlns.jcp.org/xml/ns/persistence/orm_2_1.xsd">
+	<named-query name="Plugin.findAll">
+		<query>SELECT p FROM Plugin p</query>
+	</named-query>
+	<named-query name="Author.findAll">
+		<query>SELECT a FROM Author a</query>
+	</named-query>
+	<named-query name="Execution.findAll">
+		<query>SELECT e FROM Execution e</query>
+	</named-query>
+	<named-query name="Schema.findAll">
+		<query>SELECT s FROM Schema s</query>
+	</named-query>
+	<named-query name="Transformation.findAll">
+		<query>SELECT t FROM Transformation t</query>
+	</named-query>
+
+</entity-mappings>

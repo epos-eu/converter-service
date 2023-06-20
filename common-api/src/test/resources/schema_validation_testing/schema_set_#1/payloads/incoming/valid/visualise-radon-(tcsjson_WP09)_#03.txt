@@ -1,0 +1,1 @@
+Simple and valid TCS result containing 2 full and identical records so relate to same station

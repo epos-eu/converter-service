@@ -1,0 +1,4 @@
+Simple and valid TCS result of 1 full record
+--------------------------------------------
+But missing decimal place on latitude. Previously with Mapper this would have failed but thought there was 
+no reason for it be more forgiving.

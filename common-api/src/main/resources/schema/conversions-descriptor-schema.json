@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://epos_ip.tcs/conversions.descriptor",
+  "title": "Conversions Descriptor structure",
+  "description": "Describes the format for a set of conversions that a plugin supports",
+  "type": "object",
+  "required": [ "conversions" ],
+  "properties": {
+    "conversions": {
+      "type": "array",
+      "items": {
+  		"type": "object",
+  		"required": [ "target-classname", "mappings" ],
+  		"properties": {
+  			"target-classname": { "type": "string" },
+  			"mappings": {
+  				"type": "array",
+				"items": {
+					"type": "object",
+					"required": [ "request", "response" ],
+					"properties": {
+					  "request": {
+						"type": "object",
+						"required": [ "type", "content-type" ],
+						"properties": {
+						  "type": { "type": "string" },
+						  "content-type": { "type": "string" }
+						},
+						"additionalProperties": false
+					  },
+					  "response": {
+					    "type": "object",
+						"required": [ "content-type" ],
+						"properties": {
+						  "content-type": { "type": "string" }
+						},
+					    "additionalProperties": false
+					  }
+        			},
+	  				"additionalProperties": false
+	  			}
+			}
+  		},
+  		"additionalProperties": false 
+  	  }
+  	},
+  	"additionalProperties": false  
+  }   		  
+}

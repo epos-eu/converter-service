@@ -1,0 +1,4 @@
+Simple and valid TCS result of 1 full record
+--------------------------------------------
+Has additional 2 episodes specified but these should be redundant - only the first episode element should be 
+considered.

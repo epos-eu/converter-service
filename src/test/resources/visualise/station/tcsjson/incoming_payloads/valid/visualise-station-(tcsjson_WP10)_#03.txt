@@ -1,0 +1,2 @@
+Simple and valid TCS result of 2 full records differing in all properties 
+other than 'lat' and 'lon' which are identical.

@@ -1,0 +1,52 @@
+{
+	"type": "FeatureCollection",
+	"@epos_style": {
+		"episode": {
+			"label": "episode",
+			"marker": {
+				"pin": true,
+				"clustering": false
+			}
+		}
+	},
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "episode",
+				"@epos_label_key": "episode",
+				"@epos_map_keys": ["country","episode Code","episode Name","episode Status","impactingFactors","region","type"],
+				"@epos_data_keys": ["country","episode Code","episode Name","episode Status","impactingFactors","region","type"],
+				"country": "SOME COUNTRY #1",
+				"episode Name": "EPISODE NAME (I) #1",
+				"episode Status": "EPISODE STATUS (I) #1",
+				"region": "SOME REGION #1",
+				"type": "episode",
+				"impactingFactors": "[SOME FACTOR (A) #1, SOME FACTOR (B) #1, SOME FACTOR (C) #1, SOME FACTOR (D) #1, SOME FACTOR (E) #1, SOME FACTOR (F) #1]",
+				"episode Code": "EPISODE CODE (I) #1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.2, 4.0]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "episode",
+				"@epos_label_key": "episode",
+				"@epos_map_keys": ["country","episode Code","episode Name","episode Status","impactingFactors","region","type"],
+				"@epos_data_keys": ["country","episode Code","episode Name","episode Status","impactingFactors","region","type"],
+				"country": "SOME COUNTRY #1",
+				"episode Name": "EPISODE NAME (I) #1",
+				"episode Status": "EPISODE STATUS (I) #1",
+				"region": "SOME REGION #1",
+				"type": "episode",
+				"impactingFactors": "[SOME FACTOR (A) #1, SOME FACTOR (B) #1, SOME FACTOR (C) #1, SOME FACTOR (D) #1, SOME FACTOR (E) #1, SOME FACTOR (F) #1]",
+				"episode Code": "EPISODE CODE (I) #1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.2, 4.0]
+			}
+		}
+	]
+}

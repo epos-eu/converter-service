@@ -1,0 +1,16 @@
+plugins.config:
+  plugins-installation-location: /opt/converter/plugins/installs
+  plugins-root-clone-location: /opt/converter/plugins/clone
+conversion.messaging:
+  routing-framework.relay:
+    service-type: externalAccess
+    default-next-component: access
+    num-of-consumers: 1
+    num-of-publishers: 1
+plugins-cache:
+  plugin-store-syncing:    
+    sync-timings:
+      initial-sync-deplay-sec: 2
+      initial-sync-retry-sec: 10
+      ongoing-resync-frequency-min: 2
+  

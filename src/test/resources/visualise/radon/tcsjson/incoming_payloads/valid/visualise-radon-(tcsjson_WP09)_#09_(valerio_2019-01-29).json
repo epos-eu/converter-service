@@ -1,0 +1,26 @@
+{
+	"result": [{
+			"mean_temperature_in": 13.899999618530273,
+			"value_time": "2010-04-16T17:57:16",
+			"station_location": "00",
+			"station_elevation": 750.0,
+			"network_code": "IV",
+			"radon_value": 140.24844694349375,
+			"station_code": "PTRL",
+			"installation_type": "indoor",
+			"station_longitude": 12.43875,
+			"radon_error": 2.7842302319485226,
+			"station_latitude": 43.44297
+		}, {
+			"mean_temperature_in": 13.649999618530273,
+			"station_location": "00",
+			"station_elevation": 750.0,
+			"network_code": "IV",
+			"station_code": "PTRL",
+			"installation_type": "indoor",
+			"station_longitude": 12.43875,
+			"radon_error": 2.6499947000159,
+			"station_latitude": 43.44297
+		}
+	]
+}

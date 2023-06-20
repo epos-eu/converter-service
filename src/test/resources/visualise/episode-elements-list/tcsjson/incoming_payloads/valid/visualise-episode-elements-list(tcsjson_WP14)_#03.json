@@ -1,0 +1,30 @@
+[{
+		"episodeElements": "SOME EPISODE ELEMENTS HERE #1",
+		"code": "SOME CODE #1",
+		"name": "SOME NAME #1",
+		"shortName": "SOME SHORT NAME #1",
+		"country": "SOME COUNTRY #1",
+		"region": "SOME REGION #1",
+		"owner": "SOME OWNER #1",
+		"impactingFactors": ["SOME FACTOR (A) #1", "SOME FACTOR (B) #1", "SOME FACTOR (C) #1", "SOME FACTOR (D) #1", "SOME FACTOR (E) #1", "SOME FACTOR (F) #1"],
+		"location": {
+			"x": 1.1,
+			"y": 2.2,
+			"z": 3.3
+		}
+	}, {
+		"episodeElements": "SOME EPISODE ELEMENTS HERE #2",
+		"code": "SOME CODE #2",
+		"name": "SOME NAME #2",
+		"shortName": "SOME SHORT NAME #2",
+		"country": "SOME COUNTRY #2",
+		"region": "SOME REGION #2",
+		"owner": "SOME OWNER #2",
+		"impactingFactors": ["SOME FACTOR (A) #2", "SOME FACTOR (B) #2", "SOME FACTOR (C) #2", "SOME FACTOR (D) #2", "SOME FACTOR (E) #2", "SOME FACTOR (F) #2"],
+		"location": {
+			"x": 1.9,
+			"y": 2.9,
+			"z": 3.9
+		}
+	}
+]

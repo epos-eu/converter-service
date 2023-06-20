@@ -1,0 +1,1 @@
+Simple single full record payload

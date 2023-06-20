@@ -1,0 +1,34 @@
+[{
+		"identifier": "TCS/SatelliteObservations/Plugin",
+		"codeRepository": "https://github.com/vvalerio/cerifPlugin.git",
+		"mainEntityOfPage": "https://github.com/vvalerio/cerifPlugin/blob/master/README.md",
+		"name": "Plugin for the conversion from SatelliteObservation to JSON payload",
+		"description": "Plugin for the conversion from CERIF to JSON payload",
+		"downloadURL": "https://github.com/vvalerio/cerifPlugin.git",
+		"license": "https://github.com/vvalerio/cerifPlugin/blob/master/LICENSE",
+		"softwareVersion": "0.0.1",
+		"documentationURL": "https://github.com/vvalerio/cerifPlugin/blob/master/README.md",
+		"proxy-type": "Java-Reflection",
+		"requirements": ".;cerifPlugin-0.0.1-SNAPSHOT-jar-with-dependencies.jar;org.epos_ip.basicCerifConverterPlugin.core.CerifPluginInvoker",
+		"action": {
+			"object": {
+				"encodingFormat": "application/xml",
+				"schemaVersion": "https://www.fdsn.org/xml/station/fdsn-station-1.1.xsd"
+			},
+			"result": {
+				"encodingFormat": "application/xml",
+				"schemaVersion": "https://www.fdsn.org/xml/station/fdsn-station-1.1.xsd"
+			}
+		},
+		"operations": [
+			"https://catalog.terradue.com/gep-epos/SatelliteObservations/WebService/WRAPPED_INTERFEROGRAM/Operation/Search",
+			"https://catalog.terradue.com/gep-epos/SatelliteObservations/WebService/MAP_OF_LOS_VECTOR/Operation/Search",
+			"https://catalog.terradue.com/gep-epos/SatelliteObservations/WebService/LOS_DISPLACEMENT_TIMESERIES/Operation/Search",
+			"https://catalog.terradue.com/gep-epos/SatelliteObservations/WebService/DEM_RADAR_GEOMETRY/Operation/Search",
+			"https://catalog.terradue.com/gep-epos/SatelliteObservations/WebService/SPATIAL_COHERENCE/Operation/Search",
+			"https://catalog.terradue.com/gep-epos/SatelliteObservations/WebService/UNWRAPPED_INTERFEROGRAM/Operation/Search",
+			"https://catalog.terradue.com/gep-epos/SatelliteObservations/WebService/LOOKUP_TABLE_RADAR2GROUD_COORDINATES/Operation/Search",
+			"https://catalog.terradue.com/gep-epos/SatelliteObservations/WebService/INTERFEROGRAM_APS_GLOBAL_MODEL/Operation/Search"
+		]
+	}
+]

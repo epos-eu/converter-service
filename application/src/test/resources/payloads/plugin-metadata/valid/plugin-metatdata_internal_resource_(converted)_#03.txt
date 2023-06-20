@@ -1,0 +1,4 @@
+Should be representative of a typical conversion seen in the system where one of the plugin's 
+conversions supports multiple request types.
+
+In addition to multipe mappings for a plugin there are multiple plugins.

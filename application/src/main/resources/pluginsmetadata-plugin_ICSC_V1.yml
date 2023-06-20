@@ -1,0 +1,12 @@
+plugins.metadata.bootstrap.plugin:
+  id: "ics-c.plugins-metadata"
+  version: "0.1.0-SNAPSHOT"
+  installed-artifacts-relative-locations:
+    - "./plugin-icsc-plugins-metadata-libs/"
+    - "./plugin-icsc-plugins-metadata-0.1.0-SNAPSHOT.jar"
+  default-request-type: "ics-c/plugins-metadata"
+  default-invocation-detail:
+    - "./"
+    - "plugin-icsc-plugins-metadata-0.1.0-SNAPSHOT.jar"
+    - "org.epos.converter.plugin.pluginsmetadata.PluginsMetadataCallablePlugin"
+  request-schema: schemas/plugin-metadata-schema.json

@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.epos.converter</groupId>
+		<artifactId>converter</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>application</artifactId>
+	<packaging>jar</packaging>
+
+	<name>application</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<start-class>org.epos.converter.app.Application</start-class>
+	</properties>
+
+	<profiles>
+		<profile>
+			<id>test</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<spring.profiles.active>test</spring.profiles.active>
+				<spring.boot.mainclass>${start-class}</spring.boot.mainclass>
+			</properties>
+		</profile>
+	</profiles>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-logging</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>ch.qos.logback</groupId>
+					<artifactId>logback-classic</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.tomcat.embed</groupId>
+					<artifactId>tomcat-embed-websocket</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- temporarily overriding managed version to address CVE-2022-25857, 
+			CVE-2022-38752 -->
+		<dependency>
+			<groupId>org.yaml</groupId>
+			<artifactId>snakeyaml</artifactId>
+			<version>1.33</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.github.joschi.jackson/jackson-datatype-threetenbp -->
+		<dependency>
+			<groupId>com.github.joschi.jackson</groupId>
+			<artifactId>jackson-datatype-threetenbp</artifactId>
+			<version>2.8.4</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>com.vaadin.external.google</groupId>
+					<artifactId>android-json</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.rabbitmq/amqp-client -->
+		<dependency>
+			<groupId>com.rabbitmq</groupId>
+			<artifactId>amqp-client</artifactId>
+		</dependency>
+
+		<!-- requires explicit declaration from Java SE 9+ (exists in java.se.ee 
+			module) -->
+		<!-- n.b. from Java SE 11+ java.se.ee module will be removed -->
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.13.4.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.epos.converter</groupId>
+			<artifactId>common-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.epos.converter</groupId>
+			<artifactId>common-util</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.eclipse.jgit/org.eclipse.jgit -->
+		<dependency>
+			<groupId>org.eclipse.jgit</groupId>
+			<artifactId>org.eclipse.jgit</artifactId>
+			<version>6.1.0.202203080745-r</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>4.3</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.persistence/persistence-api -->
+		<dependency>
+			<groupId>javax.persistence</groupId>
+			<artifactId>persistence-api</artifactId>
+			<version>1.0.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.eclipse.persistence/eclipselink -->
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>eclipselink</artifactId>
+			<version>2.7.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.epos-eu.ics-c</groupId>
+			<artifactId>router-framework</artifactId>
+			<version>0.1.7</version>
+			<!-- epos used log4j2 via slf4j -->
+			<exclusions>
+				<exclusion>
+					<groupId>ch.qos.logback</groupId>
+					<artifactId>logback-classic</artifactId>
+				</exclusion>
+			</exclusions>
+
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-logging</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>${start-class}</mainClass>
+					<arguments>"mock-username","mock-password","mock-host"</arguments>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+
+					<!-- <execution> <id>pre-integration-test</id> <goals> <goal>start</goal> 
+						</goals> <configuration> <skip>true</skip> </configuration> </execution> 
+						<execution> <id>post-integration-test</id> <goals> <goal>stop</goal> </goals> 
+						<configuration> <skip>true</skip> </configuration> </execution> -->
+
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>generate-test-sources</phase>
+						<id>add-integration-test-sources</id>
+						<goals>
+							<goal>add-test-source</goal>
+						</goals>
+						<configuration>
+							<sources>
+								<source>src/integration-test/java</source>
+							</sources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-failsafe-plugin</artifactId> 
+				<version>3.0.0-M6</version> <configuration> <additionalClasspathElements> 
+				<additionalClasspathElement>${basedir}/target/classes</additionalClasspathElement> 
+				</additionalClasspathElements> <includes> <include>**/*IT.java</include> 
+				</includes> </configuration> <executions> <execution> <goals> <goal>integration-test</goal> 
+				<goal>verify</goal> </goals> </execution> </executions> </plugin> -->
+
+			<!-- integration testing: project-level tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>project-level-integration-tests</id>
+						<phase>integration-test</phase>
+					</execution>
+					<execution>
+						<id>project-level-integration-tests-verify</id>
+						<phase>verify</phase>
+					</execution>
+				</executions>
+			</plugin>
+
+			<!-- to support developer dependency-testing -->
+			<plugin>
+				<groupId>org.owasp</groupId>
+				<artifactId>dependency-check-maven</artifactId>
+				<executions>
+					<execution>
+						<id>owasp-dependency-check</id>
+						<phase>verify</phase>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+
+</project>

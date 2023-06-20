@@ -1,0 +1,3 @@
+Simple, minimal, payload declaring only 1 network entry with only 1 measurement from a particular station.
+
+This content is the same as 'visualise_station_fsdn-xml_#01.xml' bar the fact this also includes a <Sender> element, which was needed for the Mapper's version of this mapping.

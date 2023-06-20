@@ -1,0 +1,291 @@
+{
+    "ResultSet_domains": [{
+      "domain": "Near Fault Observations",
+      "subdomain": "Earthquake Parameters"
+    }, {
+      "domain": "Satellite-Observations",
+      "subdomain": "InSAR"
+    }, {
+      "domain": "Satellite-Observations",
+      "subdomain": "InSAR"
+    }, {
+      "domain": "Satellite-Observations",
+      "subdomain": "InSAR"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Seismic waveforms"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Earthquake Parameters"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Seismic stations"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Seismic data services"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "waveform quality"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Seismic waveforms"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Seismic stations"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Seismic waveforms"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Seismic waveforms"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Seismic stations"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Seismic stations"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Seismic waveforms"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Seismic stations"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Seismic Hazard products"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Historical earthquakes"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Historical earthquakes"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Historical earthquakes"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Historical earthquakes"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Historical earthquakes"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "waveform quality"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Seismic waveforms"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Seismic stations"
+    }, {
+      "domain": "Geodesy",
+      "subdomain": "GNSS Products Portal"
+    }, {
+      "domain": "Volcanology",
+      "subdomain": "Volcanological Data"
+    }, {
+      "domain": "Satellite-Observations",
+      "subdomain": "InSAR"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Seismic data services"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Seismic Hazard products"
+    }, {
+      "domain": "Geology",
+      "subdomain": "Geological Data"
+    }, {
+      "domain": "Geology",
+      "subdomain": "Geological Data"
+    }, {
+      "domain": "Geology",
+      "subdomain": "Borehole data"
+    }, {
+      "domain": "Geology",
+      "subdomain": "3D/4D models"
+    }, {
+      "domain": "Geology",
+      "subdomain": "Borehole data"
+    }, {
+      "domain": "Geology",
+      "subdomain": "3D/4D models"
+    }, {
+      "domain": "Geoelectromagnetism",
+      "subdomain": "Magnetic Field"
+    }, {
+      "domain": "Geoelectromagnetism",
+      "subdomain": "Magnetic Field"
+    }, {
+      "domain": "Geoelectromagnetism",
+      "subdomain": "Magnetic Field"
+    }, {
+      "domain": "Geoelectromagnetism",
+      "subdomain": "Magnetic Field"
+    }, {
+      "domain": "Geoelectromagnetism",
+      "subdomain": "Magnetic Field"
+    }, {
+      "domain": "Geoelectromagnetism",
+      "subdomain": "Magnetic Field"
+    }, {
+      "domain": "Geoelectromagnetism",
+      "subdomain": "Magnetic Field"
+    }, {
+      "domain": "Geoelectromagnetism",
+      "subdomain": "Magnetic Field"
+    }, {
+      "domain": "Anthropogenic Hazard Observations",
+      "subdomain": "Episodes"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Earthquake Parameters"
+    }, {
+      "domain": "Volcano-Observations",
+      "subdomain": "Geochemical-Data"
+    }, {
+      "domain": "Volcano-Observations",
+      "subdomain": "Geochemical-Data"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "waveform quality"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Seismic waveforms"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Seismic stations"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Seismic Hazard products"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Radon"
+    }, {
+      "domain": "Volcano-Observations",
+      "subdomain": "Geochemical-Data"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Earthquake parameters"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Crustal velocity parameters"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Active faults"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Active faults"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Active faults"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Active faults"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Active faults"
+    }, {
+      "domain": "Anthropogenic Hazard Observations",
+      "subdomain": "Episodes"
+    }, {
+      "domain": "Anthropogenic Hazard Observations",
+      "subdomain": "Episodes"
+    }, {
+      "domain": "Anthropogenic Hazard Observations",
+      "subdomain": "Episodes"
+    }, {
+      "domain": "Anthropogenic Hazard Observations",
+      "subdomain": "Episodes"
+    }, {
+      "domain": "Anthropogenic Hazard Observations",
+      "subdomain": "Episodes"
+    }, {
+      "domain": "Anthropogenic Hazard Observations",
+      "subdomain": "Episodes"
+    }, {
+      "domain": "Anthropogenic Hazard Observations",
+      "subdomain": "Episodes"
+    }, {
+      "domain": "Anthropogenic Hazard Observations",
+      "subdomain": "Episodes"
+    }, {
+      "domain": "Anthropogenic Hazard Observations",
+      "subdomain": "Episodes"
+    }, {
+      "domain": "Anthropogenic Hazard Observations",
+      "subdomain": "Episodes"
+    }, {
+      "domain": "Anthropogenic Hazard Observations",
+      "subdomain": "Episodes"
+    }, {
+      "domain": "Anthropogenic Hazard Observations",
+      "subdomain": "Episodes"
+    }, {
+      "domain": "Anthropogenic Hazard Observations",
+      "subdomain": "Episodes"
+    }, {
+      "domain": "Anthropogenic Hazard Observations",
+      "subdomain": "Episodes"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Earthquake Parameters"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Radon concentration"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Crustal velocity parameters"
+    }, {
+      "domain": "Multi-scale Laboratory Data",
+      "subdomain": "Multi-scale laboratories Catalogue Service"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Crustal velocity parameters"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Seismic waveforms"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Seismic waveforms"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Seismic waveforms"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Earthquake parameters"
+    }, {
+      "domain": "Seismology",
+      "subdomain": "Seismic stations"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Seismic stations"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Seismic stations"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "CO2 concentration"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Meteorological data"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Radon concentration"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Crustal velocity parameters"
+    }, {
+      "domain": "Volcano-Observations",
+      "subdomain": "Seismic waveforms"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Seismic waveforms"
+    }, {
+      "domain": "Near Fault Observations",
+      "subdomain": "Seismic stations"
+    }, {
+      "domain": "Volcano-Observations",
+      "subdomain": "Seismic stations"
+    }]
+  }

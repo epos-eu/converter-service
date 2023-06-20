@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "required": [ "TCSRESULT" ],
+  "properties": {
+    "TCSRESULT": { }
+  },
+  "additionalProperties": true
+}

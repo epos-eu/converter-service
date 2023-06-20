@@ -1,0 +1,8 @@
+#Eclipse
+.settings
+.classpath
+.factorypath
+.project
+.sts4-cache/
+*/target/
+*/bin/

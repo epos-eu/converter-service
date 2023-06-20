@@ -1,0 +1,18 @@
+[
+	{
+		"downloadUrl": "SOME DOWNLOAD URL #1",
+		"metadata": {
+			"region": "SOME REGION #1",
+			"impactingFactors": ["SOME FACTOR (A) #1", "SOME FACTOR (B) #1", "SOME FACTOR (C) #1", "SOME FACTOR (D) #1", "SOME FACTOR (E) #1", "SOME FACTOR (F) #1"],
+			"episodes": [{
+					"episodeCode": "EPISODE CODE (I) #1",
+					"episodeName": "EPISODE NAME (I) #1",
+					"episodeStatus": "EPISODE STATUS (I) #1"
+				}
+			],
+			"position": {
+				"coordinates": [1.2, 4.0]
+			}
+		}
+	}
+]

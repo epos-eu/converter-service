@@ -1,0 +1,3 @@
+Simple and valid TCS full record result
+---------------------------------------
+But missing mandatory field, 'impactingFactors'

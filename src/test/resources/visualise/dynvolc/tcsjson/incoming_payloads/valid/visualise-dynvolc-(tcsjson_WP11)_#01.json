@@ -1,0 +1,28 @@
+[
+	{
+		"id": "ID #1",
+		"name": "SOME NAME #1",
+		"description": "SOME DESCRIPTION #1",
+		"authorization_": "SOME AUTHORISATION #1",
+		"date_b": "SOME DATE BEGINNING #1",
+		"time_b": "SOME TIME BEGINNING #1",
+		"date_e": "SOME DATE ENDING #1",
+		"time_e": "SOME TIME ENDING #1",
+		"localization": "SOME LOCALIZATION #1",		        
+		"elevation": "SOME ELEVATION #1",
+		"epsg": "SOME EPSG #1",
+		"acqusition": "SOME ACQUSITION #1",
+		"format": "SOME FORMAT #1", 
+		"type": "SOME TYPE #1",
+		"level": "SOME LEVEL #1", 
+		"uri": "SOME URI #1", 
+		"id_site": "SOME ID SITE #1",
+		"duration": "SOME DURATION #1",
+		"error_date": "SOME ERROR DATE #1",
+		"bd_prehistoric": "SOME BD PREHISTORIC #1",
+		"ed_prehistoric": "SOME ED PREHISTORIC #1",
+		"eruption_site": "SOME ERUPTION SITE #1",
+		"lat": "888.888888",
+		"lng": "111.111111"
+	}
+]

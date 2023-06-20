@@ -1,0 +1,28 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+	version="2.0">
+	<persistence-unit name="ConverterDB"
+		transaction-type="RESOURCE_LOCAL">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<mapping-file>META-INF/orm.xml</mapping-file>
+		<!-- Annotated entity classes -->
+		<class>model.Author</class>
+		<class>model.Execution</class>
+		<class>model.Plugin</class>
+		<class>model.PluginPK</class>
+		<class>model.Schema</class>
+		<class>model.Transformation</class>
+		<class>model.Pluginview</class>
+		<properties>
+			<property name="javax.persistence.jdbc.url"
+				value="jdbc:postgresql://converterdatabase/converterdb" />
+			<property name="javax.persistence.jdbc.driver"
+				value="org.postgresql.Driver" />
+			<property name="javax.persistence.jdbc.user"
+				value="postgres" />
+			<property name="javax.persistence.jdbc.password"
+				value="mysecretpassword" />
+		</properties>
+	</persistence-unit>
+</persistence>

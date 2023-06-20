@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://epos_ip.tcs/payload.incoming.visualise.station.tcsjson",
+  "title": "Incoming TCS Payload for visualise/station/wp10-json",
+  "description": "Describes the format for visualise/station/wp10-json payloads coming from the TCSs",
+  "type": "array",
+  "items": {
+  	"type": "object",
+  	"required": [ "geological", "location", "station_networks" ],
+  	"properties": {
+  		"geological": {},
+  		"comment": {},
+  		"marker": {},
+  		"location": {
+  			"type": "object",
+  			"required": [ "city", "coordinates" ], 
+  			"properties": {
+  				"city": {
+  					"type": "object",
+  					"required": [ "state" ],
+  					"properties": {
+  						"name": {},
+  						"state": {
+  							"type": "object",
+  							"required": [ "country" ],
+  							"properties": {
+  								"name": {},
+  								"country": {
+  									"type": "object", 
+  									"properties": {
+  										"name": {}
+  									}
+  								} 
+  							},
+  							"additionalProperties": true
+  						} 
+  					},
+  					"additionalProperties": true
+  				},
+  				"coordinates": {
+  					"type": "object",
+  					"properties": {
+  						"altitude": {},
+  						"lat": { "type": "number" },
+  						"lon": { "type": "number" }
+  					},
+  					"additionalProperties": true
+  				}
+  			},
+  			"additionalProperties": true
+  		},
+  		"station_networks": {
+  			"type": "array",
+  			"items": {
+  				"type": "object",
+  				"required": [ "network" ],
+  				"properties": {
+  					"network": { 
+  						"type": "object",
+  						"properties": {
+  							"name": { "type": "string" }  						
+  						}
+  					}
+  				},
+  				"additionalProperties": true
+  			},
+  			"minItems": 1
+  		}
+  	},
+    "additionalProperties": true
+  }
+}

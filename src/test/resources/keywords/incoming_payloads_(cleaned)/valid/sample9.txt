@@ -1,0 +1,3 @@
+Payload with no result sets declared.
+
+N.b. With 'Mapper' the returned payload did not include the "keywords" array field, but I think including it as an empty array is clearer.

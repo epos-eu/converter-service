@@ -1,0 +1,56 @@
+{
+	"name": "station-default",
+	"id": "STN-WP10",
+	"version": "1.0.0",
+	"author": {
+		"name": "patkftgs.ac.uk",
+		"contact": "email@email.com"
+	},
+	"conversions": [{
+		"execution": {
+			"invoker-type": "Java-Reflection",
+			"plugin-install-location": "/plugins/java",
+			"target-detail": "artefact-relative-location;plugin-station-default-0.0.1.jar;org.epos.converter.plugin.visualisestation.VisualiseStationXMLCallablePlugin"
+		},
+		"request": {
+			"type": "tcs/station/fdsn",				
+			"content-type": "application/xml",			
+			"validation": {								
+				"schema-name": "fdsn-station.xsd",		
+				"schema-location-type": "url",						
+				"schema-location": "https://raw.githubusercontent.com/FDSN/StationXML/master"
+			}
+		},
+		"response": {
+			"content-type": "application/epos.geo+json",			
+			"validation": {													
+				"schema-name": "geojson.json",
+				"schema-location-type": "path",
+				"schema-location": "/schemas/response"
+			}
+		}
+	},{
+		"execution": {
+			"invoker-type": "Java-Reflection",
+			"plugin-install-location": "/plugins/java",
+			"target-detail": "artefact-relative-location;plugin-station-default-0.0.1.jar;org.epos.converter.plugin.visualisestation.VisualiseStationXMLCallablePlugin"
+		},
+		"request" : {
+			"type": "tcs/station/wp10",
+			"content-type": "application/json",
+			"validation": {
+				"schema-name": "wp10-station.json",
+				"schema-location-type": "url",
+				"schema-location": "http://schemalocation.com/incoming"
+			}
+		},
+		"response": {
+			"content-type": "application/epos.geo+json",
+			"validation": {
+				"schema-name": "geojson.json",
+				"schema-location-type": "url",
+				"schema-location": "http://schemalocation.com/outgoing"
+			}
+		}
+	}]
+}

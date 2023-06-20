@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://epos_ip.invoker-test.json",
+  "title": "Blank schema",
+  "description": "blank for schema for testing purposes",
+  "type": "object",
+  "properties": {
+  }
+}

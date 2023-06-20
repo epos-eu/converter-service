@@ -1,0 +1,51 @@
+{
+	"type": "FeatureCollection",
+	"@epos_style": {
+		"seismic_station": {
+			"label": "seismic_station",
+			"marker": {
+				"pin": false,
+				"clustering": false,
+				"fontawesome_class": "fa fa-square"
+			}
+		}
+	},
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Site": "SOME CITY NAME #1, SOME COUNTRY NAME #1",
+				"Elevation": "1030.01",
+				"Network": "NETWORK NAME #1 - SOME COMMENT #1",
+				"Latitude": "50.8506",
+				"Station code": "KVLA",
+				"Longitude": "111.12345678"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [111.12345678, 50.8506]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Site": "SOME CITY NAME #1, SOME COUNTRY NAME #1",
+				"Elevation": "1030.01",
+				"Network": "NETWORK NAME #1 - SOME COMMENT #1",
+				"Latitude": "50.8506",
+				"Station code": "KVLA",
+				"Longitude": "111.12345678"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [111.12345678, 50.8506]
+			}
+		}
+	]
+}

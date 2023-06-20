@@ -1,0 +1,1 @@
+{"MAPRESULT":{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"type":"station","Elevation":"SOME ELEVATION #1","Description":"SOME COMMENT #1","Country":"SOME COUNTRY NAME #1","Station code":"SOME MARKER #1","Network code":"NETWORK NAME #1","Location":"SOME CITY NAME #1"},"geometry":{"type":"Point","coordinates":[111.12345678,999.87654321]}}]}}

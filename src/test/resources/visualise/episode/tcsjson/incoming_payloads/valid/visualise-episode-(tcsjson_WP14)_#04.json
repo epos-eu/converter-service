@@ -1,0 +1,36 @@
+[{
+		"downloadUrl": "SOME DOWNLOAD URL #1",
+		"metadata": {
+			"country": "SOME COUNTRY #1",
+			"region": "SOME REGION #1",
+			"elevation": "SOME ELEVATION #1",
+			"impactingFactors": ["SOME FACTOR (A) #1", "SOME FACTOR (B) #1", "SOME FACTOR (C) #1", "SOME FACTOR (D) #1", "SOME FACTOR (E) #1", "SOME FACTOR (F) #1"],
+			"episodes": [{
+					"episodeCode": "EPISODE CODE (I) #1",
+					"episodeName": "EPISODE NAME (I) #1",
+					"episodeStatus": "EPISODE STATUS (I) #1"
+				}
+			],
+			"position": {
+				"coordinates": [1.2, 4.0]
+			}
+		}
+	}, {
+		"downloadUrl": "SOME DOWNLOAD URL #2",
+		"metadata": {
+			"country": "SOME COUNTRY #2",
+			"region": "SOME REGION #2",
+			"elevation": "SOME ELEVATION #2",
+			"impactingFactors": ["SOME FACTOR (A) #2", "SOME FACTOR (B) #2", "SOME FACTOR (C) #2", "SOME FACTOR (D) #2", "SOME FACTOR (E) #2", "SOME FACTOR (F) #2"],
+			"episodes": [{
+					"episodeCode": "EPISODE CODE (I) #2",
+					"episodeName": "EPISODE NAME (I) #2",
+					"episodeStatus": "EPISODE STATUS (I) #2"
+				}
+			],
+			"position": {
+				"coordinates": [2.4, 8.12]
+			}
+		}
+	}
+]

@@ -1,0 +1,4442 @@
+{
+	"type": "FeatureCollection",
+	"@epos_style": {
+		"seismic_station": {
+			"label": "seismic_station",
+			"marker": {
+				"pin": false,
+				"clustering": false,
+				"fontawesome_class": "fa fa-square"
+			}
+		}
+	},
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Kavala, Greece, Greece",
+				"Elevation": "122",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "40.93704",
+				"Station code": "KVLA",
+				"Longitude": "24.38591"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.38591, 40.93704]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Penteli, Attiki, Greece, Greece",
+				"Elevation": "500",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.0473",
+				"Station code": "PTL",
+				"Longitude": "23.8638"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.8638, 38.0473]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Thirasia, Santorini, Greece, Greece",
+				"Elevation": "205",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.43561",
+				"Station code": "SAP3",
+				"Longitude": "25.34539"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.34539, 36.43561]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Lasithi,Crete,Greece, Greece",
+				"Elevation": "870",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "35.16154",
+				"Station code": "LAST",
+				"Longitude": "25.47823"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.47823, 35.16154]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Volimes,Zakinthos, Greece",
+				"Elevation": "431",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "37.876701",
+				"Station code": "VLMS",
+				"Longitude": "20.66293"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.66293, 37.876701]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Limnos,Greece, Greece",
+				"Elevation": "67",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "39.89725",
+				"Station code": "LIA",
+				"Longitude": "25.18055"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.18055, 39.89725]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "NOA/GEOFON Gavdos,Greece, Greece",
+				"Elevation": "170",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "34.83914",
+				"Station code": "GVD",
+				"Longitude": "24.08738"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.08738, 34.83914]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Samos Island, Greece, Greece",
+				"Elevation": "348",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "37.70426",
+				"Station code": "SMG",
+				"Longitude": "26.83772"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.83772, 37.70426]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Amorgos Island,Greece, Greece",
+				"Elevation": "308",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.831561",
+				"Station code": "AMGA",
+				"Longitude": "25.893836"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.893836, 36.831561]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Nisyros Island,Greece, Greece",
+				"Elevation": "48",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.6106",
+				"Station code": "NISR",
+				"Longitude": "27.1309"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [27.1309, 36.6106]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "NOA/GEOFON Zakros,Greece, Greece",
+				"Elevation": "254",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "35.1147",
+				"Station code": "ZKR",
+				"Longitude": "26.21691"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.21691, 35.1147]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Agios Efstratios Island, Greece, Greece",
+				"Elevation": "5",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "39.54015",
+				"Station code": "EFSA",
+				"Longitude": "24.98864"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.98864, 39.54015]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Voula, Attiki, Greece, Greece",
+				"Elevation": "256",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "37.8524",
+				"Station code": "VLY",
+				"Longitude": "23.7942"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.7942, 37.8524]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Valsamata, Kefalonia Island, Greece, Greece",
+				"Elevation": "402",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.17683",
+				"Station code": "VLS",
+				"Longitude": "20.5886"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.5886, 38.17683]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Oia, Santorini, Greece, Greece",
+				"Elevation": "56",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.47337",
+				"Station code": "SAP4",
+				"Longitude": "25.37244"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.37244, 36.47337]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Psara Island, Greece, Greece",
+				"Elevation": "13",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.53978",
+				"Station code": "PSRA",
+				"Longitude": "25.56202"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.56202, 38.53978]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Meganisi, Lefkada Island, Greece, Greece",
+				"Elevation": "58",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.65606",
+				"Station code": "MGNA",
+				"Longitude": "20.79116"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.79116, 38.65606]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Athens,Greece, Greece",
+				"Elevation": "93",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "37.97384",
+				"Station code": "ATH",
+				"Longitude": "23.71767"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.71767, 37.97384]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Dionisos, Attiki, Greece, Greece",
+				"Elevation": "460",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.07794",
+				"Station code": "DION",
+				"Longitude": "23.93306"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.93306, 38.07794]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Alonnisos Island, Greece, Greece",
+				"Elevation": "40",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "39.14804",
+				"Station code": "ALNA",
+				"Longitude": "23.86669"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.86669, 39.14804]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Archaggelos, Rhodes, Greece, Greece",
+				"Elevation": "148",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.21356",
+				"Station code": "ARG",
+				"Longitude": "28.12122"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [28.12122, 36.21356]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Antikythira Island, Greece, Greece",
+				"Elevation": "143",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "35.86704",
+				"Station code": "ANKY",
+				"Longitude": "23.30117"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.30117, 35.86704]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Vellies, Lakonia, Greece, Greece",
+				"Elevation": "220",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.71803",
+				"Station code": "VLI",
+				"Longitude": "22.94686"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.94686, 36.71803]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Irakleio, Crete, Greece, Greece",
+				"Elevation": "45",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "35.3058",
+				"Station code": "IACM",
+				"Longitude": "25.0709"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.0709, 35.3058]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Monemvasia, Greece, Greece",
+				"Elevation": "12",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.68709",
+				"Station code": "MNVA",
+				"Longitude": "23.03734"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.03734, 36.68709]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "NOA/RUB/GEOFON Karpathos,Greece, Greece",
+				"Elevation": "524",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "35.5471",
+				"Station code": "KARP",
+				"Longitude": "27.16106"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [27.16106, 35.5471]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Atalanti, Lokrida, Greece, Greece",
+				"Elevation": "185",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.64956",
+				"Station code": "LKR",
+				"Longitude": "22.99886"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.99886, 38.64956]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Pentalofos, Kozani, Greece, Greece",
+				"Elevation": "1096",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "40.19588",
+				"Station code": "PENT",
+				"Longitude": "21.13842"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.13842, 40.19588]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Delfoi, Greece, Greece",
+				"Elevation": "570",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.47836",
+				"Station code": "DLFA",
+				"Longitude": "22.49583"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.49583, 38.47836]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Neapoli, Crete, Greece, Greece",
+				"Elevation": "288",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "35.26134",
+				"Station code": "NPS",
+				"Longitude": "25.61037"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.61037, 35.26134]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Poligiros,Chalkidiki,Greece, Greece",
+				"Elevation": "566",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "40.37328",
+				"Station code": "PLG",
+				"Longitude": "23.44443"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.44443, 40.37328]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Gratini, Thrace, Greece, Greece",
+				"Elevation": "116",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "41.14503",
+				"Station code": "RDO",
+				"Longitude": "25.53553"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.53553, 41.14503]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Karpenissi,Evritania,Greece, Greece",
+				"Elevation": "1037",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.91657",
+				"Station code": "EVR",
+				"Longitude": "21.8105"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.8105, 38.91657]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Corfu,Greece, Greece",
+				"Elevation": "227",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "39.7127",
+				"Station code": "KEK",
+				"Longitude": "19.79623"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [19.79623, 39.7127]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "NOA/GEOFON Santorini,Greece, Greece",
+				"Elevation": "591",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.37052",
+				"Station code": "SANT",
+				"Longitude": "25.45926"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.45926, 36.37052]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Klokotos, Thessalia, Greece, Greece",
+				"Elevation": "86",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "39.56468",
+				"Station code": "THL",
+				"Longitude": "22.0144"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.0144, 39.56468]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Samothraki Island, Greece, Greece",
+				"Elevation": "365",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "40.47094",
+				"Station code": "SMTH",
+				"Longitude": "25.53045"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.53045, 40.47094]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Kassiopi, Kerkyra Island, Greece, Greece",
+				"Elevation": "65",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "39.74628",
+				"Station code": "KASA",
+				"Longitude": "19.93542"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [19.93542, 39.74628]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Sivas,Crete,Greece, Greece",
+				"Elevation": "96",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "35.01777",
+				"Station code": "SIVA",
+				"Longitude": "24.81204"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.81204, 35.01777]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "NOA/GEOFON Apeiranthos,Naxos,Greece, Greece",
+				"Elevation": "608",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "37.07274",
+				"Station code": "APE",
+				"Longitude": "25.52301"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.52301, 37.07274]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Vamos,Crete,Greece, Greece",
+				"Elevation": "225",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "35.407",
+				"Station code": "VAM",
+				"Longitude": "24.1997"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.1997, 35.407]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Plaka, Milos Island, Greece, Greece",
+				"Elevation": "200",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.74501",
+				"Station code": "MHLA",
+				"Longitude": "24.4219"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.4219, 36.74501]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Kalavrita, Achaia, Greece, Greece",
+				"Elevation": "758",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.0435",
+				"Station code": "KLV",
+				"Longitude": "22.1504"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.1504, 38.0435]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Agia Paraskevi, Lesvos, Greece, Greece",
+				"Elevation": "130",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "39.24565",
+				"Station code": "PRK",
+				"Longitude": "26.26499"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.26499, 39.24565]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Ithomi,Messinia,Greece, Greece",
+				"Elevation": "423",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "37.17872",
+				"Station code": "ITM",
+				"Longitude": "21.92522"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.92522, 37.17872]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Neochori, Magnisia, Greece, Greece",
+				"Elevation": "148",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "39.30567",
+				"Station code": "NEO",
+				"Longitude": "23.22189"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.22189, 39.30567]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Nevrokopi, Greece, Greece",
+				"Elevation": "627",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "41.34846",
+				"Station code": "NVR",
+				"Longitude": "23.86517"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.86517, 41.34846]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Kozani,Greece, Greece",
+				"Elevation": "791",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "40.30331",
+				"Station code": "KZN",
+				"Longitude": "21.78209"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.78209, 40.30331]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Riolos,Achaia,Greece, Greece",
+				"Elevation": "97",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.05586",
+				"Station code": "RLS",
+				"Longitude": "21.46475"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.46475, 38.05586]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Skyros Island, Greece, Greece",
+				"Elevation": "268",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.8831",
+				"Station code": "SKY",
+				"Longitude": "24.5482"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.5482, 38.8831]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "NOA/GEOFON Iera Moni Varipetrou,Greece, Greece",
+				"Elevation": "230",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "35.4606",
+				"Station code": "IMMV",
+				"Longitude": "23.9811"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.9811, 35.4606]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Kastelorizo Island, Greece, Greece",
+				"Elevation": "64",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.15031",
+				"Station code": "KSL",
+				"Longitude": "29.58561"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [29.58561, 36.15031]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Kymi, Euboea Island, Greece",
+				"Elevation": "259",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.633147",
+				"Station code": "KYMI",
+				"Longitude": "24.100138"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.100138, 38.633147]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Ioannina, Greece, Greece",
+				"Elevation": "526",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "39.65616",
+				"Station code": "JAN",
+				"Longitude": "20.84874"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.84874, 39.65616]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Ydra Island, Greece, Greece",
+				"Elevation": "33",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "37.34923",
+				"Station code": "YDRA",
+				"Longitude": "23.46525"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.46525, 37.34923]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Tinos Island, Greece, Greece",
+				"Elevation": "21",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "37.53942",
+				"Station code": "TNSA",
+				"Longitude": "25.1631"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.1631, 37.53942]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "NOA/GEOFON Kythira,Greece, Greece",
+				"Elevation": "360",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.2566",
+				"Station code": "KTHA",
+				"Longitude": "23.0621"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.0621, 36.2566]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Milos Island, Greece, Greece",
+				"Elevation": "175",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.68984",
+				"Station code": "MHLO",
+				"Longitude": "24.40171"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.40171, 36.68984]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Anogia-Crete,Greece, Greece",
+				"Elevation": "750",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "35.288",
+				"Station code": "IDI",
+				"Longitude": "24.89"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.89, 35.288]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "NOA-Athens,Greece, Greece",
+				"Elevation": "93",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "37.97384",
+				"Station code": "NOAC",
+				"Longitude": "23.71767"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.71767, 37.97384]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Karkadata,Kephalonia,Greece, Greece",
+				"Elevation": "303",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.2778",
+				"Station code": "KEF5",
+				"Longitude": "20.4683"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.4683, 38.2778]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Livadi,Kephalonia,Greece, Greece",
+				"Elevation": "41",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.258",
+				"Station code": "KEF4",
+				"Longitude": "20.4244"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.4244, 38.258]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Kipouria,Kephalonia,Greece, Greece",
+				"Elevation": "115",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.2031",
+				"Station code": "KEF3",
+				"Longitude": "20.3482"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.3482, 38.2031]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Pylos Array,Central W,Greece, Greece",
+				"Elevation": "215",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.9072",
+				"Station code": "PYL5",
+				"Longitude": "21.7267"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.7267, 36.9072]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Pylos Array,NE corner,Greece, Greece",
+				"Elevation": "219",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.9095",
+				"Station code": "PYL3",
+				"Longitude": "21.7293"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.7293, 36.9095]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Pylos Array,N corner,Greece, Greece",
+				"Elevation": "228",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.9108",
+				"Station code": "PYL4",
+				"Longitude": "21.7266"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.7266, 36.9108]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Pylos Array,SW corner,Greece, Greece",
+				"Elevation": "212",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.9042",
+				"Station code": "PYL1",
+				"Longitude": "21.7252"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.7252, 36.9042]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Pylos Array,SE corner,Greece, Greece",
+				"Elevation": "210",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.9046",
+				"Station code": "PYL2",
+				"Longitude": "21.7244"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.7244, 36.9046]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Pylos Array,E,Greece, Greece",
+				"Elevation": "215",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.9074",
+				"Station code": "PYL7",
+				"Longitude": "21.7284"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.7284, 36.9074]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Pylos Array,W,Greece, Greece",
+				"Elevation": "220",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.9085",
+				"Station code": "PYL9",
+				"Longitude": "21.726"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.726, 36.9085]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Pylos Array,W,Greece, Greece",
+				"Elevation": "216",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.9067",
+				"Station code": "PYL8",
+				"Longitude": "21.7254"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.7254, 36.9067]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Pylos Array,Central W,Greece, Greece",
+				"Elevation": "210",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.9059",
+				"Station code": "PYL6",
+				"Longitude": "21.7269"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.7269, 36.9059]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Hraion-Loutraki,Greece, Greece",
+				"Elevation": "40",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.028717",
+				"Station code": "HERA",
+				"Longitude": "22.853633"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.853633, 38.028717]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Corinthos,Greece, Greece",
+				"Elevation": "33",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "37.9317",
+				"Station code": "COR",
+				"Longitude": "22.911008"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.911008, 37.9317]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Asprokampos,Loutraki,Greece, Greece",
+				"Elevation": "88",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.0566",
+				"Station code": "ASP",
+				"Longitude": "22.95407"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.95407, 38.0566]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Marmaro,Chios,Greece, Greece",
+				"Elevation": "1.5",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.54385",
+				"Station code": "EAG2",
+				"Longitude": "26.1079"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.1079, 38.54385]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Polichnitos,Lesvos,Greece, Greece",
+				"Elevation": "211",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "39.08654",
+				"Station code": "EAG1",
+				"Longitude": "26.22247"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.22247, 39.08654]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Mitilini,Lesvos,Greece, Greece",
+				"Elevation": "85",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "39.08501",
+				"Station code": "EAG3",
+				"Longitude": "26.56934"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.56934, 39.08501]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Lixouri,Kefalonia Island,Greece, Greece",
+				"Elevation": "0",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.20006",
+				"Station code": "LXRA",
+				"Longitude": "20.43718"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.43718, 38.20006]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Patra,Greece, Greece",
+				"Elevation": "1",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.23865",
+				"Station code": "PATG",
+				"Longitude": "21.72657"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.72657, 38.23865]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Rio,Greece, Greece",
+				"Elevation": "1",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.33358",
+				"Station code": "ARIA",
+				"Longitude": "21.76206"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.76206, 38.33358]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Patra,Greece, Greece",
+				"Elevation": "47",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.26933",
+				"Station code": "PATC",
+				"Longitude": "21.76001"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.76001, 38.26933]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Rio,Greece, Greece",
+				"Elevation": "46",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "38.29585",
+				"Station code": "RIOA",
+				"Longitude": "21.79118"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.79118, 38.29585]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Ag.Kyrikos,Ikaria Island,Greece, Greece",
+				"Elevation": "30",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "37.61117",
+				"Station code": "IKRA",
+				"Longitude": "26.29283"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.29283, 37.61117]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Pothia,Kalymnos Island,Greece, Greece",
+				"Elevation": "28",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.95708",
+				"Station code": "KLNA",
+				"Longitude": "26.97274"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.97274, 36.95708]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Astypalea,Astypalea Island,Greece, Greece",
+				"Elevation": "64",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.54552",
+				"Station code": "ASTA",
+				"Longitude": "26.35295"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.35295, 36.54552]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Rodos,Rodos Island,Greece, Greece",
+				"Elevation": "26",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "36.4471",
+				"Station code": "RODB",
+				"Longitude": "28.22116"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [28.22116, 36.4471]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Tetrakomo,Epirus,Greece, Greece",
+				"Elevation": "942",
+				"Network": "HL - Hellenic Seismic Network",
+				"Latitude": "39.3445",
+				"Station code": "TETR",
+				"Longitude": "21.274667"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.274667, 39.3445]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Vlaxokerasia, Tripoli, Greece",
+				"Elevation": "1031",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "37.3703",
+				"Station code": "VLX",
+				"Longitude": "22.3793"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.3793, 37.3703]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Loutraki, Greece",
+				"Elevation": "408",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "38.0228",
+				"Station code": "LTK",
+				"Longitude": "22.9673"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.9673, 38.0228]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Drosia, Achaia, Greece",
+				"Elevation": "465",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "37.952",
+				"Station code": "DRO",
+				"Longitude": "21.71"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.71, 37.952]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Paravola, Aitoloakarnania, Greece",
+				"Elevation": "184",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "38.616",
+				"Station code": "PVO",
+				"Longitude": "21.525"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.525, 38.616]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Lithakia,Zakinthos, Greece",
+				"Elevation": "35",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "37.7095",
+				"Station code": "LTHK",
+				"Longitude": "20.8367"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.8367, 37.7095]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "UPSL/NOA AnoXora,Greece, Greece",
+				"Elevation": "1020",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "38.5933",
+				"Station code": "ANX",
+				"Longitude": "21.9209"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.9209, 38.5933]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Sergoula,Greece, Greece",
+				"Elevation": "480",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "38.4133",
+				"Station code": "SERG",
+				"Longitude": "22.0566"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.0566, 38.4133]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Fiskardo,Kefalonia Island,Greece, Greece",
+				"Elevation": "113",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "38.4593",
+				"Station code": "FSK",
+				"Longitude": "20.5623"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.5623, 38.4593]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Vomvokou,Nafpaktia,Greece, Greece",
+				"Elevation": "650",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "38.4222",
+				"Station code": "VVK",
+				"Longitude": "21.8116"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.8116, 38.4222]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Efpalio,Greece, Greece",
+				"Elevation": "107",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "38.4269",
+				"Station code": "EFP",
+				"Longitude": "21.9058"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.9058, 38.4269]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Desfina,Greece, Greece",
+				"Elevation": "701",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "38.4112",
+				"Station code": "DSF",
+				"Longitude": "22.5271"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.5271, 38.4112]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Artemida,Greece, Greece",
+				"Elevation": "482",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "37.5324",
+				"Station code": "AMT",
+				"Longitude": "21.7089"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.7089, 37.5324]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Gura,Greece, Greece",
+				"Elevation": "1087",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "37.9363",
+				"Station code": "GUR",
+				"Longitude": "22.3423"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.3423, 37.9363]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Didima,Greece, Greece",
+				"Elevation": "553",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "37.5063",
+				"Station code": "DID",
+				"Longitude": "23.2368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.2368, 37.5063]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "University of Patras,Greece, Greece",
+				"Elevation": "138",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "38.2836",
+				"Station code": "UPR",
+				"Longitude": "21.7864"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.7864, 38.2836]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Pylos,Greece, Greece",
+				"Elevation": "226",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "36.8955",
+				"Station code": "PYL",
+				"Longitude": "21.742"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.742, 36.8955]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Prodromos,Greece, Greece",
+				"Elevation": "227",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "38.5986",
+				"Station code": "PDO",
+				"Longitude": "21.1833"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.1833, 38.5986]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "ARAXOS, Greece",
+				"Elevation": "102",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "38.1962",
+				"Station code": "AXS",
+				"Longitude": "21.3763"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.3763, 38.1962]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "ARAXOS, Greece",
+				"Elevation": "102",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "38.1962",
+				"Station code": "AXS",
+				"Longitude": "21.3763"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.3763, 38.1962]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "ARAXOS, Greece",
+				"Elevation": "102",
+				"Network": "HP - University of Patras, Seismological Laboratory (PSLNET)",
+				"Latitude": "38.1962",
+				"Station code": "AXS",
+				"Longitude": "21.3763"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.3763, 38.1962]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Prine-Rethimno,Greece, Greece",
+				"Elevation": "278",
+				"Network": "HC - Seismological Network of Crete",
+				"Latitude": "35.3445",
+				"Station code": "PRNS",
+				"Longitude": "24.4266"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.4266, 35.3445]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Gavdos Island,Greece, Greece",
+				"Elevation": "358",
+				"Network": "HC - Seismological Network of Crete",
+				"Latitude": "34.8389",
+				"Station code": "GVDS",
+				"Longitude": "24.0585"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.0585, 34.8389]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Imerovigli-Santorini,Greece, Greece",
+				"Elevation": "351",
+				"Network": "HC - Seismological Network of Crete",
+				"Latitude": "36.4351",
+				"Station code": "THT2",
+				"Longitude": "25.4218"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.4218, 36.4351]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Kasteli-Iraklio,Greece, Greece",
+				"Elevation": "335",
+				"Network": "HC - Seismological Network of Crete",
+				"Latitude": "35.2092",
+				"Station code": "KSTL",
+				"Longitude": "25.3374"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.3374, 35.2092]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Paleochora-Chania,Greece, Greece",
+				"Elevation": "13",
+				"Network": "HC - Seismological Network of Crete",
+				"Latitude": "35.2348",
+				"Station code": "KNDR",
+				"Longitude": "23.6248"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.6248, 35.2348]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Kythira Island,Greece, Greece",
+				"Elevation": "270",
+				"Network": "HC - Seismological Network of Crete",
+				"Latitude": "36.2447",
+				"Station code": "KTHR",
+				"Longitude": "22.9939"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.9939, 36.2447]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Kos Island,Greece, Greece",
+				"Elevation": "269",
+				"Network": "HC - Seismological Network of Crete",
+				"Latitude": "36.7516",
+				"Station code": "KOSK",
+				"Longitude": "26.9785"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.9785, 36.7516]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "TEI-Chania,Greece, Greece",
+				"Elevation": "37",
+				"Network": "HC - Seismological Network of Crete",
+				"Latitude": "35.5193",
+				"Station code": "CHAN",
+				"Longitude": "24.0428"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.0428, 35.5193]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Ferma-Ierapetra,Greece, Greece",
+				"Elevation": "22",
+				"Network": "HC - Seismological Network of Crete",
+				"Latitude": "35.0187",
+				"Station code": "FRMA",
+				"Longitude": "25.8555"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.8555, 35.0187]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Iraklio-TEI,Greece, Greece",
+				"Elevation": "90",
+				"Network": "HC - Seismological Network of Crete",
+				"Latitude": "35.3115",
+				"Station code": "HRKL",
+				"Longitude": "25.1016"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.1016, 35.3115]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Rodopos-Chania,Greece, Greece",
+				"Elevation": "299",
+				"Network": "HC - Seismological Network of Crete",
+				"Latitude": "35.5604",
+				"Station code": "RODP",
+				"Longitude": "23.7577"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.7577, 35.5604]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "TEI-Kalamata,Greece, Greece",
+				"Elevation": "34",
+				"Network": "HC - Seismological Network of Crete",
+				"Latitude": "37.0616",
+				"Station code": "KLMT",
+				"Longitude": "22.06348"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.06348, 37.0616]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Timbaki-Iraklio,Greece, Greece",
+				"Elevation": "12",
+				"Network": "HC - Seismological Network of Crete",
+				"Latitude": "35.0724",
+				"Station code": "TMBK",
+				"Longitude": "24.7662"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.7662, 35.0724]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Sitia,Greece, Greece",
+				"Elevation": "93",
+				"Network": "HC - Seismological Network of Crete",
+				"Latitude": "35.2021",
+				"Station code": "STIA",
+				"Longitude": "26.0909"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.0909, 35.2021]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Stivos Community Building, Greece",
+				"Elevation": "33",
+				"Network": "EG - EUROSEISTEST Strong Motion Network (SDGEE_AUTH)",
+				"Latitude": "40.64865",
+				"Station code": "STC",
+				"Longitude": "23.304856"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.304856, 40.64865]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Scholi_Tiflon,Thessaloniki,Greece, Greece",
+				"Elevation": "2",
+				"Network": "EG - EUROSEISTEST Strong Motion Network (SDGEE_AUTH)",
+				"Latitude": "40.613764",
+				"Station code": "SHTA",
+				"Longitude": "22.952972"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.952972, 40.613764]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Museum_Macedonian_Struggle,Thessaloniki,Greece, Greece",
+				"Elevation": "0",
+				"Network": "EG - EUROSEISTEST Strong Motion Network (SDGEE_AUTH)",
+				"Latitude": "40.630855",
+				"Station code": "MMAA",
+				"Longitude": "22.943725"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.943725, 40.630855]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Stivos_Church,EUROSEISTEST,Greece, Greece",
+				"Elevation": "214",
+				"Network": "EG - EUROSEISTEST Strong Motion Network (SDGEE_AUTH)",
+				"Latitude": "40.645348",
+				"Station code": "STE",
+				"Longitude": "23.305398"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.305398, 40.645348]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "CSnet OBS 1, Cyprus",
+				"Elevation": "-2361",
+				"Network": "CQ - Cyprus Broadband Seismological Network",
+				"Latitude": "33.5",
+				"Station code": "OSC1",
+				"Longitude": "31.2768"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [31.2768, 33.5]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "CSnet OBS 4, Cyprus",
+				"Elevation": "-1560",
+				"Network": "CQ - Cyprus Broadband Seismological Network",
+				"Latitude": "33.0749",
+				"Station code": "OSC2",
+				"Longitude": "32.2669"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [32.2669, 33.0749]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Troodos,Cyprus, Cyprus",
+				"Elevation": "1855",
+				"Network": "CQ - Cyprus Broadband Seismological Network",
+				"Latitude": "34.9472",
+				"Station code": "TROD",
+				"Longitude": "32.8661"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [32.8661, 34.9472]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Souni,Cyprus, Cyprus",
+				"Elevation": "512",
+				"Network": "CQ - Cyprus Broadband Seismological Network",
+				"Latitude": "34.755",
+				"Station code": "SUNI",
+				"Longitude": "32.882"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [32.882, 34.755]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Alefka,Cyprus, Cyprus",
+				"Elevation": "520",
+				"Network": "CQ - Cyprus Broadband Seismological Network",
+				"Latitude": "35.156",
+				"Station code": "ALEF",
+				"Longitude": "32.599"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [32.599, 35.156]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Nata,Cyprus, Cyprus",
+				"Elevation": "381",
+				"Network": "CQ - Cyprus Broadband Seismological Network",
+				"Latitude": "34.7789",
+				"Station code": "NATA",
+				"Longitude": "32.5699"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [32.5699, 34.7789]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Athalassa,Cyprus, Cyprus",
+				"Elevation": "160",
+				"Network": "CQ - Cyprus Broadband Seismological Network",
+				"Latitude": "35.141",
+				"Station code": "ATHA",
+				"Longitude": "33.396"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [33.396, 35.141]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Asgata,Cyprus, Cyprus",
+				"Elevation": "217",
+				"Network": "CQ - Cyprus Broadband Seismological Network",
+				"Latitude": "34.786",
+				"Station code": "ASGA",
+				"Longitude": "33.248"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [33.248, 34.786]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Paralimni,Cyprus, Cyprus",
+				"Elevation": "116",
+				"Network": "CQ - Cyprus Broadband Seismological Network",
+				"Latitude": "34.994",
+				"Station code": "PARA",
+				"Longitude": "34.04"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [34.04, 34.994]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Akamas,Cyprus, Cyprus",
+				"Elevation": "346",
+				"Network": "CQ - Cyprus Broadband Seismological Network",
+				"Latitude": "35.018",
+				"Station code": "AKMS",
+				"Longitude": "32.335"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [32.335, 35.018]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Maurovouni,Cyprus, Cyprus",
+				"Elevation": "113",
+				"Network": "CQ - Cyprus Broadband Seismological Network",
+				"Latitude": "35.016",
+				"Station code": "MVOU",
+				"Longitude": "33.632"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [33.632, 35.016]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Sivros,Greece, Greece",
+				"Elevation": "200",
+				"Network": "X5 - LF (Lefkada temporary network)",
+				"Latitude": "38.6687",
+				"Station code": "SIVR",
+				"Longitude": "20.6466"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.6466, 38.6687]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Viologikoskatharismos,Greece, Greece",
+				"Elevation": "25",
+				"Network": "X5 - LF (Lefkada temporary network)",
+				"Latitude": "38.6189",
+				"Station code": "VVIO",
+				"Longitude": "20.5848"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.5848, 38.6189]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "AgiosPetros,Greece, Greece",
+				"Elevation": "310",
+				"Network": "X5 - LF (Lefkada temporary network)",
+				"Latitude": "38.6636",
+				"Station code": "APTR",
+				"Longitude": "20.6013"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.6013, 38.6636]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Athani,Greece, Greece",
+				"Elevation": "350",
+				"Network": "X5 - LF (Lefkada temporary network)",
+				"Latitude": "38.6621",
+				"Station code": "ATHN",
+				"Longitude": "20.5698"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.5698, 38.6621]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Xortata,Greece, Greece",
+				"Elevation": "610",
+				"Network": "X5 - LF (Lefkada temporary network)",
+				"Latitude": "38.7152",
+				"Station code": "XORT",
+				"Longitude": "20.6031"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.6031, 38.7152]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Vasiliki,Greece, Greece",
+				"Elevation": "3",
+				"Network": "X5 - LF (Lefkada temporary network)",
+				"Latitude": "38.6279",
+				"Station code": "VSLK",
+				"Longitude": "20.608"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.608, 38.6279]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Kolasin,Montenegro, Montenegro",
+				"Elevation": "1030",
+				"Network": "ME - Montenegrian Seismic Network",
+				"Latitude": "42.8505",
+				"Station code": "KOME",
+				"Longitude": "19.5152"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [19.5152, 42.8505]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Lakka,Greece, Greece",
+				"Elevation": "505",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "38.2401",
+				"Station code": "LAKA",
+				"Longitude": "21.9785"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.9785, 38.2401]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Acrocorinthos,Greece, Greece",
+				"Elevation": "437",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "37.8902",
+				"Station code": "ACOR",
+				"Longitude": "22.8692"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.8692, 37.8902]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Skiathos Island,Greece, Greece",
+				"Elevation": "325",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "39.1665",
+				"Station code": "SKIA",
+				"Longitude": "23.4661"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.4661, 39.1665]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Nea Kammeni,Santorini,Greece, Greece",
+				"Elevation": "124",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "36.4037",
+				"Station code": "SNT5",
+				"Longitude": "25.3953"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.3953, 36.4037]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Villia,Greece, Greece",
+				"Elevation": "650",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "38.1642",
+				"Station code": "VILL",
+				"Longitude": "23.3122"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.3122, 38.1642]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Tripoli,Greece, Greece",
+				"Elevation": "820",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "37.5278",
+				"Station code": "TRIP",
+				"Longitude": "22.2708"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.2708, 37.5278]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Loutraki, ---",
+				"Elevation": "307",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "37.9879",
+				"Station code": "LOUT",
+				"Longitude": "22.9743"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.9743, 37.9879]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Eretria,Greece, Greece",
+				"Elevation": "475",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "38.4199",
+				"Station code": "EREA",
+				"Longitude": "23.9318"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.9318, 38.4199]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Athens University,Greece, Greece",
+				"Elevation": "308",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "37.9665",
+				"Station code": "ATHU",
+				"Longitude": "23.7845"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.7845, 37.9665]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Markates,Greece, Greece",
+				"Elevation": "440",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "38.7047",
+				"Station code": "MRKA",
+				"Longitude": "23.5847"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.5847, 38.7047]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Prodromos,Domvrena,Greece, Greece",
+				"Elevation": "350",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "38.2589",
+				"Station code": "PROD",
+				"Longitude": "22.9006"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.9006, 38.2589]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Gialos,Santorini,Greece, Greece",
+				"Elevation": "12",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "36.4159",
+				"Station code": "SNT1",
+				"Longitude": "25.4282"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.4282, 36.4159]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Karystos,Greece, Greece",
+				"Elevation": "220",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "38.0321",
+				"Station code": "KARY",
+				"Longitude": "24.437"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.437, 38.0321]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Didyma,Greece, Greece",
+				"Elevation": "1036",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "37.4765",
+				"Station code": "DIDY",
+				"Longitude": "23.2118"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.2118, 37.4765]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Serifos Island,Greece, Greece",
+				"Elevation": "460",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "37.1609",
+				"Station code": "SERI",
+				"Longitude": "24.4853"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.4853, 37.1609]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Thalero,Greece, Greece",
+				"Elevation": "196",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "38.0357",
+				"Station code": "THAL",
+				"Longitude": "22.6634"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.6634, 38.0357]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Epidavros,Greece, Greece",
+				"Elevation": "444",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "37.6144",
+				"Station code": "EPID",
+				"Longitude": "23.1189"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.1189, 37.6144]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Atalanti,Greece, Greece",
+				"Elevation": "290",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "38.6926",
+				"Station code": "ATAL",
+				"Longitude": "23.0213"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.0213, 38.6926]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Agios Haralambos,Greece, Greece",
+				"Elevation": "406",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "38.7664",
+				"Station code": "AXAR",
+				"Longitude": "22.659"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.659, 38.7664]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Makrakomi,Greece, Greece",
+				"Elevation": "532",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "39.0132",
+				"Station code": "MAKR",
+				"Longitude": "22.1317"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.1317, 39.0132]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Kallithea, ---",
+				"Elevation": "760",
+				"Network": "HA - National and Kapodistrian University of Athens, Seismological Laboratory (NKUA)",
+				"Latitude": "38.3911",
+				"Station code": "KALE",
+				"Longitude": "22.1398"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.1398, 38.3911]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Thessaloniki, Greece, Greece",
+				"Elevation": "132",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "40.6319",
+				"Station code": "THE",
+				"Longitude": "22.9628"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.9628, 40.6319]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Xorichti, Greece, Greece",
+				"Elevation": "541",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "39.36598",
+				"Station code": "XOR",
+				"Longitude": "23.19178"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.19178, 39.36598]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Pessada-Kefalonia, Greece, Greece",
+				"Elevation": "48",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "38.114",
+				"Station code": "PSDA",
+				"Longitude": "20.5841"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.5841, 38.114]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Kokkinochori, Kavala, Greece, Greece",
+				"Elevation": "261",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "40.8178",
+				"Station code": "KOKK",
+				"Longitude": "23.9992"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.9992, 40.8178]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Paliouri, Greece, Greece",
+				"Elevation": "217",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "39.9363",
+				"Station code": "PAIG",
+				"Longitude": "23.6768"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.6768, 39.9363]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "KRANIDI, Greece, Greece",
+				"Elevation": "140",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "37.383",
+				"Station code": "KRND",
+				"Longitude": "23.1502"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.1502, 37.383]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Ouranopolis, Greece, Greece",
+				"Elevation": "117",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "40.3325",
+				"Station code": "OUR",
+				"Longitude": "23.9791"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.9791, 40.3325]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Tyrnavos, Greece, Greece",
+				"Elevation": "151",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "39.711",
+				"Station code": "TYRN",
+				"Longitude": "22.2325"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.2325, 39.711]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Thassos island, Greece, Greece",
+				"Elevation": "67",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "40.6064",
+				"Station code": "THAS",
+				"Longitude": "24.7194"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.7194, 40.6064]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Alonnisos, Greece, Greece",
+				"Elevation": "230",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "39.16543",
+				"Station code": "AOS",
+				"Longitude": "23.86388"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.86388, 39.16543]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Griva, Greece, Greece",
+				"Elevation": "560",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "40.957",
+				"Station code": "GRG",
+				"Longitude": "22.401"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.401, 40.957]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Kavala, Greece, Greece",
+				"Elevation": "157",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "40.99666",
+				"Station code": "KAVA",
+				"Longitude": "24.513666"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.513666, 40.99666]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Serrai, Greece, Greece",
+				"Elevation": "314",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "41.10866",
+				"Station code": "SRS",
+				"Longitude": "23.595"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.595, 41.10866]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Lefkada island, Greece, Greece",
+				"Elevation": "249",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "38.621",
+				"Station code": "EVGI",
+				"Longitude": "20.656"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.656, 38.621]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Lefkada island, Greece, Greece",
+				"Elevation": "485",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "38.78893",
+				"Station code": "LKD2",
+				"Longitude": "20.65779"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.65779, 38.78893]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Litokhoron, Greece, Greece",
+				"Elevation": "558",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "40.10333",
+				"Station code": "LIT",
+				"Longitude": "22.48916"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.48916, 40.10333]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Nisyros Isl., Greece, Greece",
+				"Elevation": "378",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "36.60233",
+				"Station code": "NIS1",
+				"Longitude": "27.17817"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [27.17817, 36.60233]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Imerovigli, Greece, Greece",
+				"Elevation": "0",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "36.4351",
+				"Station code": "THT2",
+				"Longitude": "25.4218"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.4218, 36.4351]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Hortiatis, Greece, Greece",
+				"Elevation": "933",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "40.5978",
+				"Station code": "HORT",
+				"Longitude": "23.0996"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.0996, 40.5978]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Dragano-Lefkada, Greece, Greece",
+				"Elevation": "348",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "38.6839",
+				"Station code": "DRAG",
+				"Longitude": "20.5746"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.5746, 38.6839]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Nydri-Lefkada, Greece, Greece",
+				"Elevation": "14",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "38.7135",
+				"Station code": "NYDR",
+				"Longitude": "20.6983"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.6983, 38.7135]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Athinios (Pelekanos), Greece, Greece",
+				"Elevation": "0",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "36.385841",
+				"Station code": "THT1",
+				"Longitude": "25.429562"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.429562, 36.385841]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "SIGRI, Greece, Greece",
+				"Elevation": "90",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "39.2114",
+				"Station code": "SIGR",
+				"Longitude": "25.8553"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.8553, 39.2114]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Alexandroupolis, Greece, Greece",
+				"Elevation": "110",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "40.885",
+				"Station code": "ALN",
+				"Longitude": "26.046"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.046, 40.885]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Levkas, Greece, Greece",
+				"Elevation": "1140",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "38.70722",
+				"Station code": "LKD",
+				"Longitude": "20.65056"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.65056, 38.70722]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Kipourio, Greece, Greece",
+				"Elevation": "837",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "39.95495",
+				"Station code": "KPRO",
+				"Longitude": "21.36321"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.36321, 39.95495]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Nestorio, Greece, Greece",
+				"Elevation": "1056",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "40.4147",
+				"Station code": "NEST",
+				"Longitude": "21.0489"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.0489, 40.4147]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Sohos, Greece, Greece",
+				"Elevation": "670",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "40.8217",
+				"Station code": "SOH",
+				"Longitude": "23.3539"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.3539, 40.8217]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Tsoukalades, Lefkada island, Greece, Greece",
+				"Elevation": "212",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "38.8249",
+				"Station code": "TSLK",
+				"Longitude": "20.6554"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.6554, 38.8249]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Igoumenitsa, Greece, Greece",
+				"Elevation": "262",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "39.5315",
+				"Station code": "IGT",
+				"Longitude": "20.3299"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.3299, 39.5315]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Agios Georgios, Greece, Greece",
+				"Elevation": "625",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "39.0211",
+				"Station code": "AGG",
+				"Longitude": "22.336"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.336, 39.0211]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Larissa Observatory, Greece, Greece",
+				"Elevation": "78",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "39.6713",
+				"Station code": "LRSO",
+				"Longitude": "22.3917"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.3917, 39.6713]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Columbo, Santorini Isl., Greece, Greece",
+				"Elevation": "108",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "36.4709",
+				"Station code": "CMBO",
+				"Longitude": "25.4056"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.4056, 36.4709]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Damoulianata-Kefalonia-Greece, Greece, Greece",
+				"Elevation": "370",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "38.2385",
+				"Station code": "DMLN",
+				"Longitude": "20.3734"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.3734, 38.2385]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Florina, Greece, Greece",
+				"Elevation": "806",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "40.7817",
+				"Station code": "FNA",
+				"Longitude": "21.3836"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.3836, 40.7817]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Kendrikon, Greece, Greece",
+				"Elevation": "380",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "41.162",
+				"Station code": "KNT",
+				"Longitude": "22.898"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.898, 41.162]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Chios island, Greece, Greece",
+				"Elevation": "854",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "38.3869",
+				"Station code": "CHOS",
+				"Longitude": "26.0506"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.0506, 38.3869]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Alonissos-2, Greece",
+				"Elevation": "185",
+				"Network": "HT - Aristotle University of Thessaloniki Seismological Network",
+				"Latitude": "39.1478",
+				"Station code": "AOS2",
+				"Longitude": "23.8436"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.8436, 39.1478]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Health-Center,Kalavryta,Achaea,Peloponnese, Greece",
+				"Elevation": "717",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "38.03256",
+				"Station code": "KLV1",
+				"Longitude": "22.10797"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.10797, 38.03256]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Prefecture,Volos,Magnesia,Thessaly, Greece",
+				"Elevation": "26",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "39.366",
+				"Station code": "VOL2",
+				"Longitude": "22.9506"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.9506, 39.366]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "TownHall,Vrontados,Chios Island, Greece",
+				"Elevation": "14",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "38.40569",
+				"Station code": "VRO1",
+				"Longitude": "26.133945"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.133945, 38.40569]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Town-Hall,Keri,Zakynthos,Ionian Islands, Greece",
+				"Elevation": "185",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "37.6621",
+				"Station code": "KRI1",
+				"Longitude": "20.8172"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.8172, 37.6621]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "HealthCenter,Vassiliki,Lefkas Island, Greece",
+				"Elevation": "5",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "38.630558",
+				"Station code": "VAS2",
+				"Longitude": "20.608081"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.608081, 38.630558]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Hospital,Drama,Eastern Macedonia, Greece",
+				"Elevation": "167",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "41.1593",
+				"Station code": "DRA2",
+				"Longitude": "24.1485"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.1485, 41.1593]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "HealthCenter,Neapoli,Laconia,Peloponnese, Greece",
+				"Elevation": "48",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "36.51263",
+				"Station code": "NPS1",
+				"Longitude": "23.06248"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.06248, 36.51263]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "TownHall,Laimos,Florina,Western Macedonia, Greece",
+				"Elevation": "923",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "40.834985",
+				"Station code": "LMS2",
+				"Longitude": "21.141815"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.141815, 40.834985]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "TownHall,Naxos,Naxos Island, Greece",
+				"Elevation": "7",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "37.101394",
+				"Station code": "NAX1",
+				"Longitude": "25.374103"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.374103, 37.101394]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "TownHall,Siteia,Lasithi,Crete, Greece",
+				"Elevation": "0",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "35.2059",
+				"Station code": "SIT2",
+				"Longitude": "26.107"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.107, 35.2059]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "KEP,Kasos,Kasos Island, Greece",
+				"Elevation": "0",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "35.4189",
+				"Station code": "KSS1",
+				"Longitude": "26.9207"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.9207, 35.4189]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "TownHall,Gennadi,Rhodes Island, Greece",
+				"Elevation": "3",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "36.0269",
+				"Station code": "RGE1",
+				"Longitude": "27.9306"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [27.9306, 36.0269]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "TownHall,Skyros,Skyros Island, Greece",
+				"Elevation": "75",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "38.904483",
+				"Station code": "SKY1",
+				"Longitude": "24.564572"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.564572, 38.904483]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Hospital,Arta,Epirus, Greece",
+				"Elevation": "191",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "39.1474",
+				"Station code": "ART2",
+				"Longitude": "20.9937"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.9937, 39.1474]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Aegean-University,Karlovasi,Samos,North Aegean, Greece",
+				"Elevation": "14",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "37.7951",
+				"Station code": "KRL1",
+				"Longitude": "26.7065"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.7065, 37.7951]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "HealthCenter,Soufli,Evros,Thrace, Greece",
+				"Elevation": "6",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "41.189954",
+				"Station code": "SFL1",
+				"Longitude": "26.304374"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.304374, 41.189954]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Aegean University,Mytilene,Lesvos Island, Greece",
+				"Elevation": "34",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "39.085",
+				"Station code": "MYT1",
+				"Longitude": "26.5694"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [26.5694, 39.085]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "HealthCenter,Prinos,Thasos Island, Greece",
+				"Elevation": "20",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "40.738476",
+				"Station code": "THS1",
+				"Longitude": "24.575145"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.575145, 40.738476]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Prefecture,Argostoli,Cephalonia,Ionian Islands, Greece",
+				"Elevation": "6",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "38.1783",
+				"Station code": "ARG2",
+				"Longitude": "20.4878"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [20.4878, 38.1783]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "TownHall,Rhodes,Rhodes Island, Greece",
+				"Elevation": "7",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "36.4514",
+				"Station code": "RDI1",
+				"Longitude": "28.224"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [28.224, 36.4514]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "TownHall,Chaniotis,Chalkidiki,Central Macedonia, Greece",
+				"Elevation": "29",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "39.998",
+				"Station code": "PLN1",
+				"Longitude": "23.575"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.575, 39.998]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Antiperifereia,Lamia,Fthiotis,Central Greece, Greece",
+				"Elevation": "112",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "38.90203",
+				"Station code": "LAM2",
+				"Longitude": "22.431301"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.431301, 38.90203]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "TownHall,Myrina,Limnos Island, Greece",
+				"Elevation": "2",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "39.875",
+				"Station code": "LMN1",
+				"Longitude": "25.0588"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [25.0588, 39.875]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Prefecture,Veterinary,Corfu,Ionian Islands, Greece",
+				"Elevation": "10",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "39.618861",
+				"Station code": "KRK1",
+				"Longitude": "19.9202"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [19.9202, 39.618861]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Prefecture(Technical Services),Chania,Crete, Greece",
+				"Elevation": "0",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "35.517",
+				"Station code": "CH01",
+				"Longitude": "24.0208"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [24.0208, 35.517]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "TownHall,Skopelos,Skopelos Island, Greece",
+				"Elevation": "6",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "39.123383",
+				"Station code": "SKO1",
+				"Longitude": "23.728705"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.728705, 39.123383]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "TownHall,Pylos,Messenia,Peloponnese, Greece",
+				"Elevation": "0",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "36.914188",
+				"Station code": "PYL1",
+				"Longitude": "21.695161"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.695161, 36.914188]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Prefecture,Mesologgi,Western Greece, Greece",
+				"Elevation": "1",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "38.3727",
+				"Station code": "MSL1",
+				"Longitude": "21.4243"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.4243, 38.3727]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Town Hall,Argos,Argolis,Peloponnese, Greece",
+				"Elevation": "34",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "37.6349",
+				"Station code": "ARS1",
+				"Longitude": "22.7293"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [22.7293, 37.6349]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_station",
+				"@epos_label_key": "Station",
+				"@epos_map_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"@epos_data_keys": ["Sender", "Site", "Elevation", "Network", "Latitude", "Station code", "Longitude"],
+				"Sender": "NOA",
+				"Site": "Greek Parliament,Athens,Attica, Greece",
+				"Elevation": "99",
+				"Network": "HI - Institute of Engineering Seismology and Earthquake Engineering (ITSAK) Strong Mo",
+				"Latitude": "37.975421",
+				"Station code": "ATH5",
+				"Longitude": "23.737098"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [23.737098, 37.975421]
+			}
+		}
+	]
+}

@@ -1,0 +1,1 @@
+Valid TCS result containing 3 full records (2 for same station; 1 for another station [differing from other only in terms of station's longitude]'])

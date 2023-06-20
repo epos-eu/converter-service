@@ -1,0 +1,2 @@
+This example would be expected to fail business-rule validation, but should pass schema-validation:
+ Mismatches between 'schema-location-type's and formats of 'schema-location's.

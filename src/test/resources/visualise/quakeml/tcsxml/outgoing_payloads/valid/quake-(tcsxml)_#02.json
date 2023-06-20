@@ -1,0 +1,31 @@
+{
+	"type": "FeatureCollection",
+	"@epos_style": {
+		"seismic_event": {
+			"label": "seismic_event",
+			"marker": {
+				"pin": false,
+				"clustering": false
+			}
+		}
+	},
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_event",
+				"@epos_label_key": "seismic_event",
+				"@epos_map_keys": ["Mag type", "EventType", "ID", "Magnitude", "Date"],
+				"@epos_data_keys": ["Mag type", "EventType", "ID", "Magnitude", "Date"],
+				"Mag type": "Mw",
+				"EventType": "earthquake",
+				"ID": "quakeml:local/event/2016.01.01-04.03.22",
+				"Magnitude": "1.94",
+				"Date": "2016-01-01T04:03:35.48Z"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.8498, 38.4088]
+			}
+		}
+	]
+}

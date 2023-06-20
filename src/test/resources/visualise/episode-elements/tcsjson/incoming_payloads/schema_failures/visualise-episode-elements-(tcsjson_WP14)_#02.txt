@@ -1,0 +1,1 @@
+Multiple valid elements records in a JSON Array (i.e. a 'elements-list' payload) but we're not supporting JSONArrays here - expecting a JSONObject!

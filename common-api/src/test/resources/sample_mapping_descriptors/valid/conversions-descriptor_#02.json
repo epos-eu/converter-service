@@ -1,0 +1,18 @@
+{
+	"conversions": [
+		{
+			"target-classname": "org.epos.converter.common.java.CallableJavaPluginTest$2",
+			"mappings": [
+				{
+					"request": {
+						"type": "QuakeML",				
+						"content-type": "application/xml"
+					},
+					"response": {
+						"content-type": "application/epos.geo+json"
+					}
+				}
+			]
+		}
+	]
+}

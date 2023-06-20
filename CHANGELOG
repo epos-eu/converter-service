@@ -1,0 +1,10 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+## [Unreleased]
+
+## [0.0.1-SNAPSHOT] - xxxxxxx - Logging Pitch
+- Improvement: Added logging Log4J2 support via SLF4J.
+- Improvement: Added additional logging calls.
+
+ 

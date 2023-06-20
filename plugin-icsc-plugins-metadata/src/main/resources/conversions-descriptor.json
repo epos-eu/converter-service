@@ -1,0 +1,18 @@
+{
+	"conversions": [
+		{
+			"target-classname": "org.epos.converter.plugin.pluginsmetadata.PluginsMetadataCallablePlugin",
+			"mappings": [
+				{
+					"request": {
+						"type": "icsc-default",				
+						"content-type": "application/json"
+					},
+					"response": {
+						"content-type": "application/json"
+					}
+				}
+			]
+		}
+	]
+}

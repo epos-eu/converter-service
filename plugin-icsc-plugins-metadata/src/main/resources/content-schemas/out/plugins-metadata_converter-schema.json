@@ -1,0 +1,93 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "Converter-internal Plugins Metadata representation",
+	"description": "Content for use within the Converter component for the management of metadata regarding available Converter plugins",
+	"type": "array",
+	"items": {
+		"type": "object",
+		"required": ["pluginKey", "pluginHeader", "conversions"],
+		"properties": {
+			"pluginKey": {
+				"type": "object",
+				"required": ["id", "version"],
+				"properties": {
+					"id": {
+						"type": "string"
+					},
+					"version": {
+						"type": "string"
+					}
+				},
+				"additionalProperties": false
+			},
+			"pluginHeader": {
+				"type": "object",
+				"required": ["name", "repoLocation", "repoArtifactsLocations", "repoAccessRestriction", "installLocation", "proxyType"],
+				"properties": {
+					"name": {
+						"type": "string"
+					},
+					"repoLocation": {
+						"type": "string"
+					},
+					"repoArtifactLocations": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						}
+					},
+					"repoAccessRestriction": {
+						"type": "boolean"
+					},
+					"installLocation": {
+						"type": "string"
+					},
+					"proxyType": {
+						"enum": ["Java-Reflection"]
+					}
+				},
+				"additionalProperties": false
+			},
+			"conversions": {
+				"type": "array",
+				"items": {
+					"type": "object",
+					"required": ["mapping", "execution"],
+					"properties": {
+						"mapping": {
+							"type": "object",
+							"required": ["requestType", "requestContentType", "responseContentType"],
+							"properties": {
+								"requestType": {
+									"type": "string"
+								},
+								"requestContentType": {
+									"type": "string"
+								},
+								"responseContentType": {
+									"type": "string"
+								}
+							},
+							"additionalProperties": false
+						},
+						"execution": {
+							"type": "object",
+							"required": ["invocationDetail"],
+							"properties": {
+								"invocationDetail": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								}
+							},
+							"additionalProperties": false
+						}
+					},
+					"additionalProperties": false
+				}
+			}
+		},
+		"additionalProperties": false
+	}
+}

@@ -1,0 +1,1 @@
+Simple, minimal, payload declaring only 1 network entry with only 1 measurement from a particular station, BUT missing 'Elevation' value.

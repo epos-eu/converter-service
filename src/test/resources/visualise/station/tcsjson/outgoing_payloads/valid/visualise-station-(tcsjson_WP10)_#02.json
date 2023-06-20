@@ -1,0 +1,46 @@
+{
+	"type": "FeatureCollection",
+	"@epos_style": {
+		"geologica_station": {
+			"label": "geologica_station"
+		}
+	},
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "geologica_station",
+				"@epos_label_key": "Geological Station",
+				"@epos_map_keys": ["Description", "Country", "Station code", "Network code", "Location", "Altitude"],
+				"@epos_data_keys": ["Description", "Country", "Station code", "Network code", "Location", "Altitude"],
+				"Description": "SOME COMMENT #1",
+				"Country": "SOME COUNTRY NAME #1",
+				"Station code": "SOME MARKER #1",
+				"Network code": "NETWORK NAME #1",
+				"Location": "SOME CITY NAME #1",
+				"Altitude": "SOME ALTITUDE #1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [111.12345678, 999.87654321]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "geologica_station",
+				"@epos_label_key": "Geological Station",
+				"@epos_map_keys": ["Description", "Country", "Station code", "Network code", "Location", "Altitude"],
+				"@epos_data_keys": ["Description", "Country", "Station code", "Network code", "Location", "Altitude"],
+				"Description": "SOME COMMENT #1",
+				"Country": "SOME COUNTRY NAME #1",
+				"Station code": "SOME MARKER #1",
+				"Network code": "NETWORK NAME #1",
+				"Location": "SOME CITY NAME #1",
+				"Altitude": "SOME ALTITUDE #1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [111.12345678, 999.87654321]
+			}
+		}
+	]
+}

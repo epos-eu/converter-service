@@ -1,0 +1,21 @@
+plugins.config:
+  plugins-installation-location: ./src/integration-test/resources/plugins
+  plugins-mode: "ICSC_V1"
+conversion.messaging:
+  routing-framework.relay:
+    service-type: externalAccess
+    default-next-component: access
+    num-of-consumers: 1
+    num-of-publishers: 1
+plugins-cache:
+  plugin-store-syncing:
+    routing-framework.rpc:
+      service-type: metadataService
+      default-next-component: fetch
+      num-of-consumers: 1
+      num-of-publishers: 1
+    sync-timings:
+      initial-sync-deplay-sec: 30
+      initial-sync-retry-sec: 20
+      ongoing-sync-frequency-min: 30
+      ongoing-sync-frequency-retry-min: 5

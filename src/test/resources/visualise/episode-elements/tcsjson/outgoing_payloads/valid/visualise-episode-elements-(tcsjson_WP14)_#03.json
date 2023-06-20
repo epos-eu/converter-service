@@ -1,0 +1,28 @@
+{
+	"type": "FeatureCollection",
+	"@epos_style": {
+		"episode": {
+			"label": "episode",
+			"marker": {
+				"pin": true,
+				"clustering": false
+			}
+		}
+	},
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "episode",
+				"@epos_label_key": "episode",
+				"@epos_map_keys": ["impactingFactors","type"],
+				"@epos_data_keys": ["impactingFactors","type"],
+				"type": "episode",
+				"impactingFactors": "[]"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.1, 2.2]
+			}
+		}
+	]
+}

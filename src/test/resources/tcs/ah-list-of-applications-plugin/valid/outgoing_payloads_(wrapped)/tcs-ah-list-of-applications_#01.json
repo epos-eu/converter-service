@@ -1,0 +1,610 @@
+{
+	"content": {
+		"type": "FeatureCollection",
+		"features": [{
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Statistical analysis", "Statistical properties of seismicity", "Parameter probabilistic distribution"],
+					"citation": "",
+					"name": "Anderson-Darling test for magnitude distribution",
+					"description": "This Application performs the Anderson-Darling test for testing whether a given set of magnitudes, follows the exponential or Weibull distribution. The analysis is performed for a variety of minimum magnitude thresholds defined by the User.",
+					"categories": ["Statistical Properties of Seismicity"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Data selection", "Data merging"],
+					"citation": "",
+					"name": "Parameters Catalog builder",
+					"description": "Tool for creating a Parameters Catalog. The resulting catalog is created by joining a ${D__catalog} with ${D__registration_catalog}. For example, if ${D__ground_motion_catalog} is used, the result of the application can be further used in, e.g., \u003ca href\u003d\u0027#app:GMPEEqsCalc\u0027\u003eGround Motion Prediction Equations application\u003c/a\u003e.",
+					"categories": ["Converters"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Statistical analysis", "Statistical properties of seismicity", "Parameter probabilistic distribution"],
+					"citation": "",
+					"name": "Completeness Magnitude estimation",
+					"description": "To evaluate the magnitude of completeness Mc, defined as the lowest magnitude at which all seismic events in a selected space-time volume are recorded by a network. Mc is an essential prerequisite for most seismicity analyses.",
+					"categories": ["Collective Properties of Seismicity"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Format conversion", "Data download", "Data export"],
+					"citation": "",
+					"name": "Catalog to CSV converter",
+					"description": "Exports a Catalog MATLAB file as a spreadsheet file (in CSV format).",
+					"categories": ["Converters"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Statistical analysis", "Statistical properties of seismicity", "Parameter probabilistic distribution", "Stationary hazard"],
+					"citation": "",
+					"name": "Source size distribution functions/Stationary Hazard",
+					"description": "To estimate the probability density function and cumulative distribution function of magnitude. Four magnitude distribution estimation methods are supported: maximum likelihood using the unbounded Gutenberg-Richter relation based model, maximum likelihood using the upper- bounded Gutenberg-Richter relation based model, unbounded non-parametric kernel estimation, upper-bounded non-parametric kernel estimation. The upper limit of magnitude distribution is evaluated using the Kijko-Sellevol generic formula.",
+					"categories": ["Probabilistic Seismic Hazard Analysis"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Statistical analysis", "Probabilistic seismic hazard analysis", "Stationary hazard"],
+					"citation": "",
+					"name": "Stationary Hazard: Mean Return Period",
+					"description": "This application uses the magnitude distribution and activity rate calculated from a seismic catalog to estimate the Mean Return Period (MRP). The MRP of magnitude M is the average elapsed time between the consecutive earthquakes of magnitude M. The MRPs are calculated for a series of magnitude values. Note: “Source size distribution functions/Stationary Hazard” application must be run before.",
+					"categories": ["Probabilistic Seismic Hazard Analysis"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Aftershocks", "Earthquake swarm", "Data selection"],
+					"citation": "",
+					"name": "Template-matching based detection algorithm",
+					"description": "Detection of events by template matching. Template datasets (picked events) are correlated with the continuous seismic records to identify new events.",
+					"categories": ["Event Detection Algorithms"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Format conversion", "Data merging", "Data filtering", "Data export"],
+					"citation": "",
+					"name": "miniSEED to SAC converter",
+					"description": "Converts miniSEED volume to SAC. Resulting SAC file contains sensitivity information derived from inventory file (if available) as well as location details. Each trace from the source will be saved as separate file as \u0027network.station.location.channel.starttime_microsecond.SAC\u0027.",
+					"categories": ["Converters", "Seismogram Analysis Tools"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Format conversion", "Data merging", "Data filtering", "Data export"],
+					"citation": "",
+					"name": "SEED to ASCII (SLIST) converter",
+					"description": "Converts SEED volume to ASCII (SLIST format). Resulting ASCII file contains sensitivity information derived from source file (if available) as well as location details. Each trace from the source will be saved as separate file as \u0027network.station.location.channel.starttime_microsecond.ASCII\u0027.",
+					"categories": ["Converters", "Seismogram Analysis Tools"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Statistical analysis", "Probabilistic seismic hazard analysis", "Time-dependent hazard", "Production-dependent hazard", "Production - seismicity interaction"],
+					"citation": "",
+					"name": "Time dependent hazard in selected area",
+					"description": "To estimate time-dependent values of seismic hazard parameters: the activity rate, the Gutenberg-Richter b-value, the return period and the exceedance probability for a prescribed area. The parameter values for the time moment t are estimated optionally either from events that occurred in dt time units preceding t, where dt is kept constant, or from n last events before t, where n is kept constant. For the magnitude distribution estimation methods please refer to the “Stationary Hazard” application.",
+					"categories": ["Probabilistic Seismic Hazard Analysis"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Vector Operations"],
+					"citation": "",
+					"name": "Basic Vector Operations",
+					"description": "Tool for performing simple predefined operations on a given double vector",
+					"categories": ["Data Processing Applications"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Format conversion"],
+					"citation": "",
+					"name": "CSV to Catalog converter",
+					"description": "Tool for conversion of a CSV file into a ${D__catalog} in \u003ca href\u003d\u0027http://tcs.ah-epos.eu/eprints/1675/31/Catalog_description_v2_0.pdf\u0027\u003eEPISODES Platform format\u003c/a\u003e. The csv file should use \u0027;\u0027 as delimiter, and should include header line with names of the columns.",
+					"categories": ["Converters"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Coda Wave Interferometry", "Velocity changes", "Subsoil monitoring"],
+					"citation": "",
+					"name": "Coda Wave Interferometry detection of velocity changes",
+					"description": "This application calculates possible velocity changes using the Coda Wave Interferometry Techniques. The application calculates the delay time between the coda waves of a pair of seismograms by applying cross-correlation at subsequent lapse times. Requires SAC format seismograms from different earthquakes recorded by the same component of the same station. For any given pair of seismograms which passed the correlation threshold selection, the output consists of percent velocity changes (and associated uncertainties) which occurred in between the two earthquakes. This can be combined with industrial data (e.g., rate of extraction / injection, front advance, etc.) to ascertain if the propagation medium suffered any significant variation of elastic properties.",
+					"categories": ["Source Parameter Estimation"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Seismic event mechanism", "Shear slip along a fault", "Inversion of P an/or S amplitudes", "Grid search"],
+					"citation": "",
+					"name": "Mechanism: Shear slip",
+					"description": "The program performs inversion of amplitudes of longitudinal (P) and transversal (S) seismic waves as 3-component vectors into the mechanism of the seismic source in the description of a double couple using a grid search across the full or a priori specified range of the fault-plane solution angles.",
+					"categories": ["Source Parameter Estimation"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Data merging"],
+					"citation": "",
+					"name": "Catalog merger",
+					"description": "Tool for merging two catalogs of the same type (e.g. ${D__catalog}, ${D__ground_motion_catalog} - complete list of catalog types is available in the \u003ca href\u003d\"https://docs.cyfronet.pl/display/ISDOC/Catalogs\"\u003eUser Guide\u003c/a\u003e). The resulting catalog is created by appending the second chosen catalog to the first one. First, the rows of the second catalog are added to the first catalog. Next, additional columns with parameters are added in the following way: columns with new event parameters (seismic catalog case) are merged by event ID. In case of other types of catalogs - columns with new registration parameters caused by events are added, merging catalogs by Registration ID.",
+					"categories": ["Converters", "Data Processing Applications"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Episode-oriented graphics", "Production data visualization"],
+					"citation": "",
+					"name": "Front Advance histograms",
+					"description": "Application for drawing histograms and cumulative histograms of events count and seismic energy for selected bins, the width of which corresponds to a constant value of the mining front advance. Calculations are performed from the beginning of the excavation along the axis of the excavation. ",
+					"categories": ["Visualizations"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Waveform viewing", "Picking on waveform", "Format conversion"],
+					"citation": "",
+					"name": "Seismogram picking tool",
+					"description": "Tool for picking phases or points on seismograms contained in a SEED file. The picks are saved into a \u003ca href\u003d\u0027https://quake.ethz.ch/quakeml/\u0027\u003eQuakeML\u003c/a\u003e file and can be used later in other applications (e.g. \u003ca href\u003d\u0027#apps:categories\u003dSource+Parameter+Estimation\u0027\u003eSource Parameter Estimation applications\u003c/a\u003e).",
+					"categories": ["Seismogram Analysis Tools"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Data conversion", "Scaling relations"],
+					"citation": "",
+					"name": "Magnitude conversion",
+					"description": "The program is used to establish empirical scaling relationships between different magnitude scales. different linear regression procedures (i.e. the general orthogonal regression, the ordinary least squares and the inverted least squares) are available for converting magnitudes from one type into another one. The logarithm of seismic energy or seismic moment can be used as input as well. At least 2 input parameters (e.g. magnitude, moment or energy columns) should be available in the input catalog.",
+					"categories": ["Collective Properties of Seismicity"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Data clustering", "Production - seismicity interaction", "Statistical analysis"],
+					"citation": "",
+					"name": "Cluster Analysis",
+					"description": "This application performs cluster analysis and takes as input the output file created after from \u003ca href\u003d\u0027#app:T2ED\u0027\u003eT2ED\u003c/a\u003e application, therefore all analyses are performed within the Equivalent Dimension phase space. The number of clusters is defined by the user prospectively, the phase space can have any dimension greater or equal to 1 and two clustering techniques are available: Hierarchical and Partitioning.",
+					"categories": ["Data Processing Applications"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Data conversion", "Parameter probabilistic distribution"],
+					"citation": "",
+					"name": "Transformation to Equivalent Dimensions",
+					"description": "The application applies the Transformation to Equivalent Dimensions (Lasocki, 2014). The input file is a either a Seismic Catalog or/and a GDF file (with operational data) as can be found in EPISODES Platform",
+					"categories": ["Data Processing Applications"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Format conversion", "Data merging", "Data filtering", "Data export"],
+					"citation": "",
+					"name": "miniSEED to ASCII (SLIST) converter",
+					"description": "Converts miniSEED volume to ASCII (SLIST format). Resulting ASCII file contains sensitivity information derived from inventory file (if available) as well as location details. Each trace from the source will be saved as separate file as \u0027network.station.location.channel.starttime_microsecond.ASCII\u0027.",
+					"categories": ["Converters", "Seismogram Analysis Tools"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Statistical analysis", "Statistical properties of seismicity"],
+					"citation": "",
+					"name": "Autocorrelation",
+					"description": "The autocorrelation (serial correlation) is a tool to find repeating patterns in a signal. Autocorrelation of a random process is the correlation between values of the process at different times, as a function of the two times or of the time lag.",
+					"categories": ["Correlation Analysis"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Data selection", "Data export", "Waveform viewing"],
+					"citation": "",
+					"name": "Signal download tool",
+					"description": "Tool for downloading signals connected to events selected from a ${D__catalog}, ${D__ground_motion_catalog} or ${D__gm_prediction_catalog}. Signals might be further converted by \u003ca href\u003d\u0027#apps:text\u003dSeed+Converter\u0027\u003eSeed Converter application\u003c/a\u003e or directly processed by other applications (e.g. \u003ca href\u003d\u0027#apps:categories\u003dSource+Parameter+Estimation\u0027\u003eSource Parameter Estimation applications\u003c/a\u003e). Additionally, the application returns event information (${D__seismic_event}) for each selected event.",
+					"categories": ["Seismogram Analysis Tools", "Download Tools"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Episode-oriented graphics", "Production data visualization", "Production - seismicity interaction"],
+					"citation": "",
+					"name": "Seismic Activity with Front Advance",
+					"description": "Application allowing for visualization of the activity changes in time relatively to the front location",
+					"categories": ["Visualizations"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Data selection", "Data filtering"],
+					"citation": "",
+					"name": "Catalog filter",
+					"description": "This application performs selection of catalog data by filtering fields specified by the user. This can be by selecting a particular range/list of values from diverse catalog attributes, or interactively by the mapped events epicenters.",
+					"categories": ["Filtering Tools"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Source parameters", "Statistical properties of seismicity"],
+					"citation": "",
+					"name": "Effective stress drop estimate",
+					"description": "Estimate of the scaling between total seismic moment and areal extent of earthquake cluster, which depends on the average stress drop released during the seismic sequence.",
+					"categories": ["Source Parameter Estimation"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Format conversion", "Data merging", "Data filtering", "Data export"],
+					"citation": "",
+					"name": "Signal Processing",
+					"description": "Application enabling performing various operations on a SEED or miniSEED volume, including selection of traces, improving signal with gaps and overlaps. The result is written to a miniSEED file named similarly to the input file.",
+					"categories": ["Converters", "Seismogram Analysis Tools"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Statistical analysis", "Probabilistic seismic hazard analysis", "Time-dependent hazard", "Production-dependent hazard", "Production - seismicity interaction"],
+					"citation": "",
+					"name": "Time dependent hazard in mining front surroundings",
+					"description": "To estimate time-dependent values of seismic hazard parameters: the activity rate, the Gutenberg-Richter b-value, the return period and the exceedance probability for a space window surrounding an advancing mining front. The parameter values for the time moment t are estimated optionally either from events that occurred in dt time units preceding t, where dt is kept constant, or from n last events before t, where n is kept constant, or from a time period during which the front advanced by a constant length dx. For the magnitude distribution estimation methods please refer to the “Stationary Hazard” application.",
+					"categories": ["Probabilistic Seismic Hazard Analysis"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Geo-resource production impact", "Statistical properties of seismicity", "Seasonal trend"],
+					"citation": "",
+					"name": "Time correlated earthquakes (Seasonal trends)",
+					"description": "Test of of  Number, space, and Magnitude pattern against reshuffled distribution in time e.g daily patterns for mine induced seismicity or monthly pattern for reservoir induced seismicity. The test aims  to quantify  how “seasonal” patterns remain uniform over time and to accept or to reject the uniform pattern under a given confidence level.\u003cbr/\u003e\nAllows to capture anthropogenic trends  in time pattern that correspond to geo-resource production type. It allows to extract time relationship to production patterns and departure from uniform  tectonic seismicity background.\u003cbr/\u003e\nInput data are time series from seismicity catalogue.\u003cbr/\u003e\nOutputs  are time series tested against reshuffled series .",
+					"categories": ["Earthquake Interactions"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Data selection", "Data filtering", "Data export", "Waveform viewing"],
+					"citation": "",
+					"name": "Waveform download tool",
+					"description": "Application that allows for requesting parts of continuous waveforms for specific time and stations. The waveform is obtained from \u003ca href\u003d\u0027https://www.seiscomp3.org/\u0027\u003eSeiscomp server\u003c/a\u003e using \u003ca href\u003d\u0027https://www.seiscomp3.org/doc/applications/arclink_fetch.html\u0027\u003eArclink_fetch program\u003c/a\u003e.",
+					"categories": ["Seismogram Analysis Tools", "Download Tools"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Episode-oriented graphics", "Episode visualization", "GDF data visualization", "Production data visualization"],
+					"citation": "",
+					"name": "GDF with Seismic Activity data visualization",
+					"description": "Application allowing visualization GDF time-correlated data against seismic activity from a ${D__catalog} file.",
+					"categories": ["Visualizations"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Probabilistic seismic hazard analysis", "Stationary hazard", "Time-dependent hazard", "Production-dependent hazard", "Hazard analysis"],
+					"citation": "",
+					"name": "Estimate of maximum possible magnitude for reservoir triggered seismicity",
+					"description": "This application estimates an occurrence probability for an event of a given maximum magnitude over a period of time. It also estimates maximum possible magnitude from the size of the geo-resource reservoir, represented by the reservoir length (Grasso et al.2018), using M(Lr) relationship for earthquake (e.g. Wells Coppersmith 1994).",
+					"categories": ["Probabilistic Seismic Hazard Analysis"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Geo-resource production impact", "Statistical properties of seismicity", "Mainshocks", "Aftershocks"],
+					"citation": "",
+					"name": "Earthquake interactions: Georesource scale",
+					"description": "\u003cp\u003eScientific Background\u003cbr/\u003e\nThere is no consensus on the a-priori distance-time-size patterns to be selected to relate a given earthquake to a given georesource-reservoir exploitation (e.g. Gupta, 2002, Klose 2013, NRC, 2013). From the one hand, some authors suggest, on observational bases, a 30-50 km distance and 10-20 years times from reservoir to relate an earthquake to a given geo-resource « reservoir » (e.g. for a review Gupta, 2002, Klose 2013). These a-priori space-time windows question on any of the physics processes that may drive a constant triggering distance to an extended loading source (i.e. not a point source such as a lake surface, or hydrocarbon reservoir).\u003cbr/\u003e\nFrom the other hand, there are evidences that the use of the absolute distance captures earthquake-earthquake triggering patterns (as aftershock-mainshock pair) that hide the key properties of the event interactions (e.g. Bak et al 2002; Parsons and Velasco, 2009, Tahir et al., 2012, Tahir and Grasso, 2015, de Arcangelis et al 2016).  For tectonic earthquake interactions, the size of the triggering zone is mapped by static stress perturbation. This later is estimated to be in the 1-3 L ranges for aftershocks triggering (Parsons and Velasco 2009; Tahir et al. 2012; Tahir and Grasso, 2015). For the tectonic earthquake analysis (L) is the mainshock fault length as derived from magnitude scale (e.g. Wells and Coppersmith, 1994). In order to mimics the earthquake interaction analysis, we choose  (Lr) the reservoir length as the equivalent of the mainshock fault length, the characteristic dimension that drives the stress change pattern induced by georesource productions (e.g. Gupta and Rastogi 1976, Bell and Nur, 1978, Roeloffs, 1988; Segall et al. 1994,  Deng et al., 2010).\u003cbr/\u003e\nThis way, in the episodes and applications we uploaded on the platform, we propose to analyse the triggering patterns around geo-resource production using 1-3-10Lr normalized distances to the georesource “reservoir”, respectively.  Lr is the characteristic dimension the user defines from the geometry of the georesource production the user work with. Furthermore the rate of aftershocks, whatever the definition, provides information on the proportion of events directly driven by the geo-resource production and the one that are triggered by others earthquake (Helmstetter et al. 2002,  Traversa et Grasso 2008,  De Arcangelis et al. 2016)\u003c/p\u003e\n\n\u003cp/\u003eApplication objectives\u003cbr/\u003e\nAnthropogenic seismicity rate and magnitude are analyzed using superposed epoch to extract mean field patterns that are more robust than a single serie. This application analyse aftershocks sequence in the  1-3L near field distances  from the “reservoir”. L is a proxy for georesource dimension, being mine gallery width, reservoir length , etc...\u003cbr/\u003e\nInput data are time series from seismicity catalogue.\u003cbr/\u003e\nThis application is important to quantify the mean field pattern of several aftershocks to be compared with regional  tectonic patterns\u003cbr/\u003e\nOutputs as aftershock rate over time may be compared to outputs of application “Earthquake interactions - mainshock scale”\u003c/p\u003e",
+					"categories": ["Earthquake Interactions"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Seismic event mechanism", "Linear inversion of P an/or S amplitudes", "Full moment tensor", "Decomposition into elementary components"],
+					"citation": "",
+					"name": "Mechanism: Full Moment Tensor",
+					"description": "\u003cp\u003eThe program performs inversion of amplitudes of longitudinal (P) and transversal (S) seismic waves as 3-component vectors into the mechanism of the seismic source in the description of unconstrained moment tensor (MT). As such, it allows describe general dipole sources including isotropic components: e.g., it is suitable to retrieve the parameters of both a shear dislocation common at foci of tectonic earthquakes (described as a double-couple, DC) and volumetric sources as tensile cracks or cavity implosions. It provides the MT error estimate: evaluates the data covariance matrix based on standard deviations of individual components of P and S motion.\u003c/p\u003e\u003cp\u003eThe application is designed preferentially for processing of seismic events induced by industrial activity (mining, hydro-fracture test in geothermal and oil wells etc.).\n\u003c/p\u003e\n",
+					"categories": ["Source Parameter Estimation"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Dynamic bow-tie analysis", "Fault-tree", "Event-tree", "Statistical analysis", "Multi-hazard risk assessment", "Monte Carlo simulations", "Geo-resource production impact"],
+					"citation": "Garcia-Aristizabal, A., J. Kocot, R. Russo, and P. Gasparini (2019). A probabilistic tool for multi-hazard risk analysis using a bow-tie approach: application to environmental risk assessments for geo-resource development projects.  Acta Geophys. 67, 385-410. DOI: 10.1007/s11600-018-0201-7",
+					"name": "MERGER: Dynamic risk analysis using a bow-tie approach",
+					"description": "\u003cp\u003eMERGER, a simulator for multi-hazard risk assessment in ExploRation/exploitation of GeoResources, is a tool for performing dynamic risk analyses using a bow-tie approach. The tool has been designed for solving fault trees (FT) and event trees (ET) linked in a bow-tie structure and using a Monte Carlo approach.\u003c/p\u003e\u003cp\u003eThe methodology implemented in this service is suitable for performing highly specialized dynamic risk analyses using state-of-the-art knowledge and is characterised by (for details see Garcia-Aristizabal et al. 2019): \u003col type\u003d\u0027a\u0027\u003e\u003cli\u003eThe bow-tie structure coupled with a wide range of probabilistic models flexible enough to consider different typologies of phenomena;\u003c/li\u003e\u003cli\u003eA Bayesian implementation for data assimilation, allowing the user to update assessments as new data becomes available;\u003c/li\u003e\u003cli\u003eThe handling and propagation of modelling uncertainties.\u003c/li\u003e\u003c/ol\u003e\u003c/p\u003e\u003cp\u003e\u003cb\u003eParameters:\u003c/b\u003e\u003cbr/\u003eMERGER-FT: \u003col\u003e\u003cli\u003eThe fault tree structure\u003c/li\u003e\u003cli\u003eSetting of the FT’s basic events (BE). For each BE, it is required to set the kind of model used for evaluating the BE and the related parameters for setting\u003c/li\u003e\u003c/ol\u003e\u003cbr/\u003e\u003ci\u003eMERGER-ET: not yet available\u003c/i\u003e\u003c/p\u003e\u003cp\u003e\u003cb\u003eNote:\u003c/b\u003eThe current release of the system includes the basic tools for assessing the fault tree component only (MERGER-FT). The following integrated tools for modelling Basic events in FTs have been implemented: Homogeneous Poisson processes, non-homogeneous Poisson processes, and Binomial processes.  Soon, Physical reliability models will be integrated, as well as the tool for solving event trees (MERGER-ET).\u003c/p\u003e\"",
+					"categories": ["Probabilistic Seismic Hazard Analysis"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Ground Motion Prediction Equations"],
+					"citation": "",
+					"name": "Ground Motion Prediction Equations: Final model analysis",
+					"description": "\u003cp\u003eThe final step of Ground Motion Prediction Equations. The final model of the Ground Motion Prediction Equation is summarized with additional plots.\u003c/p\u003e\n\u003cp\u003eThe application uses results obtained with \u003ca href\u003d\u0027#app:GMPEEqsCalc\u0027\u003eGround Motion Prediction Equations: GMPE calculation\u003c/a\u003e or \u003ca href\u003d\u0027#app:GMPEResidualsAnalysis\u0027\u003eGround Motion Prediction Equations: Residuals analysis\u003c/a\u003e.\u003c/p\u003e",
+					"categories": ["Probabilistic Seismic Hazard Analysis"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Statistical analysis", "Statistical properties of seismicity", "Parameter probabilistic distribution"],
+					"citation": "",
+					"name": "Anderson-Darling test for exponentiality of inter-event time",
+					"description": "This Application performs the Anderson-Darling test to study the null hypothesis that the inter-event times of a given series of events are drawn from an exponential distribution, alternatively that they are drawn from a Weibull distribution.",
+					"categories": ["Collective Properties of Seismicity"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Format conversion", "Data merging", "Data filtering", "Data export"],
+					"citation": "",
+					"name": "miniSEED to miniSEED converter",
+					"description": "Converts miniSEED volume to miniSEED in specified unit. The result can be either saved to a single file named similarly to the source file or trace can be saved to separate files named \u0027network.station.location.channel.starttime_microsecond.msd\u0027.",
+					"categories": ["Converters", "Seismogram Analysis Tools"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Data selection", "Data extraction"],
+					"citation": "",
+					"name": "Catalog to Vectors converter",
+					"description": "Tool for converting a ${D__catalog} into a series of vectors that can be further used in other applications (e.g. \u003ca href\u003d\u0027#app:TimeSeriesBuilder\u0027\u003eTime Series Builder\u003c/a\u003e).",
+					"categories": ["Converters"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Source parameters", "Source mechanism", "Moment tensor"],
+					"citation": "Kwiatek, G., Martínez-Garzón, P. and M. Bohnhoff (2016). HybridMT: A MATLAB/Shell Environment Package for Seismic Moment Tensor Inversion and Refinement. Seismological Research Letters 87 (4), DOI: 10.1785/0220150251.",
+					"name": "FOCI",
+					"description": "This application makes use the P-wave first arrivals from the waveforms recorded by the seismic stations and resolves seismic moment tensors using various decomposition schemes. Three moment tensors are calculated: unconstrained (full) moment tensor solution, deviatoric moment tensor solution (no volumetric change in the source), and double-couple moment tensor solution (no volumetric change in the source, no linear dipole). In addition to the moment tensor components various source parameters are calculated as well (fault plane solutions, P/T/B axes orientation, scalar seismic moment etc). \u003cbr/\u003eSee also \u003ca href\u003d\u0027https://www.induced.pl/software/focimt\u0027\u003e\u003ci\u003efocimt\u003c/i\u003e documentation\u003c/a\u003e",
+					"categories": ["Source Parameter Estimation"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Format conversion", "Data merging", "Data filtering", "Data export"],
+					"citation": "",
+					"name": "SEED to SAC converter",
+					"description": "Converts SEED volume to SAC. Resulting SAC file contains sensitivity information derived from source file (if available) as well as location details. Each trace from the source will be saved as separate file as \u0027network.station.location.channel.starttime_microsecond.SAC\u0027.",
+					"categories": ["Converters", "Seismogram Analysis Tools"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Statistical analysis", "Probabilistic seismic hazard analysis", "Stationary hazard"],
+					"citation": "",
+					"name": "Stationary Hazard: Exceedance Probability",
+					"description": "This application uses the magnitude distribution and activity rate calculated from a seismic catalog to estimate the Exceedance Probability (EP). The EP of magnitude M in the time period of length T is the probability of an earthquake of magnitude M or greater to occur in T. The EP values are calculated optionally either for a fixed time period T and a series of magnitude values or for a fixed magnitude M and a series of period length values. Note: “Source size distribution functions/Stationary Hazard” application must be run before.",
+					"categories": ["Probabilistic Seismic Hazard Analysis"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Episode-oriented graphics", "Episode visualization", "GDF data visualization", "Production data visualization"],
+					"citation": "",
+					"name": "GDF with Seismic Activity histogram data visualization",
+					"description": "Application allowing visualization of a histogram of GDF data correlated with seismic activity from ${D__catalog} file.",
+					"categories": ["Visualizations"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Seismic event mechanism", "Crack source model", "Shear-slip and crack opening/closing", "Inversion of P an/or S amplitudes", "Grid search"],
+					"citation": "",
+					"name": "Mechanism: Shear-Tensile crack",
+					"description": "The program performs inversion of amplitudes of longitudinal (P) and transversal (S) seismic waves as 3-component vectors into the mechanism of the seismic source in the description of shear-tensile crack (STC).",
+					"categories": ["Source Parameter Estimation"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Statistical analysis", "Statistical properties of seismicity"],
+					"citation": "",
+					"name": "Coefficient of randomness",
+					"description": "A statistical test to express changes in seismicity patterns by means of an objective criterion. The Matsumura Test provides the parameter of Matsumura, value of the parameter in 5% and 95% percentile and the patterns classification as regular, completely random, and clustered.",
+					"categories": ["Collective Properties of Seismicity"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Format conversion", "Data filtering", "Data export"],
+					"citation": "",
+					"name": "SEED to datalessSEED converter",
+					"description": "Converts SEED volume to datalessSEED. The result is saved to a text file named similarly to the source file with \u0027.dataless\u0027 suffix.",
+					"categories": ["Converters"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Data selection", "Data extraction"],
+					"citation": "",
+					"name": "GDF to Vectors converter",
+					"description": "Tool for converting a GDF file into a series of vectors that can be further used in other applications (e.g. \u003ca href\u003d\u0027#app:TimeSeriesBuilder\u0027\u003eTime Series Builder\u003c/a\u003e).",
+					"categories": ["Converters"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Geo-resource production impact", "Statistical properties of seismicity", "Earthquake swarm"],
+					"citation": "",
+					"name": "Earthquake swarm (reshuffling analysis)",
+					"description": "Anthropogenic seismicity rate and magnitude are tested against non correlated series with the same number of data. It is achieved by \"reshuffling\" the data. It is a robust way to check how significant is the variability over time of anthropogenic seismicity. \u003cbr/\u003e\nInput data are time series from seismicity catalogue.\u003cbr/\u003e\nThis application is important to quantify the robustness  of observed seismicity pattern against random fluctuations of the same size system\u003cbr/\u003e\nOutputs are  observed and reshuffled time series.",
+					"categories": ["Earthquake Interactions"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Ground Motion Prediction Equations"],
+					"citation": "",
+					"name": "Ground Motion Prediction Equations: Residuals analysis",
+					"description": "\u003cp\u003eOne of the steps of Ground Motion Prediction Equations. This step analyzes the residuals of the model (observed minus estimated values). Normality of residuals are investigated and suitable plots are shown. The outliers were shown and chosen one can be removed.\u003c/p\u003e\n\u003cp\u003eThe application uses results obtained with \u003ca href\u003d\u0027#app:GMPEEqsCalc\u0027\u003eGround Motion Prediction Equations: GMPE calculation\u003c/a\u003e.\u003c/p\u003e",
+					"categories": ["Probabilistic Seismic Hazard Analysis"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Data selection", "Data filtering", "Data reshaping", "Data conversion"],
+					"citation": "",
+					"name": "Time Series builder",
+					"description": "Tool allowing to create time series based on given ${D__time_vector} and ${D__double_vector} of values correlated with time. The resulting ${D__time_series} can be used in \u003ca href\u003d\u0027#apps:categories\u003dCorrelation+Analysis\u0027\u003eCorrelation Analysis applications\u003c/a\u003e",
+					"categories": ["Converters"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Source parameters", "Source location"],
+					"citation": "",
+					"name": "Localization",
+					"description": "This application implements TRMLOC localization/relocalization software which performs efficiently the inversion of seismic (acoustic) first arrival time onsets for hypocenter location using the probabilistic inverse theory approach. The application estimates the maximum likelihood hypocenter location, enables other hypocenter location estimators to be calculated and it allows an advanced analysis of location (inversion) uncertainties, providing in addition, meta-characteristics of the data and solutions.\u003cbr/\u003eSee also \u003ca href\u003d\u0027https://tcs.ah-epos.eu/eprints/1592/1/TRCloc_manual-v4.2.pdf\u0027\u003eTrmloc program documentation\u003c/a\u003e.",
+					"categories": ["Source Parameter Estimation"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Statistical analysis", "Statistical properties of seismicity"],
+					"citation": "",
+					"name": "Priestley-Subba Rao (PSR) test",
+					"description": "A test of stationarity to check, if statistical properties do not change with time. Stationarity in a strict sense is the strongest form of stationarity. It means that the joint statistical distribution of any collection of the time series variates never depends on time, the mean, variance and any moment of any variate is the same whichever variate. The second order stationarity is often consider for normal use. In this case a constant mean, a constant variance, and an autocovariance that does not depend on time. To check if a time series is stationary in second order mean a Priestley-Subba Rao (PSR) Test is used.",
+					"categories": ["Collective Properties of Seismicity"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Geo-resource production impact", "Statistical properties of seismicity", "Mainshocks", "Aftershocks"],
+					"citation": "",
+					"name": "Earthquake interactions: Mainshock scale",
+					"description": "\u003cp\u003eScientific Background\u003cbr/\u003e\nThere is no consensus on the a-priori distance-time-size patterns to be selected to relate a given earthquake to a given georesource-reservoir exploitation (e.g. Gupta, 2002, Klose 2013, NRC, 2013). From the one hand, some authors suggest, on observational bases, a 30-50 km distance and 10-20 years times from reservoir to relate an earthquake to a given geo-resource « reservoir » (e.g. for a review Gupta, 2002, Klose 2013). These a-priori space-time windows question on any of the physics processes that may drive a constant triggering distance to an extended loading source (i.e. not a point source such as a lake surface, or hydrocarbon reservoir).\u003cbr/\u003e\nFrom the other hand, there are evidences that the use of the absolute distance captures earthquake-earthquake triggering patterns (as aftershock-mainshock pair) that hide the key properties of the event interactions (e.g. Bak et al 2002; Parsons and Velasco, 2009, Tahir et al., 2012, Tahir and Grasso, 2015, de Arcangelis et al 2016).  For tectonic earthquake interactions, the size of the triggering zone is mapped by static stress perturbation. This later is estimated to be in the 1-3 L ranges for aftershocks triggering (Parsons and Velasco 2009; Tahir et al. 2012; Tahir and Grasso, 2015). For the tectonic earthquake analysis (L) is the mainshock fault length as derived from magnitude scale (e.g. Wells and Coppersmith, 1994). In order to mimics the earthquake interaction analysis, we choose  (Lr) the reservoir length as the equivalent of the mainshock fault length, the characteristic dimension that drives the stress change pattern induced by georesource productions (e.g. Gupta and Rastogi 1976, Bell and Nur, 1978, Roeloffs, 1988; Segall et al. 1994,  Deng et al., 2010).\u003cbr/\u003e\nThis way, in the episodes and applications we uploaded on the platform, we propose to analyse the triggering patterns around geo-resource production using 1-3-10Lr normalized distances to the georesource “reservoir”, respectively.  Lr is the characteristic dimension the user defines from the geometry of the georesource production the user work with. Furthermore the rate of aftershocks, whatever the definition, provides information on the proportion of events directly driven by the geo-resource production and the one that are triggered by others earthquake (Helmstetter et al. 2002,  Traversa et Grasso 2008,  De Arcangelis et al. 2016)\u003c/p\u003e\n\u003cp\u003eApplication objectives\u003cbr/\u003e\nAnthropogenic seismicity rate and magnitude are analyzed using superposed epochs to extract mean field patterns that are more robust than a single serie. This application analyse aftershocks sequence in the  1-3L near field distances, L being the Fault length for the earthquake mainshocks. \u003cbr/\u003e\nInput data are time series from seismicity catalogue.\u003cbr/\u003e\nThis application is important to quantify the mean field pattern of aftershock production to be compared with regional  tectonic patterns\u003cbr/\u003e\nOutputs as aftershock rate over time may be compared to outputs of application “Earthquake interactions - georesource  scale”\u003cp/\u003e\n",
+					"categories": ["Earthquake Interactions"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Statistical analysis", "Probabilistic seismic hazard analysis", "Stationary hazard"],
+					"citation": "",
+					"name": "Stationary Hazard: Maximum Credible Magnitude",
+					"description": "This application uses the magnitude distribution and activity rate from calculated a seismic catalog to estimate the Maximum Credible Magnitude (MCM). The MCM for the time period of length T is the magnitude value whose mean return period is T. The MCM values are calculated for a series of periods of length values. Note: “Source size distribution functions/Stationary Hazard” application must be run before.",
+					"categories": ["Probabilistic Seismic Hazard Analysis"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Stress modelling", "Geo-resource production impact", "Production - seismicity interaction"],
+					"citation": "",
+					"name": "Fracture Network Models - Mechanical Stresses",
+					"description": "Interactively plot stress patterns associated with the hydraulic fracturing of a shale gas well. The data is based on the physical and geological conditions at the Preese Hall Episode site.",
+					"categories": ["Visualizations"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Statistical analysis", "Probabilistic seismic hazard analysis", "Time-dependent hazard", "Production-dependent hazard", "Production - seismicity interaction"],
+					"citation": "",
+					"name": "Estimation of source parameters in time-varying production parameters geometry",
+					"description": "To estimate time-dependent values of seismic hazard parameters: the activity rate, the Gutenberg-Richter b-value, the return period and the exceedance probability for a prescribed area. The time windows considered for the analysis are graphically selected by the user from production parameter plots. In such way these windows and the derived hazard parameters are directly associated to anthropogenic activity. For the magnitude distribution estimation methods please refer to the “Stationary Hazard” application.",
+					"categories": ["Probabilistic Seismic Hazard Analysis"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Source mechanism", "Moment tensor", "Stress inversion"],
+					"citation": "",
+					"name": "Stress inversion",
+					"description": "This application evaluates stress axis orientation (σ1, σ2, σ3 axis orientation as well as P and T axes orientation) and relative stress magnitude (R value) by inverting earthquake focal mechanisms. Stress state can be defined for a point (0D case), profile or time change (1D case), map (2D). The framework of calculating the deviatoric stress tensor together with its uncertainties using bootstrap resampling method is also provided along with a variety of plots.\u003cbr/\u003eSee also \u003ca href\u003d\u0027https://www.induced.pl/software/msatsi\u0027\u003e\u003ci\u003eMSATSI\u003c/i\u003e documentation\u003c/a\u003e.",
+					"categories": ["Stress Field Modeling"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Format conversion", "Data merging", "Data filtering", "Data export"],
+					"citation": "",
+					"name": "SEED to miniSEED converter",
+					"description": "Converts SEED volume to miniSEED. The result can be either saved to a single file named similarly to the source file or trace can be saved to a separate file named \u0027network.station.location.channel.starttime_microsecond.msd\u0027.",
+					"categories": ["Converters", "Seismogram Analysis Tools"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Episode-oriented graphics", "Episode visualization", "GIS data visualization", "Production data visualization"],
+					"citation": "",
+					"name": "Integrated Google Maps data visualization",
+					"description": "Application allowing visualization of miscellaneous data containing elements with geographical coordinates - e.g. ${D__catalog}, ${D__station_networks} and GDF files with localizations.",
+					"categories": ["Visualizations"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Statistical analysis", "Statistical properties of seismicity", "Parameter probabilistic distribution"],
+					"citation": "",
+					"name": "Test for multimodal magnitude distribution",
+					"description": "This Application performs testing of hypothesis of multimodality and existence of multi-bumps in a given magnitude distribution.",
+					"categories": ["Statistical Properties of Seismicity"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Statistical analysis", "Statistical properties of seismicity", "Geo-resource production impact", "Production - seismicity interaction"],
+					"citation": "",
+					"name": "Cross-correlation",
+					"description": "The Cross Correlation is a measure of similarity of two data series as a function of the displacement of one relative to the other.",
+					"categories": ["Correlation Analysis"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Source location", "Hypocenter location"],
+					"citation": "",
+					"name": "Waveform-based seismic event location",
+					"description": "\u003cp\u003eThis application implements a location procedure which allows imaging the distribution of seismic sources in both time and space. First, a characteristic function (CF; in this case, the STA/LTA ratio) is calculated at all the vertical-component seismograms from the selected stations. The user then define a volume likely containing the source(s), and a number of grid nodes along the two horizontal (NS-EW) and vertical coordinates for discretising this volume. For each grid node located at the arbitrary location (x,y,z), the predicted arrival times are calculated at all the stations, and the different CFs are time-shifted consequently. By stacking these time-shifted CFs one obtains a time-dependent Brightness function associated with that particular grid node. The procedure is iterated over all the grid nodes of the source volume; at the end of the process, the maximum (maxima) of the Brightness function will provide an estimate of the source location and origin time. The main advantage of this procedure is that it exploits waveform information (both arrival times and relative amplitudes) without the need of pre-assembled phase-picking data. The method, therefore, is particularly well-suited for emergent signals and/or for real-time applications. The technique has been largely inspired by the previous works from Kao and Shan (2004), Grigoli et al. (2013, 2014), Langet et al., (2014), to which the reader is referred for a more comprehensive description of the methodology.\u003c/p\u003e\u003cp\u003eThe application parameters include: P-wave velocity of homogeneous model; coordinates of the corners of the volume where sources are sought; number of grid nodes for parameterizing the source volume; time window length for calculating the characteristic function; corner frequencies of band-pass filter; output type\u003c/p\u003e",
+					"categories": ["Source Parameter Estimation"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Source parameters", "Earthquake spectra"],
+					"citation": "",
+					"name": "Spectral Analysis",
+					"description": "P and S waves spectral levels and corner frequencies using Snoke algorithm (Snoke, 1987).",
+					"categories": ["Source Parameter Estimation"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Ground Motion Prediction Equations"],
+					"citation": "",
+					"name": "Ground Motion Prediction Equations: GMPE calculation",
+					"description": "The first step of Ground Motion Prediction Equations. To estimate ground motion prediction equation (GMPE). The GMPE relates ground motion parameters, usually amplitude parameters, to sets of independent variables representing the cause of the motion. The following independent variables could be taken into account: characteristic of the path, source and site. Moreover, the non-linearity of ground vibration propagation on short distances from the epicenter is supported by using \u0027h\u0027 as the common/fix depth so that the standard error of estimation is minimised. The final model is estimated using ordinary one-stage regression method in three steps, including the statistical and physical consistency of the model, estimation of the fixed depth (if it\u0027s chosen as a parameter) and residuals analysis. ",
+					"categories": ["Probabilistic Seismic Hazard Analysis"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Format conversion", "Data download", "Data export"],
+					"citation": "",
+					"name": "GDF to CSV converter",
+					"description": "Exports a GDF MATLAB file as a CSV (comma-separated values) file.",
+					"categories": ["Converters"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Format conversion", "Data filtering", "Data export"],
+					"citation": "",
+					"name": "SEED to FDSN Station XML converter",
+					"description": "Reads Inventory from SEED volume and converts it to FDSN Station XML.",
+					"categories": ["Converters"]
+				}
+			}, {
+				"type": "Feature",
+				"properties": {
+					"keywords": ["Coulomb stress", "Deep geothermal reservoir", "Thermohydro-mechanical model"],
+					"citation": "",
+					"name": "Stress and strain changes induced by fluid injection and temperature change driven by geothermal injection",
+					"description": "\u003cp\u003ePredictions of the temperature and Coulomb stress changes are made in a deep reservoir with hydro-thermal circulation and thermo-poro-elastic effects. The application is currently limited to the case of the unexploited deep geothermal reservoir homogenized at the scale of the Representative Elementary Volume. Rock properties of homogenized layers and brine properties are adjusted as inputs in order to generate temperature and Coulomb stress spatial distribution at the stationary state. The application is based on a 2D thermo-hydromechanical (THM) modeling. The equations governing THM processes are solved by a finite element approach using the Open Source Code_Aster software. The profiles of temperature-depth as well as the stress spatial distribution are obtained as output using the GMSH, gnuplot, python for their visualization.\u003c/p\u003e\u003cp\u003eTypical values of the parameters can be found in \u003ca href\u003d\u0027https://tcs.ah-epos.eu/eprints/2243/\u0027\u003ethis article\u003c/a\u003e.\u003c/p\u003e",
+					"categories": ["Collective Properties of Seismicity"]
+				}
+			}
+		]
+	}
+}

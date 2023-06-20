@@ -1,0 +1,5 @@
+N.b. At the time of writing this incoming payload would fail transformation with the old Mapper code.
+This was due to /quakeml/eventParameters/event/magnitude[*]/type elements always being expected. This led to NPEs and, as a result, no transformation occurs. Unfortunately the NPE is swallowed up so the failure to transform 
+is not handled in any way.
+
+Decided that such a payload should be valid: I do not know where this sample came from but assume it is real-world and the 'quakeml.xsd' does not declare /quakeml/eventParameters/event/magnitude[*]/type elements as mandatory.

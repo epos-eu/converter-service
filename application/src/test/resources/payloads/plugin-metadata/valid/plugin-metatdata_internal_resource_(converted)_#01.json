@@ -1,0 +1,78 @@
+[
+	{
+		"pluginKey": {
+			"id": "standards/internalICS/plugins/metadata",
+			"version": "1.0.0"
+		},
+		"pluginHeader": {
+			"name": "ICS-C Internal::Plugins-metadata",
+			"description": "Plugin for the conversion of Metadata Service derived plugin metadata (JSONArray) into an internal Converter format (JSONArray)",
+			"authorName": "Phil Atkinson",
+			"authorContact": "patk@bgs.ac.uk",
+			"repoLocation": "https://github.com/epos/plugins/internal-ics-c/",
+			"installLocation": "standard/plugins/internalics",
+			"proxyType": "Java-Reflection"
+		},
+		"conversions": [{
+			"mapping": {
+				"requestType": "icsc-internal/plugins-metadata",
+				"requestContentType": "application/json",
+				"responseContentType": "application/json"
+			},
+			"execution": {
+				"invocationDetail": [
+					"internalPluginMetadata-1.0.0.jar",
+					"org.epos.converter.plugin.internalicsc.pluginmetadata.PluginMetadataCallablePlugin"
+				]
+			}
+		}]
+	},{
+		"pluginKey": {
+			"id": "wp14-visualise-episodes-dcatid",
+			"version": "1.2.0"
+		},
+		"pluginHeader": {
+			"name": "WP14::Episodes",
+			"repoLocation": "https://github.com/epos/plugins/wp14/episodes",
+			"installLocation": "tcs/plugins/wp14",
+			"proxyType": "Java-Reflection"
+		},
+		"conversions": [{
+			"mapping": {
+				"requestType": "visualise/episode/tcsjson",
+				"requestContentType": "application/json",
+				"responseContentType": "application/epos.geo+json"
+			},
+			"execution": {
+				"invocationDetail": [
+					"plugin-visualise-episode-0.0.1-SNAPSHOT.jar",
+					"org.epos_ip.converter.plugin.visualiseepisode.VisualiseEpisodeCallablePlugin"
+				]
+			}
+		},{
+			"mapping": {
+				"requestType": "visualise/episode-elements/tcsjson",
+				"requestContentType": "application/json",
+				"responseContentType": "application/epos.geo+json"
+			},
+			"execution": {
+				"invocationDetail": [
+					"plugin-visualise-episode-0.0.1-SNAPSHOT.jar",
+					"org.epos_ip.converter.plugin.visualiseepisode.VisualiseEpisodeElementsCallablePlugin"
+				]
+			}
+		},{
+			"mapping": {
+				"requestType": "visualise/episode-elements-list/tcsjson",
+				"requestContentType": "application/json",
+				"responseContentType": "application/epos.geo+json"
+			},
+			"execution": {
+				"invocationDetail": [
+					"plugin-visualise-episode-0.0.1-SNAPSHOT.jar",
+					"org.epos_ip.converter.plugin.visualiseepisode.VisualiseEpisodeElementsCallablePlugin"
+				]
+			}
+		}]
+	}
+]

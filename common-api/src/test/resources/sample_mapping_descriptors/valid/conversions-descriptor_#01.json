@@ -1,0 +1,26 @@
+{
+	"conversions": [
+		{
+			"target-classname": "org.epos.converter.common.java.CallableJavaPluginTest$2",
+			"mappings": [
+				{
+					"request": {
+						"type": "tcs/station/fdsn",				
+						"content-type": "application/xml"
+					},
+					"response": {
+						"content-type": "application/epos.geo+json"
+					}
+				},{
+					"request" : {
+						"type": "tcs/station/wp10",
+						"content-type": "application/json"
+					},
+					"response": {
+						"content-type": "application/epos.geo+json"
+					}
+				}	
+			]
+		}
+	]
+}

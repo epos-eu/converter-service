@@ -1,0 +1,2 @@
+Invalid due to business rule: request.content-type is an XML flavour but the corresponding validation schema, wp10-station.json,
+ appears to be for JSON.

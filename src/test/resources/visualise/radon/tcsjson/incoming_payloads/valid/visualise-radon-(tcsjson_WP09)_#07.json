@@ -1,0 +1,16 @@
+{
+	"result": [{
+			"radon_value": "RADON VALUE 999",
+			"value_time": "VALUE TIME 12:34",
+			"station_latitude": 1234.5678,
+			"station_longitude": 8765.4321,
+			"station_location": "STATION LOCATION #1",
+			"station_elevation": "STATION ELEVATION #1",
+			"network_code": "NETWORK CODE #1",
+			"is_mumbo_junmbo": "NO!",
+			"station_code": "STATION CODE #1",
+			"installation_type": "INSTALLATION TYPE #1"
+		}
+	],
+	"superfluous-info": "Lunch was nice today"
+}

@@ -1,0 +1,2 @@
+Response from https://ics-c.epos-ip.org/testing/k8s-epos-deploy/new-architecture/api/resources-service/v1/resources/softwares/plugins on 14.02.22
+- with the optional $[*].locations specified

@@ -1,0 +1,102 @@
+variables:
+  SPRING_PROFILES_ACTIVE: gitlab-ci
+  MAVEN_OPTS: "-Dmaven.repo.local=.m2"
+
+image: docker:latest
+services:
+  - docker
+
+cache:
+  paths:
+    - .m2/repository/
+
+stages:
+ - build
+ - test
+ - install
+ - package
+ - security
+ - release
+ - opensource
+
+build:
+  image: maven:3.8.1-jdk-11
+  stage: build
+  script:
+    - mvn $MAVEN_CLI_OPTS compile
+
+test:
+  image: maven:3.8.1-jdk-11
+  stage: test
+  script:
+    - mvn $MAVEN_CLI_OPTS test
+
+deploy:
+  image: maven:3.8.1-jdk-11
+  stage: install
+  script:
+    - mvn $MAVEN_CLI_OPTS install -Ddependency-check.skip=true
+  artifacts:
+    paths:
+      - application/target/*.jar
+      - plugin-icsc-plugins-metadata/target/*.jar
+
+docker-build-dev:
+  stage: package
+  only:
+    - branches
+  except:
+    - tags
+    - main
+  script:
+   - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+   - docker build -t "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG" -f Dockerfile.dev .
+   - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG"
+
+docker-build-main:
+  stage: package
+  only:
+    - main
+  script:
+   - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+   - docker build -t "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG" -f Dockerfile.prod .
+   - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG"
+
+docker-build-prod:
+  stage: package
+  except:
+    - branches
+  script:
+   - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+   - docker build -t "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG" -f Dockerfile.prod .
+   - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG"
+
+container_scanning:
+  stage: security
+  only:
+    - main
+  image: docker:stable-git
+  before_script:
+      - wget https://github.com/aquasecurity/trivy/releases/download/v0.29.2/trivy_0.29.2_Linux-64bit.tar.gz
+      - tar zxvf trivy_0.29.2_Linux-64bit.tar.gz
+  variables:
+      DOCKER_DRIVER: overlay2
+  allow_failure: true
+  services:
+      - docker:stable-dind
+  script:
+      - ./trivy image --exit-code 0 --severity HIGH --no-progress "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG"
+      - ./trivy image --exit-code 1 --severity CRITICAL --no-progress "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG"
+
+release_tag:
+  stage: release
+  only:
+    - main
+  except:
+    - schedules
+  before_script:
+    - apk update && apk add git && apk add bash
+  script:
+    - git config user.email "${GITLAB_USER_EMAIL}"
+    - git config user.name "${GITLAB_USER_NAME}"
+    - bash ./autotag.sh

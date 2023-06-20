@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<FDSNStationXML xmlns='http://www.fdsn.org/xml/station/1' schemaVersion='1.0'>
+	<Source>Squiffy</Source>
+	<Created>2019-02-20T13:27:42</Created>
+	<Network code='NETWORK NAME #1'>
+		<Description>SOME COMMENT #1</Description>
+		<Station code='KVLA'>
+			<Latitude>50.8506</Latitude>
+			<Longitude>111.12345678</Longitude>
+			<Elevation>1030.01</Elevation>
+			<Site>
+				<Name>SOME CITY NAME #1</Name>
+				<Country>SOME COUNTRY NAME #1</Country>
+			</Site>
+			<CreationDate>2019-02-20T13:27:41</CreationDate>
+		</Station>
+		<Station code='KVLA'>
+			<Latitude>50.8506</Latitude>
+			<Longitude>111.12345678</Longitude>
+			<Elevation>1030.01</Elevation>
+			<Site>
+				<Name>SOME CITY NAME #1</Name>
+				<Country>SOME COUNTRY NAME #1</Country>
+			</Site>
+			<CreationDate>2019-02-20T13:27:41</CreationDate>
+		</Station>
+	</Network>
+</FDSNStationXML>

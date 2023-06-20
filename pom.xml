@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.epos.converter</groupId>
+	<artifactId>converter</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>epos.converter</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<skip.unit.tests>false</skip.unit.tests>
+		<skip.integration.tests>false</skip.integration.tests>
+		<converter.common.version>0.0.1-SNAPSHOT</converter.common.version>
+		<maven-failsafe-plugin.version>3.0.0-M3</maven-failsafe-plugin.version>
+	</properties>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.7.5</version>
+	</parent>
+
+	<modules>
+		<module>common-api</module>
+		<module>common-util</module>
+		<module>plugin-icsc-plugins-metadata</module>
+		<module>plugin-invoker-test</module>
+		<module>application</module>
+	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+
+			<dependency>
+				<groupId>org.apache.logging.log4j</groupId>
+				<artifactId>log4j-slf4j-impl</artifactId>
+				<version>2.17.1</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core -->
+			<dependency>
+				<groupId>org.apache.tomcat.embed</groupId>
+				<artifactId>tomcat-embed-core</artifactId>
+				<version>11.0.0-M3</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+			<dependency>
+				<groupId>com.google.code.gson</groupId>
+				<artifactId>gson</artifactId>
+				<version>2.9.0</version>
+			</dependency>
+
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.junit.vintage</groupId>
+			<artifactId>junit-vintage-engine</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-params</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M3</version>
+				<configuration>
+					<skipTests>false</skipTests>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.10.0</version><!--$NO-MVN-MAN-VER$ -->
+				<configuration>
+					<release>11</release>
+				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>org.ow2.asm</groupId>
+						<artifactId>asm</artifactId>
+						<version>6.2</version> <!-- Use newer version of ASM -->
+					</dependency>
+				</dependencies>
+			</plugin>
+
+			<!-- <plugin> Build an executable JAR <groupId>org.apache.maven.plugins</groupId> 
+				<artifactId>maven-jar-plugin</artifactId> <configuration> <archive> <manifest> 
+				<mainClass>io.swagger.Swagger2SpringBoot</mainClass> </manifest> </archive> 
+				</configuration> </plugin> -->
+
+			<!-- <executions> <execution> <id>integration-test</id> <goals> <goal>test</goal> 
+				</goals> <phase>integration-test</phase> <configuration> <excludes> <exclude>none</exclude> 
+				</excludes> <includes> <include>**/*IT.java</include> </includes> <groups>org.epos_ip.converter.common.util.test.IntegrationTest</groups> 
+				<skipTests>${skip.integration.tests}</skipTests> </configuration> </execution> 
+				</executions> -->
+		</plugins>
+
+		<pluginManagement>
+			<plugins>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-failsafe-plugin</artifactId>
+					<version>3.0.0-M6</version>
+					<configuration>
+						<additionalClasspathElements>
+							<additionalClasspathElement>${basedir}/target/classes</additionalClasspathElement>
+						</additionalClasspathElements>
+						<includes>
+							<include>**/*IT.java</include>
+						</includes>
+					</configuration>
+					<executions>
+						<execution>
+							<id>project-level-integration-tests</id>
+							<phase>none</phase>
+							<goals>
+								<goal>integration-test</goal>
+							</goals>
+						</execution>
+						<execution>
+							<id>project-level-integration-tests-verify</id>
+							<phase>none</phase>
+							<goals>
+								<goal>verify</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+
+				<!-- to support developer dependency-testing -->
+				<plugin>
+					<groupId>org.owasp</groupId>
+					<artifactId>dependency-check-maven</artifactId>
+					<version>8.1.0</version>
+					<executions>
+						<execution>
+							<id>owasp-dependency-check</id>
+							<phase>none</phase>
+							<goals>
+								<goal>check</goal>
+							</goals>
+							<configuration>
+								<failBuildOnCVSS>6.9</failBuildOnCVSS>
+								<assemblyAnalyzerEnabled>false</assemblyAnalyzerEnabled>
+								<suppressionFile>${maven.multiModuleProjectDirectory}/config/owasp-dependency-check_suppressions.xml</suppressionFile>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>
+
+			</plugins>
+		</pluginManagement>
+
+	</build>
+
+</project>

@@ -1,0 +1,72 @@
+{
+	"name": "station-default",
+	"id": "STN-WP10",
+	"version": "1.0.0",
+	"author": {
+		"name": "patkftgs.ac.uk",
+		"contact": "email@email.com"
+	},
+	"execution": {
+		"invoker-type": "Java-Reflection",
+		"target-detail": "java_plugins_dir;plugin-station-default-0.0.1.jar;org.epos.converter.plugin.visualisestation.VisualiseStationXMLCallablePlugin"
+	},
+	"conversions": [{
+		"request": {
+			"type": "tcs/station/fdsn",
+			"content-type": "application/xml",
+			"validation": {
+				"pointer-expression": "/",
+				"format-type": "xml",
+				"schema-name": "fsdn-station-restricted-1.0.xsd",
+				"schema-location-type": "path",
+				"schema-location": "/schemas/request",
+				"children": [{			
+					"pointer-expression": "/my-root-element/some-element-with-json-in",
+					"format-type": "json",
+					"schema-name": "my-nested.json",
+					"schema-location-type": "path",
+					"schema-location": "/schemas/request",
+					"children": [{
+						"pointer-expression": "$.some-xml-here",
+						"format-type": "xml",
+						"schema-name": "my-nested-nested.xml",
+						"schema-location-type": "path",
+						"schema-location": "/schemas/request"
+					}]						
+				},{
+					"pointer-expression": "/my-root-element/some-element-with-xml-in",
+					"format-type": "xml",
+					"schema-name": "my-nested.xml",
+					"schema-location-type": "path",
+					"schema-location": "/schemas/request"
+				}]
+			}
+		},
+		"response": {
+			"content-type": "application/epos.geo+json",
+			"validation": {
+				"schema-name": "geojson.json",
+				"schema-location-type": "path",
+				"schema-location": "/schemas/response"
+			}
+		}
+	},{
+		"request" : {
+			"type": "tcs/station/wp10",
+			"content-type": "application/xml",
+			"validation": {
+				"schema-name": "wp10-station.json",
+				"schema-location-type": "url",
+				"schema-location": "http://schemalocation.com/incoming"
+			}
+		},
+		"response": {
+			"content-type": "application/epos.geo+json",
+			"validation": {
+				"schema-name": "geojson.json",
+				"schema-location-type": "url",
+				"schema-location": "http://schemalocation.com/outgoing"
+			}
+		}
+	}]
+}

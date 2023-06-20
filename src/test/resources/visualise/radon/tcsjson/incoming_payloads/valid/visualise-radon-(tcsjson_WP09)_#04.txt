@@ -1,0 +1,3 @@
+Valid TCS result containing 3 full records (2 for same station; 1 for another station [differing from other only in terms of station's longitude]'])
+
+N.b. The previous 'Mapper' module had a bug in the MapperBean+equals() method which meant records with latitude differences could still be grouped together. Therefore the output from the 'Mapper' and 'Converter' are expected to differ!

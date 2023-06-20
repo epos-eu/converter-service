@@ -1,0 +1,3 @@
+Result record missing radon_value/value_time values:
+ Use a literal "null" string to indicate missing values. 
+ This may not be what we is wanted long term maybe!?!

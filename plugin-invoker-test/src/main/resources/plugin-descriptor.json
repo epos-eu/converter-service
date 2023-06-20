@@ -1,0 +1,32 @@
+{
+	"name": "plugin-invoker-test",
+	"id": "PLT-PAA01",
+	"version": "1.0.0",
+	"author": {
+		"name": "patkftgs.ac.uk",
+		"contact": "email@email.com"
+	},
+	"execution": {
+		"invoker-type": "Java-Reflection",
+		"target-detail": "some-jar-location-here;plugin-keywords-0.0.1-SNAPSHOT.jar;org.epos.converter.plugin.invokertest.InvokerTestCallablePlugin"
+	},
+	"conversions": [{
+		"request": {
+			"type": "OTHER_TRANSFORMATION_TYPE-1",				
+			"content-type": "application/json",			
+			"validation": {								
+				"schema-name": "my_nice_schema_in.json",		
+				"schema-location-type": "path",						
+				"schema-location": "schemas/payload_incoming"
+			}
+		},
+		"response": {
+			"content-type": "application/json",			
+			"validation": {													
+				"schema-name": "my_nice_schema_out.json",
+				"schema-location-type": "path",
+				"schema-location": "schemas/payload_outgoing"
+			}
+		}
+	}]
+}

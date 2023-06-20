@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://epos_ip.tcs/payload.incoming.visualise.radon.tcsjson",
+  "title": "Incoming TCS Payload for visualise/radon/tcsjson",
+  "description": "Describes the format for visualise/radon/tcsjson payloads coming from the TCSs",
+  "type": "object",
+  "required": [ "result" ],
+  "properties": {
+    "result": {
+      "type": "array",
+      "items": {
+      	"type": "object",
+      	"required": [ "station_latitude", "station_longitude", "radon_value", "value_time" ],
+      	"properties": {
+      		"station_latitude": { "type": "number" },
+      		"station_longitude": { "type": "number" },
+      		"radon_value": {  },
+      		"value_time": {  },
+      		"station_location": {  },
+      		"station_elevation": {  },
+      		"network_code": {  },
+      		"station_code": {  },
+      		"installation_type": {  }
+      	},
+      	"additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

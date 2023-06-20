@@ -1,0 +1,50 @@
+{
+	"type": "FeatureCollection",
+	"@epos_style": {
+		"seismic_event": {
+			"label": "seismic_event",
+			"marker": {
+				"pin": false,
+				"clustering": false
+			}
+		}
+	},
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_event",
+				"@epos_label_key": "seismic_event",
+				"@epos_map_keys": ["Mag type", "EventType", "Country", "ID", "Magnitude", "Date"],
+				"@epos_data_keys": ["Mag type", "EventType", "Country", "ID", "Magnitude", "Date"],
+				"Mag type": "Mw",
+				"EventType": "earthquake",
+				"Country": "western Turkey",
+				"ID": "quakeml:eu.ahead/event/18990920_0222_000",
+				"Magnitude": "6.67",
+				"Date": "1899-09-20T02:22:35.48Z"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [28.083, 37.88]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "seismic_event",
+				"@epos_label_key": "seismic_event",
+				"@epos_map_keys": ["Mag type", "EventType", "Country", "ID", "Magnitude", "Date"],
+				"@epos_data_keys": ["Mag type", "EventType", "Country", "ID", "Magnitude", "Date"],
+				"Mag type": "Mw",
+				"EventType": "earthquake",
+				"Country": "\n\t\t\t\t\t southern Greece \n\t\t\t\t",
+				"ID": "quakeml:eu.ahead/event/18990122_0956_000",
+				"Magnitude": "6.5",
+				"Date": "1899-01-22T09:56:35.48Z"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [21.6, 37.2]
+			}
+		}
+	]
+}

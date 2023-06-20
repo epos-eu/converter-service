@@ -1,0 +1,2 @@
+Simple and valid TCS result containing 2 records for same station but one missing a value_time.
+But 'value_time' is now designated as a mandatory field.

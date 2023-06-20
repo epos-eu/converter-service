@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions
+	xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+	
+	<suppress>
+		<!-- not currently exploitable in this app: using snakeyml for spring config (c.f. https://bitbucket.org/snakeyaml/snakeyaml/wiki/CVE-2022-1471) -->
+ 		<cve>CVE-2022-1471</cve>
+	   	<!-- currently no fix available -->
+		<cve>CVE-2022-45688</cve>
+		<!-- Mistakenly revived issue with no fix (CVE-2016-1000027). c.f. https://github.com/spring-projects/spring-framework/issues/24434#issuecomment-582313417 -->
+   		<cve>CVE-2016-1000027</cve>
+	</suppress>
+
+</suppressions>

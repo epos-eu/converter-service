@@ -1,0 +1,34 @@
+{
+	"type": "FeatureCollection",
+	"@epos_style": {
+		"radon": {
+			"label": "radon",
+			"marker": {
+				"pin": false,
+				"clustering": false,
+				"fontawesome_class": "fa fa-flask"
+			}
+		}
+	},
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "radon",
+				"@epos_label_key": "Radon",
+				"@epos_map_keys": ["Station location", "Station elevation", "Installation type", "time", "Station code", "Network code", "value"],
+				"@epos_data_keys": ["Station location", "Station elevation", "Installation type", "time", "Station code", "Network code", "value"],
+				"Station location": "STATION LOCATION #1",
+				"Station elevation": "STATION ELEVATION #1",
+				"Installation type": "INSTALLATION TYPE #1",
+				"time": ["VALUE TIME 12:34", "null"],
+				"Station code": "STATION CODE #1",
+				"Network code": "NETWORK CODE #1",
+				"value": ["RADON VALUE 999", "null"]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [8765.4321, 1234.5678]
+			}
+		}
+	]
+}

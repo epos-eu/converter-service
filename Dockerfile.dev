@@ -1,0 +1,23 @@
+FROM openjdk:11-jdk
+
+RUN mkdir -p /opt/converter/framework
+ADD ./application/target/*.jar /opt/converter/framework/application.jar
+
+RUN mkdir -p /opt/converter/plugins
+RUN mkdir -p /opt/converter/plugins/installs
+RUN mkdir -p /opt/converter/plugins/installs/ics-c.plugins-metadata
+RUN mkdir -p /opt/converter/plugins/installs/ics-c.plugins-metadata/0.1.0-SNAPSHOT
+
+COPY ./application/src/integration-test/resources/plugins/ics-c.plugins-metadata/0.1.0-SNAPSHOT/. /opt/converter/plugins/installs/ics-c.plugins-metadata/0.1.0-SNAPSHOT
+
+WORKDIR /opt/converter
+
+ENV BROKER_HOST=<broker-host>
+ENV BROKER_PASSWORD=<broker-password>
+ENV BROKER_USERNAME=<broker-username>
+ENV BROKER_VHOST=<broker-vhost>
+
+EXPOSE 5672
+EXPOSE 15672
+
+CMD "java" "-Dspring.profiles.active=prod" "-Dlogging.level.org.epos=DEBUG" "-Djava.security.egd=file:/dev/./urandom" "-jar" "./framework/application.jar"

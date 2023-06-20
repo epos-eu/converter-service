@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://epos_ip.tcs/plugin.descriptor",
+  "title": "Plugin Descriptor structure",
+  "description": "Describes the format for plugin descriptors",
+  "definitions": {
+  	"validation-structure": {
+  		"type": "object",
+  		"required": [ "schema-name", "schema-location-type", "schema-location" ],
+  		"properties": {
+  			"pointer-expression": { "type": "string" },
+  			"format-type": { "enum": [ "xml", "json" ] },
+  			"schema-name": { "type": "string" },
+  			"schema-location-type": { "enum": [ "path", "url" ] },
+  			"schema-location": { "type": "string" },
+  			"children": {
+  				"type": "array",
+  				"items": { "$ref": "#/definitions/child-validation-structure" }
+  			}
+  		},
+  		"additionalProperties": false
+  	},
+  	"child-validation-structure": {
+  		"type": "object",
+  		"required": [ "pointer-expression", "format-type", "schema-name", "schema-location-type", "schema-location" ],
+  		"properties": {
+  			"pointer-expression": { "type": "string" },
+  			"format-type": { "enum": [ "xml", "json" ] },
+  			"schema-name": { "type": "string" },
+  			"schema-location-type": { "enum": [ "path", "url" ] },
+  			"schema-location": { "type": "string" },
+  			"children": { 
+  				"type": "array",
+  				"items": { "$ref": "#/definitions/child-validation-structure" } 
+  			}
+  		},
+  		"additionalProperties": false
+  	}
+  },
+  "type": "object",
+  "required": [ "id", "name", "version", "author", "conversions" ],
+  "properties": {
+	"name": { "type": "string" },
+	"id": { "type": "string" },
+  	"version": { "type": "string" },
+  	"plugin-location": { "type": "string" },
+  	"author": {
+  		"type": "object",
+  		"required": [ "contact" ],
+  		"properties": {
+  			"name": { "type": "string" },
+  			"contact": { "type": "string" }
+  		},
+  		"additionalProperties": true
+  	},
+  	"conversions": {
+  		"type": "array",
+  		"items": {
+  			"type": "object",
+  			"required": [ "execution", "request", "response" ],
+  			"properties": {
+				"execution": {
+					"type": "object",
+					"required": [ "invoker-type", "target-detail" ],
+					"properties": {
+						"invoker-type": { 
+							"enum": [ "Java-Reflection", "Java-RMI", "Java-JINI", "Python", "Go" ]
+						},
+						"plugin-install-location": { 
+							"type": "string" 
+						},
+						"target-detail": { 
+							"type": "string" 
+						}
+					},
+					"additionalProperties": false
+				},
+	  			"request": {
+	  				"type": "object",
+	  				"required": [ "type", "content-type" ],
+	  				"properties": {
+	  					"type": { "type": "string" },
+	  					"content-type": { "type": "string" },
+	  					"validation": { "$ref": "#/definitions/validation-structure" }
+	  				},
+	  				"additionalProperties": false
+	  			},
+	  			"response": {
+	  				"type": "object",
+	  				"required": [ "content-type" ],
+	  				"properties": {
+	  					"content-type": { "type": "string" },
+	  					"validation": { "$ref": "#/definitions/validation-structure" }
+	  				},
+	  				"additionalProperties": false
+	  			}
+	  		},
+	  		"additionalProperties": false
+  		}
+  	}
+  },
+  "additionalProperties": false	
+}

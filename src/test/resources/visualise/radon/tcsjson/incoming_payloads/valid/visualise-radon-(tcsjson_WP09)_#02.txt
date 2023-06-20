@@ -1,0 +1,1 @@
+Simple and valid TCS result containing 2 full but independent records (i.e. coming from different stations)

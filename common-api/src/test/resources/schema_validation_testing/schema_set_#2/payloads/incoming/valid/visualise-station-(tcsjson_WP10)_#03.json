@@ -1,0 +1,54 @@
+{
+	"TCSRESULT": [{
+			"geological": "GEOLOGICAL #1",
+			"comment": "SOME COMMENT #1",
+			"marker": "SOME MARKER #1",
+			"location": {
+				"city": {
+					"name": "SOME CITY NAME #1",
+					"state": {
+						"country": {
+							"name": "SOME COUNTRY NAME #1"
+						}
+					}
+				},
+				"coordinates": {
+					"altitude": "SOME ALTITUDE #1",
+					"lat": 999.87654321,
+					"lon": 111.12345678
+				}
+			},
+			"station_networks": [{
+					"network": {
+						"name": "NETWORK NAME #1"
+					}
+				}
+			]
+		}, {
+			"geological": "GEOLOGICAL #2",
+			"comment": "SOME COMMENT #2",
+			"marker": "SOME MARKER #2",
+			"location": {
+				"city": {
+					"name": "SOME CITY NAME #2",
+					"state": {
+						"country": {
+							"name": "SOME COUNTRY NAME #2"
+						}
+					}
+				},
+				"coordinates": {
+					"altitude": "SOME ALTITUDE #2",
+					"lat": 999.87654321,
+					"lon": 111.12345678
+				}
+			},
+			"station_networks": [{
+					"network": {
+						"name": "NETWORK NAME #2"
+					}
+				}
+			]
+		}
+	]
+}

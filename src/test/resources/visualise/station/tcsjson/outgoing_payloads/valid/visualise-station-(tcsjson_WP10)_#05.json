@@ -1,0 +1,9 @@
+{
+	"type": "FeatureCollection",
+	"@epos_style": {
+		"geologica_station": {
+			"label": "geologica_station"
+		}
+	},
+	"features": []
+}

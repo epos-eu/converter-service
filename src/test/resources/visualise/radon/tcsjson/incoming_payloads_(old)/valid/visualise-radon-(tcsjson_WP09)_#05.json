@@ -1,0 +1,34 @@
+{"TCSRESULT": {
+	"result": [{
+			"radon_value": "RADON VALUE 999",
+			"value_time": "VALUE TIME 12:34",
+			"station_latitude": 1234.5678,
+			"station_longitude": 8765.4321,
+			"station_location": "STATION LOCATION #1",
+			"station_elevation": "STATION ELEVATION #1",
+			"network_code": "NETWORK CODE #1",
+			"station_code": "STATION CODE #1",
+			"installation_type": "INSTALLATION TYPE #1"
+		}, {
+			"radon_value": "RADON VALUE 888",
+			"value_time": "VALUE TIME 12:34",
+			"station_latitude": 9234.5678,
+			"station_longitude": 8765.4321,
+			"station_location": "STATION LOCATION #1",
+			"station_elevation": "STATION ELEVATION #1",
+			"network_code": "NETWORK CODE #1",
+			"station_code": "STATION CODE #1",
+			"installation_type": "INSTALLATION TYPE #1"
+		}, {
+			"radon_value": "RADON VALUE 111",
+			"value_time": "VALUE TIME 12:34",
+			"station_latitude": 1234.5678,
+			"station_longitude": 8765.4321,
+			"station_location": "STATION LOCATION #1",
+			"station_elevation": "STATION ELEVATION #1",
+			"network_code": "NETWORK CODE #1",
+			"station_code": "STATION CODE #1",
+			"installation_type": "INSTALLATION TYPE #1"
+		}
+	]
+}}

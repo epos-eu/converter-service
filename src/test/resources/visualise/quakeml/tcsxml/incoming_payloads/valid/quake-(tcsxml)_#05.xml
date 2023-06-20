@@ -1,0 +1,162 @@
+<quakeml xmlns='http://quakeml.org/xmlns/bed/1.2' xmlns:q='http://quakeml.org/xmlns/quakeml/1.2' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://quakeml.org/schema/xsd http://quake.ethz.ch/schema/xsd/QuakeML-1.2.xsd'>
+	<eventParameters publicID='smi:eu.ahead/fdsnws/event/1/query'>
+		<comment>
+			<creationInfo>
+				<creationTime>2019-09-05T06:56:09</creationTime>
+				<author>European Archive of Historical Earthquake Data (AHEAD)</author>
+				<authorURI>smi:doi.org/10.6092/INGV.IT-AHEAD</authorURI>
+				<agencyID>INGV</agencyID>
+				<version>0.1</version>
+			</creationInfo>
+		</comment>
+		<event publicID='quakeml:eu.ahead/event/18990920_0222_000'>
+			<type>earthquake</type>
+			<typeCertainty>known</typeCertainty>
+			<description>
+				<text>
+					<![CDATA[ Nazilli ]]>
+				</text>
+				<type>region name</type>
+			</description>
+			<description>
+				<text>western Turkey</text>
+				<type>Flinn-Engdahl region</type>
+			</description>
+			<preferredOriginID>quakeml:eu.ahead/origin/SHEEC/4649#172033</preferredOriginID>
+			<preferredMagnitudeID>quakeml:eu.ahead/magnitude/SHEEC/4649#172033</preferredMagnitudeID>
+			<origin publicID='quakeml:eu.ahead/origin/SHEEC/4649#172033'>
+				<type>macroseismic</type>
+				<time>
+					<value>1899-09-20T02:22:35.48Z</value>
+				</time>
+				<compositeTime>
+					<year>
+						<value>1899</value>
+					</year>
+					<month>
+						<value>9</value>
+					</month>
+					<day>
+						<value>20</value>
+					</day>
+					<hour>
+						<value>2</value>
+					</hour>
+					<minute>
+						<value>22</value>
+					</minute>
+				</compositeTime>
+				<region>Nazilli</region>
+				<latitude>
+					<value>37.880</value>
+				</latitude>
+				<longitude>
+					<value>28.083</value>
+				</longitude>
+				<evaluationMode>manual</evaluationMode>
+				<evaluationStatus>final</evaluationStatus>
+				<creationInfo>
+					<agencyID>EC FP7 SHARE</agencyID>
+					<creationTime>2013-09-20T02:22:35.48Z</creationTime>
+					<author>SHEEC</author>
+					<authorURI>smi:doi.org/10.6092/INGV.IT-SHARE-SHEEC.1000-1899</authorURI>
+				</creationInfo>
+			</origin>
+			<magnitude publicID='quakeml:eu.ahead/magnitude/SHEEC/4649#172033'>
+				<mag>
+					<value>6.67</value>
+					<uncertainty>0.50</uncertainty>
+				</mag>
+				<type>Mw</type>
+				<originID>quakeml:eu.ahead/origin/SHEEC/4649#172033</originID>
+				<evaluationMode>manual</evaluationMode>
+				<evaluationStatus>final</evaluationStatus>
+				<creationInfo>
+					<agencyID>EC FP7 SHARE</agencyID>
+					<creationTime>2013-09-20T02:22:35.48Z</creationTime>
+					<author>SHEEC</author>
+					<authorURI>smi:doi.org/10.6092/INGV.IT-SHARE-SHEEC.1000-1899</authorURI>
+				</creationInfo>
+			</magnitude>
+			<creationInfo>
+				<agencyID>INGV</agencyID>
+				<author>European Archive of Historical Earthquake Data (AHEAD)</author>
+			</creationInfo>
+		</event>
+		<event publicID='quakeml:eu.ahead/event/18990122_0956_000'>
+			<type>earthquake</type>
+			<typeCertainty>known</typeCertainty>
+			<description>
+				<text>
+					<![CDATA[ Kyparissia ]]>
+				</text>
+				<type>region name</type>
+			</description>
+			<description>
+				<text>
+					<![CDATA[ southern Greece ]]>
+				</text>
+				<type>Flinn-Engdahl region</type>
+			</description>
+			<preferredOriginID>quakeml:eu.ahead/origin/SHEEC/4648#170433</preferredOriginID>
+			<preferredMagnitudeID>quakeml:eu.ahead/magnitude/SHEEC/4648#170433</preferredMagnitudeID>
+			<origin publicID='quakeml:eu.ahead/origin/SHEEC/4648#170433'>
+				<time>
+					<value>1899-01-22T09:56:35.48Z</value>
+				</time>
+				<compositeTime>
+					<year>
+						<value>1899</value>
+					</year>
+					<month>
+						<value>1</value>
+					</month>
+					<day>
+						<value>22</value>
+					</day>
+					<hour>
+						<value>9</value>
+					</hour>
+					<minute>
+						<value>56</value>
+					</minute>
+				</compositeTime>
+				<region>Kyparissia</region>
+				<latitude>
+					<value>37.200</value>
+				</latitude>
+				<longitude>
+					<value>21.600</value>
+				</longitude>
+				<evaluationMode>manual</evaluationMode>
+				<evaluationStatus>final</evaluationStatus>
+				<creationInfo>
+					<agencyID>EC FP7 SHARE</agencyID>
+					<creationTime>2013-09-20T02:22:35.48Z</creationTime>
+					<author>SHEEC</author>
+					<authorURI>smi:doi.org/10.6092/INGV.IT-SHARE-SHEEC.1000-1899</authorURI>
+				</creationInfo>
+			</origin>
+			<magnitude publicID='quakeml:eu.ahead/magnitude/SHEEC/4648#170433'>
+				<mag>
+					<value>6.50</value>
+					<uncertainty>0.30</uncertainty>
+				</mag>
+				<type>Mw</type>
+				<originID>quakeml:eu.ahead/origin/SHEEC/4648#170433</originID>
+				<evaluationMode>manual</evaluationMode>
+				<evaluationStatus>final</evaluationStatus>
+				<creationInfo>
+					<agencyID>EC FP7 SHARE</agencyID>
+					<creationTime>2013-09-20T02:22:35.48Z</creationTime>
+					<author>SHEEC</author>
+					<authorURI>smi:doi.org/10.6092/INGV.IT-SHARE-SHEEC.1000-1899</authorURI>
+				</creationInfo>
+			</magnitude>
+			<creationInfo>
+				<agencyID>INGV</agencyID>
+				<author>European Archive of Historical Earthquake Data (AHEAD)</author>
+			</creationInfo>
+		</event>
+	</eventParameters>
+</quakeml>

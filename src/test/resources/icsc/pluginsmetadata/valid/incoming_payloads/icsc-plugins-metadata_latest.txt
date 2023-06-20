@@ -1,0 +1,1 @@
+- without optional $[*].locations specified (making it compatible with the locations specified for the project's ITs.

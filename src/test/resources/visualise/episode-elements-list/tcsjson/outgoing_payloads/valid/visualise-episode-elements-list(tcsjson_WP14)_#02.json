@@ -1,0 +1,54 @@
+{
+	"type": "FeatureCollection",
+	"@epos_style": {
+		"episode": {
+			"label": "episode",
+			"marker": {
+				"pin": true,
+				"clustering": false
+			}
+		}
+	},
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "episode",
+				"@epos_label_key": "episode",
+				"@epos_map_keys": ["code","country","impactingFactors","name","owner","region","shortName","type"],
+				"@epos_data_keys": ["code","country","impactingFactors","name","owner","region","shortName","type"],
+				"owner": "SOME OWNER #1",
+				"country": "SOME COUNTRY #1",
+				"code": "SOME CODE #1",
+				"name": "SOME NAME #1",
+				"type": "episode",
+				"shortName": "SOME SHORT NAME #1",
+				"region": "SOME REGION #1",
+				"impactingFactors": "[SOME FACTOR (A) #1, SOME FACTOR (B) #1, SOME FACTOR (C) #1, SOME FACTOR (D) #1, SOME FACTOR (E) #1, SOME FACTOR (F) #1]"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.1, 2.2]
+			}
+		}, {
+			"type": "Feature",
+			"properties": {
+				"@epos_type": "episode",
+				"@epos_label_key": "episode",
+				"@epos_map_keys": ["code","country","impactingFactors","name","owner","region","shortName","type"],
+				"@epos_data_keys": ["code","country","impactingFactors","name","owner","region","shortName","type"],
+				"owner": "SOME OWNER #1",
+				"country": "SOME COUNTRY #1",
+				"code": "SOME CODE #1",
+				"name": "SOME NAME #1",
+				"type": "episode",
+				"shortName": "SOME SHORT NAME #1",
+				"region": "SOME REGION #1",
+				"impactingFactors": "[SOME FACTOR (A) #1, SOME FACTOR (B) #1, SOME FACTOR (C) #1, SOME FACTOR (D) #1, SOME FACTOR (E) #1, SOME FACTOR (F) #1]"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.1, 2.2]
+			}
+		}
+	]
+}

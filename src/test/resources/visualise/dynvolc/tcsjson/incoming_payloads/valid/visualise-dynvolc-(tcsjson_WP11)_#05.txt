@@ -1,0 +1,2 @@
+Simple single record payload; missing all property values bar latitude, longitude, eruption_site, 
+and an override of the default value for "eruption" property.

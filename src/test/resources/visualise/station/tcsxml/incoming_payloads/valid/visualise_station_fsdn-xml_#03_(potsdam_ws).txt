@@ -1,0 +1,4 @@
+Example returned from potsdam's fsdn ws in response to below request...
+http://geofon.gfz-potsdam.de/fdsnws/station/1/query?starttime=2010-01-01T00:00:00&endtime=2018-01-01T00:00:00&network=*&station=*&location=*&channel=*&minlatitude=-90&maxlatitude=90&minlongitude=-180&maxlongitude=180&level=station
+
+This ws is in use by EPOS.
