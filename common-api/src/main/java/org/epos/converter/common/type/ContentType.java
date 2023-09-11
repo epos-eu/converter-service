@@ -13,6 +13,7 @@ import org.epos.converter.common.type.ContentFormat;
 
 public enum ContentType {
 
+	PLAIN_GEO_JSON("geojson", JSON),
 	EPOS_GEO_JSON("application/epos.geo+json", JSON),
 	EPOS_ONLY_TABLE_GEO_JSON("application/epos.table.geo+json", JSON),
 	EPOS_ONLY_MAP_GEO_JSON("application/epos.map.geo+json", JSON),
