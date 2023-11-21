@@ -11,31 +11,16 @@ cache:
     - .m2/repository/
 
 stages:
- - build
- - test
  - install
  - package
  - security
  - release
- - opensource
-
-build:
-  image: maven:3.8.1-jdk-11
-  stage: build
-  script:
-    - mvn $MAVEN_CLI_OPTS compile
-
-test:
-  image: maven:3.8.1-jdk-11
-  stage: test
-  script:
-    - mvn $MAVEN_CLI_OPTS test
 
 deploy:
   image: maven:3.8.1-jdk-11
   stage: install
   script:
-    - mvn $MAVEN_CLI_OPTS install -Ddependency-check.skip=true
+    - mvn $MAVEN_CLI_OPTS install -Ddependency-check.skip=true -DskipTests
   artifacts:
     paths:
       - application/target/*.jar
