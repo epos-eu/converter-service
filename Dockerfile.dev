@@ -20,4 +20,4 @@ ENV BROKER_VHOST=<broker-vhost>
 EXPOSE 5672
 EXPOSE 15672
 
-CMD "java" "-Dspring.profiles.active=prod" "-Dlogging.level.org.epos=DEBUG" "-Djava.security.egd=file:/dev/./urandom" "-jar" "./framework/application.jar"
+CMD "java" "-Djsse.enableSNIExtension=false" "-Dspring.profiles.active=prod" "-Dlogging.level.org.epos=DEBUG" "-Djava.security.egd=file:/dev/./urandom" "-jar" "./framework/application.jar"
