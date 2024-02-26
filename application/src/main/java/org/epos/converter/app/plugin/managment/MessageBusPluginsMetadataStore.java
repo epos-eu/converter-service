@@ -5,11 +5,11 @@ import static lombok.Lombok.sneakyThrow;
 import java.util.Map;
 import java.util.Optional;
 
+import org.epos.converter.app.plugin.core.Utils;
 import org.epos.converter.app.plugin.managment.exception.PluginStoreAccessException;
 import org.epos.router_framework.RpcRouter;
 import org.epos.router_framework.domain.Request;
 import org.epos.router_framework.domain.RequestBuilder;
-import org.epos.router_framework.domain.Response;
 import org.epos.router_framework.types.ServiceType;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -17,6 +17,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+
+import com.google.gson.JsonArray;
 
 @Repository
 public class MessageBusPluginsMetadataStore implements PluginsMetadataStore {
@@ -43,20 +45,26 @@ public class MessageBusPluginsMetadataStore implements PluginsMetadataStore {
 				.addHeaders(headers)
 				.build();
 		
-		Response pluginStoreResp = pluginStoreRpcRouter.makeRequest(pluginStoreReq);
+		//Response pluginStoreResp = pluginStoreRpcRouter.makeRequest(pluginStoreReq);
+		JsonArray pluginList = PluginGeneration.generate();
+		
+		if(pluginList.isEmpty() || pluginList.isJsonNull()) {
+			String errMsg = String.format("Failed to obtain metadata from external plugin store");
+			throw sneakyThrow(new PluginStoreAccessException(errMsg));
+		}
 		
 		// Throw PluginStoreAccessException if error response
-		pluginStoreResp.getErrorCode().ifPresent(code -> {			
+		/*pluginStoreResp.getErrorCode().ifPresent(code -> {			
 			String errMsg = String.format("Failed to obtain metadata from external plugin store: [Routing errror code: %s]", code.getLabel());
 			if (pluginStoreResp.getErrorMessage().isPresent()) {
 				errMsg += "%n   " + pluginStoreResp.getErrorMessage().get();
 			}
 			throw sneakyThrow(new PluginStoreAccessException(errMsg));
-		});
+		});*/
 		
 		// Return payload as JSONArray String, if valid, unless JSONArry is empty in which case return empty Optional
 		// If payload does not represent a valid JSONArray then throw PluginStoreAccessException
-		return pluginStoreResp.getPayloadAsPlainText().flatMap(payload -> {
+		return Optional.of(Utils.gson.toJson(pluginList)).flatMap(payload -> {
 			
 			if (LOG.isDebugEnabled()) {
 				String payloadResp = String.format("Plugin Store response payload...>>>%n%s%n<<<", payload);
